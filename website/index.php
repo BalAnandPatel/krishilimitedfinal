@@ -138,7 +138,7 @@ include 'include/header.php';
                                 <span class="icon-harvest"></span>
                             </div>
                             <div class="feature-one__content">
-                                <h3 class="feature-one__title">Natural Healthy <br> prodducts</h3>
+                                <h3 class="feature-one__title">Natural Healthy <br> products</h3>
                             </div>
                         </div>
                     </div>
@@ -201,15 +201,14 @@ $result = json_decode($response);
                         <div class="about-one__left">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Get to know about us</span>
-                                <h2 class="section-title__title">About S.S.E.G.R</h2>
+                                <h2 class="section-title__title">About SHYAMAVSVSS KRISHI LIMITED</h2>
                                 <div class="section-title__icon">
                                     <img src="assets/images/icon/section-title-icon-1.png" alt="">
                                 </div>
                             </div>
                             <p class="about-three__text-1">
                             <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                            THE MOTIVE OF SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PVT. LTD. ARE REFORMS THE EDUCATION, AGRICULTURE AND UNEMPLOYMENT FACTOR IN UTTAR PRADESH...</p>
-                         
+                            THE MOTIVE OF SHYAMAVSVSS KRISHI LIMITED IS TO REFORMS THE EDUCATION, AGRICULTURE AND UNEMPLOYMENT FACTOR IN UTTAR PRADESH...</p>
                             <div class="about-one__btn-and-ceo mt-5">
                                 <div class="about-one__btn-box">
                                     <a href="about.php" class="thm-btn about-one__btn">About More <i
@@ -280,8 +279,8 @@ $result = json_decode($response);
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="service_agriculture.php"> Organic Forming</a></h3>
-                                <p class="services-one__text" style="text-align:justify;">Organic forming by the company which is a method of agriculture. which is based on the use of synthetic fertilizers and pesticides and which uses Crop rotation Green manure compost etc to mantian the fertility of land.</p>
+                                <h3 class="services-one__title"><a href="service_agriculture.php"> Organic Farming</a></h3>
+                                <p class="services-one__text" style="text-align:justify;">Organic Farming by the company which is a method of agriculture. which is based on the use of synthetic fertilizers and pesticides and which uses Crop rotation Green manure compost etc to mantian the fertility of land.</p>
                             </div>
                         </div>
                     </div>

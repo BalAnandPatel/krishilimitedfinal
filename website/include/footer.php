@@ -10,11 +10,11 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div class="footer-widget__column footer-widget__about">
                                     <div class="footer-widget__logo">
-                                        <a href="index.html"><img src="assets/images/resources/footer-logo.png"
+                                        <a href="index.html"><img src="assets/images/logo/2-1.png"
                                                 alt=""></a>
                                     </div>
                                     <div class="footer-widget__about-text-box">
-                                        <p class="footer-widget__about-text">SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED.</p>
+                                        <p class="footer-widget__about-text">SHYAMAVSVSS KRISHI LIMITED</p>
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@
                                                 <span class="fas fa-envelope"></span>
                                             </div>
                                             <div class="text">
-                                                <p><a href="#">info@ssegr.org.in</a></p>
+                                                <p><a href="#">vikasnishad7863@gmail.com</a></p>
                                             </div>
                                         </li>
                                         <li>
@@ -103,7 +103,7 @@
                                                 <span class="icon-pin"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Bandhva, Tahirpur (Khanupur) Jhunsi Prayagraj Uttar Pradesh 211019</p>
+                                                <p>C/O DASRATH PAUL, OM NAGAR COLONY ARATEE NO. 86/320, SARNATH VARANASI Varanasi UP 221007 IN</p>
                                             </div>
                                         </li>
                                     </ul>

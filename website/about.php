@@ -51,14 +51,14 @@
                         <div class="about-three__right">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Get to know about us</span>
-                                <h2 class="section-title__title">About S.S.E.G.R</h2>
+                                <h2 class="section-title__title">About SHYAMAVSVSS KRISHI LIMITED</h2>
                                 <div class="section-title__icon">
                                     <img src="assets/images/icon/section-title-icon-1.png" alt="">
                                 </div>
                             </div>
                             <p class="about-three__text-1">
                             <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                            THE MOTIVE OF SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PVT. LTD. ARE REFORMS THE EDUCATION, AGRICULTURE AND UNEMPLOYMENT FACTOR IN UTTAR PRADESH.</p>
+                            THE MOTIVE OF SHYAMAVSVSS KRISHI LIMITED ARE REFORMS THE EDUCATION, AGRICULTURE AND UNEMPLOYMENT FACTOR IN UTTAR PRADESH.</p>
                             <p class="about-three__text-1">
                             <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                             <b>ORGANIZATION HAVE MULTI PROJECT IN MULTI SECTOR AS:</b> EDUCATION REMIDIES CENTER, AGRICULTURE REMIDIES CENTER AND SMALL SCALE/HOME INDUSTRIES PROJECTS LIKE.</p>

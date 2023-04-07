@@ -9,12 +9,12 @@ include "../constant.php";
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION PRIVATE LIMITED </title>
+    <title> Shyamavsvss Krishi Limited </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/favicon_io/site.webmanifest" />
     <meta name="description" content="Agrion HTML 5 Template " />
 
     <!-- fonts -->
@@ -77,7 +77,7 @@ include "../constant.php";
             <div class="main-header__wrapper">
                 <div class="main-header__wrapper-inner">
                     <div class="main-header__logo">
-                        <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                        <a href="index.php"><img src="assets/images/logo/2-1-1.png" alt=""></a>
                     </div>
                     <div class="main-header__menu-box">
                         <div class="main-header__menu-box-top">
@@ -87,7 +87,7 @@ include "../constant.php";
                                         <i class="icon-email"></i>
                                     </div>
                                     <div class="text">
-                                        <p><a href="mailto:needhelp@company.com">info@ssegr.org.in</a></p>
+                                        <p><a href="mailto:vikasnishad7863@gmail.com">vikasnishad7863@gmail.com</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -95,7 +95,7 @@ include "../constant.php";
                                         <i class="icon-pin"></i>
                                     </div>
                                     <div class="text">
-                                        <p>Bandhva, Tahirpur (Khanupur) Jhunsi Prayagraj Uttar Pradesh 211019</p>
+                                        <p>C/O DASRATH PAUL, OM NAGAR COLONY ARATEE NO. 86/320, SARNATH VARANASI Varanasi UP 221007 IN &nbsp; &nbsp;</p>
                                     </div>
                                 </li>
                             </ul>
@@ -211,9 +211,9 @@ include "../constant.php";
                         </div>
                     </div> -->
                 </div>
-                <marquee>
+                <marquee style="background-color: green;">
                 <a href="recruitment.php">
-                <p class="text-danger">SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PVT.LTD. * RECRUITED 53900 VARIOUS POST IN EDUCATION, AGRICUTURE AND HOME INDUSTRY / SMALL SCALE INDUSTRY SECTOR.</p>
+                <p class="text-danger" style="color: white !important;">SHYAMAVSVSS KRISHI LIMITED * RECRUITED 53900 VARIOUS POST IN EDUCATION, AGRICUTURE AND HOME INDUSTRY / SMALL SCALE INDUSTRY SECTOR.</p>
                 </a>
                </marquee>
             </div>

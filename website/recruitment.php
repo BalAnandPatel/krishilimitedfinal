@@ -45,7 +45,7 @@ include "include/header.php";
                     <div class="col-xl-12">
                         <div class="error-page__inner">
                             <h3 class="error-page__tagline">Recruitment</h3>
-                            <p class="error-page__text"><b>SHAILJA SANEER EDUCATION AND GREEN REVOLUTIO (OPC) PVT.LTD.</b></p>
+                            <p class="error-page__text"><b>SHYAMAVSVSS KRISHI LIMITED</b></p>
                             <p class="error-page__text" style="font-size:15px;">* RECRUITED 53900 VARIOUS POST IN EDUCATION, AGRICUTURE AND HOME INDUSTRY / SMALL SCALE INDUSTRY SECTOR.</p>
                           
                           <!--    <h3 class="error-page__tagline mt-5">If your paymet is faild</h3>

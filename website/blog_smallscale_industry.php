@@ -62,9 +62,9 @@
                                     <li><a href="blog_details_education.php">Education<span
                                                 class="icon-right-arrow"></span></a>
                                     </li>
-                                    <li class="active"><a href="blog_details_agriculture.php">Agriculture<span
+                                    <li><a href="blog_details_agriculture.php">Agriculture<span
                                                 class="icon-right-arrow"></span></a></li>
-                                    <li><a href="blog_smallscale_industry.php">Small Scale Industry<span
+                                    <li class="active"><a href="blog_smallscale_industry.php">Small Scale Industry<span
                                                 class="icon-right-arrow"></span></a>
                                     </li>
                                 </ul>

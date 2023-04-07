@@ -40,7 +40,7 @@
                                 <h3 class="project-details__title-1">Education Remedies Center</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Shailja Sameer education and green revolution (OPC) Private Limited opened education Remedies centre at tehshil level in all the districts of Uttar pradesh.
+                                SHYAMAVSVSS KRISHI LIMITED opened education Remedies centre at tehshil level in all the districts of Uttar pradesh.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 In organization all the recruited posts will be appointed.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>

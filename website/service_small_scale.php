@@ -75,7 +75,7 @@ include "include/header.php";
                                <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 At present, unemployed youth are getting employment by doing Jobs in small scale Industries.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Under shailja Sameer education & green revolution (opc) private Limited, a person based on skill will be taught about any technical skill and training will be given after that he will be hired.
+                                Under SHYAMAVSVSS KRISHI LIMITED, a person based on skill will be taught about any technical skill and training will be given after that he will be hired.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 Small Scale Industry contributes the most in terms of employment opportunities.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>

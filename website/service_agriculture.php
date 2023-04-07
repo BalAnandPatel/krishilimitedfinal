@@ -97,7 +97,7 @@ include "include/header.php";
                                 	<br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                     Due to which the marginal formers are incurring exessive cast in the week Also getting polluted, Also the food items are becoming poisonous.
                                 	<br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                    To deal with all the above problems of this type, form the last years, the sceme of forming on the principle of sustainable forming has been made by Shailja Sameer education and green revolution (OPC) Pvt Ltd.
+                                    To deal with all the above problems of this type, form the last years, the sceme of forming on the principle of sustainable forming has been made by SHYAMAVSVSS KRISHI LIMITED.
                                 	<br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                     In which organic farming will be operated by the company's agricultural experts and experienced employees engaged in organic farming.
                                 	<br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>

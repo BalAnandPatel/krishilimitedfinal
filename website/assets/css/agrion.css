@@ -4870,7 +4870,7 @@ ul {
   content: "";
   position: absolute;
   bottom: 0;
-  right: -10000000px;
+  /* right: -10000000px; */
   left: 100%;
   top: 0;
   background-color: #0a1905;

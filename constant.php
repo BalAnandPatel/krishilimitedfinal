@@ -1,14 +1,14 @@
 <?php
 date_default_timezone_set('Asia/Kolkata');
 
-$BASE_URL="https://ssegr.org.in";
+$BASE_URL="website/index.php";
 $URL=$BASE_URL."/api/src/";
 $EXAM_NAME="UPPCL EXAMINATION";
 
 $ADMIN_IMG_PATH=$BASE_URL."/user/img/";
 
 
- $HOME="index.php";
+ $HOME="website/index.php";
 
 $SECRET_KEY = "dKgLINTEL2013aN99840$@";  
 $ISSUER_CLAIM = "GLINTEL TECHNOLOGY PVT LTD"; // this can be the servername

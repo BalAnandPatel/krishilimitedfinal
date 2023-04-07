@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="contact-details__text">
                                     <p>Have Question?</p>
-                                    <h3>Call Time-<a href="#"><br>Morning-10:00AM <br> Evning-04:00PM</a></h3>
+                                    <h3>Call Time-<a href="#"><br>Morning-10:00AM <br> Evening-04:00PM</a></h3>
                                     <h3>Office Contact-<a href="#"><br>+91 9919312396</a></h3>
                                     <h3>Helpline No-<a href="#"><br>+91 9919412317</a></h3>
                                 </div>
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="contact-details__text">
                                     <p>Write Email</p>
-                                    <h3><a href="#">info@ssegr.org.in</a></h3>
+                                    <h3><a href="#">vikasnishad7863@gmail.com</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="contact-details__text">
                                     <p>Visit Office</p>
-                                    <h3>Bandhva, Tahirpur (Khanupur) Jhunsi Prayagraj Uttar Pradesh 211019</h3>
+                                    <h3>C/O DASRATH PAUL, OM NAGAR COLONY ARATEE NO. 86/320, SARNATH VARANASI Varanasi UP 221007 IN</h3>
                                 </div>
                             </div>
                         </div>
