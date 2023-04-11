@@ -29,14 +29,14 @@
                         <div class="col-xl-12 col-lg-8 mb-5">
                             <div class="project-details__content-left">
                                 
-                                <h3 class="project-details__title-1">Terms and Conditions for access and use of Shailja Sameer Education and Green Revolution (OPC) Pvt. Ltd. Products and Services</h3>
+                                <h3 class="project-details__title-1">Terms and Conditions for access and use of SHYAMAVSVSS KRISHI LIMITED Products and Services</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Note:- Every online trasaction Shailja Sameer Education and Green Revolution (OPC) Pvt. Ltd. is resposible for refund or successfully trasaction for every type of clint or custoer. 
+                                Note:- Every online trasaction SHYAMAVSVSS KRISHI LIMITED is resposible for refund or successfully trasaction for every type of clint or custoer. 
                                 This is a online platform for collecting the information for orgnisation.
-                                Thank you for choosing Shailja Sameer Education and Green Revolution (OPC) Pvt. Ltd. We are glad that you have decided to join us.
+                                Thank you for choosing SHYAMAVSVSS KRISHI LIMITED We are glad that you have decided to join us.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Before accessing or using the services and content available on our sites and application, please take a moment to peruse these Terms of Services which constitutes a legally binding agreement between you and Shailja Sameer Education and Green Revolution (OPC) Pvt. Ltd. that is owner of ssegr.org.in and other related brands (thereafter we, us and our). This Agreement applies to the web sites, applications, channels and all other networks, owned and/or operated by Shailja Sameer Education and Green Revolution (OPC) Pvt. Ltd. (hereinafter refer to as “our services”)
+                                Before accessing or using the services and content available on our sites and application, please take a moment to peruse these Terms of Services which constitutes a legally binding agreement between you and SHYAMAVSVSS KRISHI LIMITED that is owner of krishilimted.com and other related brands (thereafter we, us and our). This Agreement applies to the web sites, applications, channels and all other networks, owned and/or operated by SHYAMAVSVSS KRISHI LIMITED (hereinafter refer to as “our services”)
                                 <h3 class="project-details__title-1">1. Acceptance of terms and conditions</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -76,7 +76,7 @@
                                 <h3 class="project-details__title-1">8. NO WARRANTY</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                <b>YOUR USE OF OUR SERVICES IS AT YOUR SOLE RISK. OUR SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.</b>
+                                <b>YOUR USE OF OUR SERVICES IS AT YOUR SOLE RISK. OUR SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. SHYAMAVSVSS KRISHI LIMITED EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.</b>
                                 </p>
                                 <h3 class="project-details__title-1">9. Representation</h3>
                                 <p class="project-details__text-1">

@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="page-header__inner">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><span>/</span></li>
                         <li>Cancel and Refund</li>
                     </ul>
@@ -66,7 +66,7 @@ In most locations, the replacement item is delivered to you at the time of pick-
 <p>Sellers incur relatively higher shipping costs on low value items. In such cases, charging a 
     nominal delivery charge helps them offset logistics costs. Please check your order summary to understand the delivery charges for individual products.</p>
 
-<p>For Products listed as SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED. Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.</p>
+<p>For Products listed as SHYAMAVSVSS KRISHI LIMITED. Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.</p>
 
 <p>Why does the delivery date not correspond to the delivery timeline of X-Y business days?
 
@@ -81,10 +81,9 @@ In most locations, the replacement item is delivered to you at the time of pick-
 <p>The Seller offering the product
 Product's availability with the Seller
 The destination to which you want the order shipped to and location of the Seller.</p>
-<p>Are there any hidden costs (sales tax, octroi etc) on items sold by Sellers on SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED.t?</p>
+<p>Are there any hidden costs (sales tax, octroi etc) on items sold by Sellers on SHYAMAVSVSS KRISHI LIMITED?</p>
 
-<p>There are NO hidden charges when you make a purchase on SHAILJA 
-    SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED.. List prices are final and all-inclusive. 
+<p>There are NO hidden charges when you make a purchase on SHYAMAVSVSS KRISHI LIMITED List prices are final and all-inclusive. 
     The price you see on the product page is exactly what you would pay.</p>
 
 <p>Delivery charges are not hidden charges and are charged (if at all) extra depending on the Seller's shipping policy.</p>

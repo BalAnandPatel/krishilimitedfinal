@@ -36,7 +36,7 @@
 
 <p>Sellers incur relatively higher shipping costs on low value items. In such cases, charging a nominal delivery charge helps them offset logistics costs. Please check your order summary to understand the delivery charges for individual products.</p>
 
-<p>For Products listed as SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED. Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.</p>
+<p>For Products listed as SHYAMAVSVSS KRISHI LIMITED. Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.</p>
 
 <p>Why does the delivery date not correspond to the delivery timeline of X-Y business days?
 
@@ -51,10 +51,10 @@
 <p>The Seller offering the product
 Product's availability with the Seller
 The destination to which you want the order shipped to and location of the Seller.</p>
-<p>Are there any hidden costs (sales tax, octroi etc) on items sold by Sellers on SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED.t?</p>
+<p>Are there any hidden costs (sales tax, octroi etc) on items sold by Sellers on SHYAMAVSVSS KRISHI LIMITED?</p>
 
-<p>There are NO hidden charges when you make a purchase on SHAILJA 
-    SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED.. List prices are final and all-inclusive. 
+<p>There are NO hidden charges when you make a purchase on 
+SHYAMAVSVSS KRISHI LIMITED List prices are final and all-inclusive. 
     The price you see on the product page is exactly what you would pay.</p>
 
 <p>Delivery charges are not hidden charges and are charged (if at all) extra depending on the Seller's shipping policy.</p>
@@ -157,8 +157,8 @@ At times Sellers prefer not to ship to certain locations. This is entirely at th
 
 <p2>This product is not available because it is no longer being published and has been permanently discontinued.</p2>
 
-<p2>Does SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED. deliver internationally?
-As of now, SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED. doesn't deliver items internationally.</p2>
+<p2>Does SHYAMAVSVSS KRISHI LIMITED. deliver internationally?
+As of now, SHYAMAVSVSS KRISHI LIMITED. doesn't deliver items internationally.</p2>
 
 <p2>You will be able to make your purchases on our site from anywhere in the world with credit/debit cards 
     issued in India and 21 other countries, but please ensure the delivery address is in India. </p>
