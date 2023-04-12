@@ -148,6 +148,127 @@ include 'include/header.php';
         </section>
         <!--Feature One End-->
 
+
+
+        <section class="content" style="padding: 20px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4" style="padding-left: 0px !important;">
+                    <div class="row minister-section">
+                        <div class="col-12 col-md-12">
+
+                            <div class="minister-box">
+                                <a class="link_ redirectconfirmation"  href="https://loksabha.nic.in/Members/MemberHomePage.aspx?mpsno=4507" target="_blank" class="link_" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
+                                 
+                                    <img src="assets/images/resources/shri-narendra-singh-tomar.jpg" alt="shri-narendra-singh-tomar" />
+                                        <h4 class="section_content_two_heading">Shri Narendra Singh Tomar</h4>
+                                        <p class="font_size text-center">
+                                            Hon’ble Minister of Agriculture & <br />
+                                            Farmers Welfare
+                                        </p>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="minister-box minister-box_ ">
+                                    <a  href="https://loksabha.nic.in/Members/MemberHomePage.aspx?mpsno=4616"
+                                       target="_blank" class="link_ redirectconfirmation" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
+                                       
+                                        <img src="assets/images/resources/sushri-shobha-karandlaje.jpg" alt="sushri-shobha-karandlaje" />
+                                            <h4 class="section_content_two_heading font_size">
+                                                Sushri Shobha
+                                                Karandlaje
+                                            </h4><p class="font_size">Hon'ble Minister of State</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="minister-box minister-box_">
+                                    <a href="https://loksabha.nic.in/Members/MemberHomePage.aspx?mpsno=5207"
+                                       target="_blank" class="link_ redirectconfirmation" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
+                                        
+                                        <img src="assets/images/resources/shri-kailash-choudhary.jpg" alt="shri-kailash-choudhary" />
+                                            <h4 class="section_content_two_heading font_size">
+                                                Shri Kailash
+                                                Choudhary
+                                            </h4>
+                                            <p class="font_size">Hon'ble Minister of State</p>                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+                            <div class="audio_box">
+
+                                <h2 class="songheading">Krishi Geet</h2>
+
+                                <audio controls>
+                                    <source src="assets/images/resources/audio_agri.mpeg" type="audio/mpeg" />
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 dst_sm">
+                    <div class="row padding_80px row_sm">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer_content">
+                                <h4 class="font_size pb-2">DA &amp; FW ORGANISATION</h4>
+                                    <p class="font_size">
+                                        The DA & FW is organized into 28 Divisions and has five attached offices and twenty-one subordinate offices which are spread across the country for coordination with state level agencies and implementation of
+                                        Central Sector Schemes in their respective fields.
+                                    </p>                            </div>
+
+                            <div class="svg-wrapper">
+                                <a href="/en/About" class="font_size link_btn_all">
+                                    <div class="link-text"><p>More</p></div>
+                                </a>
+                            </div>
+
+                            <!-- <a href="#" class="readmore_ font_size">Read More</a> -->
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                                    <div class="footer_content rt_in">
+                                        <h4 class="font_size pb-2">
+                                            Recent Initiatives
+                                        </h4>
+                                    </div>
+
+
+                                    <div class="svg-wrapper">
+                                        <a href="/en/Recent" class="font_size link_btn_all">
+                                            <div class="link-text1 font_size"><p>More</p></div>
+                                        </a>
+                                    </div>
+
+                                    <!-- <a href="#" class="readmore_ font_size">Read More</a> -->
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-7 col-lg-7 text-center">
+                                    <div class="article-image">
+                                        
+                                        <img src="assets/images/backgrounds/agriculture1.png" alt="agriculture-img" style="width:70%;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
         <!--About One Start-->
         <section class="about-one">
             <div class="about-one-shape-1 float-bob-x">

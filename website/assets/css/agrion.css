@@ -417,13 +417,80 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/logo-1.png);
+  background-image: url(../images/logo/2-1-1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
   width: 100%;
   height: 100%;
 }
+
+
+
+.minister-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0px 15px 5px;
+}
+
+  .minister-box h4 {
+      font-weight: 700;
+  }
+
+.news_box iframe {
+  width: 100% !important;
+  height: 435px !important;
+}
+
+.nws-section {
+  background: linear-gradient(340deg, #F9F9F97A 0%, #F9F9F9 100%);
+}
+
+.minister-box p {
+  text-align: center;
+  color: #000;
+  font-size: 15px;
+}
+
+.minister-box img {
+  border: 3px solid #6d491b;
+}
+
+.minster-box p {
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.minister-box_ img {
+  width: 100px;
+}
+
+.link_btn_all:hover .link-text {
+  color: #000;
+  /*font-family: "Roboto Condensed";*/
+}
+
+.link-text p {
+font-size: 14px;
+font-weight: 700;
+line-height: 55px;
+background-color: brown;
+padding: 10px;
+width: 6%;
+color: white;
+border-radius: 5px;
+}
+.link-text1 p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 55px;
+  background-color: brown;
+  padding: 10px;
+  width: 22%;
+  color: white;
+  border-radius: 5px;
+  }
 
 
 /*--------------------------------------------------------------
@@ -2179,6 +2246,7 @@ ul {
   padding-top: 196px;
   padding-bottom: 290px;
   z-index: 30;
+  height: 400px;
 }
 
 .main-slider .image-layer {
@@ -2187,6 +2255,7 @@ ul {
   right: 0;
   bottom: 0;
   left: 0;
+  height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -2217,16 +2286,17 @@ ul {
 .main-slider__content {
   position: relative;
   display: block;
+  top: -80px;
   text-align: center;
 }
 
 .main-slider__sub-title {
   position: relative;
   display: inline-block;
-  font-size: 26px;
+  font-size: 14px;
   color: var(--agrion-white);
   font-weight: 500;
-  line-height: 26px;
+  line-height: 16px;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-120px);
@@ -2243,7 +2313,7 @@ ul {
 .main-slider__sub-title:before {
   content: "";
   position: absolute;
-  bottom: -17px;
+  bottom: 17px;
   left: 0;
   right: 0;
   height: 20px;
@@ -2256,11 +2326,11 @@ ul {
 
 .main-slider__title {
   position: relative;
-  font-size: 170px;
+  font-size: 70px;
   color: var(--agrion-white);
   font-weight: 700;
   font-family: var(--agrion-font);
-  line-height: 170px;
+  line-height: 70px;
   margin-top: 11px;
   margin-bottom: 19px;
   opacity: 0;

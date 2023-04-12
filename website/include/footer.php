@@ -125,7 +125,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© Copyright 2022 by <a href="http://ssegr.com/">SSEGR.ORG.IN</a></p>
+                                <p class="site-footer__bottom-text">© Copyright 2022 by <a href="http://krishilimited.com/">Ktishi Limited India</a></p>
                                 <div class="site-footer__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-facebook"></i></a>
@@ -133,8 +133,7 @@
                                     <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="site-footer__bottom-scroll">
-                                    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i
-                                            class="icon-up-arrow"></i></a>
+                                    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-up-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
