@@ -50,7 +50,7 @@
                                     <li>There should be and education policy based on practical science and technology.</li>
                                     <li>So that the creative creativity can be developed in the students.</li>
                                     <li>Fees of all type of educational institutions should be affordable and reasonable so that students of all classes can take education.</li>
-                                    <li>Shailja Sameer education and green revolution (opc) Pvt. Ltd.  to set up Education remidies Centre in all 350 tehshil of Uttar Pradesh.</li>
+                                    <li>SHYAMAVSVSS KRISHI LIMITED  to set up Education remidies Centre in all 350 tehshil of Uttar Pradesh.</li>
                                 </ul>
                            
                             </div>

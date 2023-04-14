@@ -1,5 +1,5 @@
 <?php 
-include 'include/header.php'; 
+include 'include/headerr.php'; 
 ?>
   
         <div class="stricky-header stricked-menu main-menu">
@@ -244,7 +244,7 @@ include 'include/header.php';
 
                                     <div class="svg-wrapper">
                                         <a href="/en/Recent" class="font_size link_btn_all">
-                                            <div class="link-text1 font_size"><p>More</p></div>
+                                            <div class="link-text font_size"><p>More</p></div>
                                         </a>
                                     </div>
 
@@ -450,7 +450,7 @@ $result = json_decode($response);
 
 
         <!--Unbeatable One Start-->
-        <section class="unbeatable-one">
+        <!-- <section class="unbeatable-one">
             <div class="unbeatable-one__bg  jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
                 style="background-image: url(assets/images/backgrounds/unbeatable-one-bg.jpg);"></div>
             <div class="container">
@@ -474,10 +474,11 @@ $result = json_decode($response);
                 </div>
             </div>
         </div>
-        </section>
+        </section> -->
         <!--Unbeatable One End-->
 
+        <!-- <br><br><br><br> -->
      
         <?php 
-include 'include/footer.php'; 
+include 'include/footerr.php'; 
 ?>

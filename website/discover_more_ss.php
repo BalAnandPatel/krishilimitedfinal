@@ -46,7 +46,7 @@
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 If the home industry can be established in India in better way, then unemploymet can be controlled.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Keeping these things in mind, the Shailja Sameer Education and Green Revolution (OPC) Pvt. Ltd. has decided to set up home industries in all over Uttar Pradesh.
+                                Keeping these things in mind, the SHYAMAVSVSS KRISHI LIMITED has decided to set up home industries in all over Uttar Pradesh.
                                 </p>
                                
                             </div>
