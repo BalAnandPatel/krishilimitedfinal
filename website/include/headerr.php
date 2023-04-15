@@ -90,7 +90,7 @@ include "../constant.php";
                             <div>
                                 <ul>
                                     <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड विभाग</li>
-                                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE &amp;</li>
+                                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE</li>
                                     <li class="department_heading-tow" lang="en">
                                         <h6 class="logo-text logo-text-one">
                                             <span>भारत सरकार द्वारा पंजीकृत</span>
@@ -221,16 +221,16 @@ include "../constant.php";
 
             <div>
                 <ul>
-                    <li class="krishi_heading" lang="hi">कृषि एवं किसान कल्याण विभाग</li>
-                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE & FARMERS WELFARE</li>
+                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड विभाग</li>
+                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE</li>
                     <li class="department_heading-tow" lang="en">
                         <h6 class="logo-text logo-text-one">
-                            <span>भारत सरकार</span>
-                            <span>GOVERNMENT OF INDIA</span>
+                        <span>भारत सरकार द्वारा पंजीकृत</span>
+                        <span>GOVERNMENT OF INDIA</span>
                         </h6>
                         <h6 class="logo-text logo-text-two">
-                            <span>कृषि एवं किसान कल्याण मंत्रालय</span>
-                            <span>MINISTRY OF AGRICULTURE & FARMERS WELFARE</span>
+                            <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
+                            <span>MINISTRY OF AGRICULTURE &amp; FARMERS WELFARE</span>
                         </h6>
 
                     </li>
@@ -353,7 +353,7 @@ include "../constant.php";
                         <!--About Us end-->
                         <!---Division start --->
                         <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="/en/Division">Division</a>
+                            <a class="nav-link font_size custom-nav-link" href="divison.php">Division</a>
                         </li>
                         <!---Division end --->
                         <!---Act & Rules start --->
