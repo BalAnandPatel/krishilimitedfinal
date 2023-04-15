@@ -1,10 +1,7 @@
 <?php
 include "../constant.php";
 ?>
-
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="lang" content="en">
@@ -18,18 +15,14 @@ include "../constant.php";
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon_io/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/favicon_io/site.webmanifest" />
     <meta name="description" content="Agrion HTML 5 Template " />
-
     <!-- fonts -->
     <script src="https://kit.fontawesome.com/5220a54d1d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
-
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -50,7 +43,6 @@ include "../constant.php";
     <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
-
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/agrion.css" />
     <link rel="stylesheet" href="assets/css/agrion-responsive.css" />
@@ -58,10 +50,6 @@ include "../constant.php";
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-   
-   
-
-
 </head>
 
 <body>
@@ -82,7 +70,6 @@ include "../constant.php";
     <script async src="https://cse.google.com/cse.js?cx=933ba56c3b61b48a9">
     </script>
 
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S1Q8G9CHE"></script>
 <script>
@@ -92,15 +79,6 @@ include "../constant.php";
 
     gtag('config', 'G-9S1Q8G9CHE');
 </script>
-
-
-
-
-
-
-
-
-
     <div class="printheadr">
         <div class="container-fluid agriculture-section">
             <div class="row">
@@ -111,15 +89,15 @@ include "../constant.php";
 
                             <div>
                                 <ul>
-                                    <li class="krishi_heading" lang="hi">कृषि एवं किसान कल्याण विभाग</li>
-                                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE &amp; FARMERS WELFARE</li>
+                                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड विभाग</li>
+                                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE &amp;</li>
                                     <li class="department_heading-tow" lang="en">
                                         <h6 class="logo-text logo-text-one">
-                                            <span>भारत सरकार</span>
+                                            <span>भारत सरकार द्वारा पंजीकृत</span>
                                             <span>GOVERNMENT OF INDIA</span>
                                         </h6>
                                         <h6 class="logo-text logo-text-two">
-                                            <span>कृषि एवं किसान कल्याण मंत्रालय</span>
+                                            <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
                                             <span>MINISTRY OF AGRICULTURE &amp; FARMERS WELFARE</span>
                                         </h6>
                                     </li>
