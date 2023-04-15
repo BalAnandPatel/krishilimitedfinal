@@ -3272,6 +3272,7 @@ ul {
   font-size: 41px;
   color: var(--agrion-white);
   transition: all 500ms ease;
+  margin-left: 130px;
 }
 
 .services-one__single:hover .services-one__icon span {

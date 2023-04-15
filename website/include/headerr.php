@@ -330,6 +330,11 @@ include "../constant.php";
                 <div id="navBar" class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto main-navbar-nav">
 
+                    <!---Home start --->
+                    <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="index.php">Home</a>
+                        </li>
+                        <!---Home end --->
 
                         <!--About Us Start-->
 
