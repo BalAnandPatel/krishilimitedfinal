@@ -312,6 +312,9 @@ include "../constant.php";
                     <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="index.php">Home</a>
                         </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="rrecruitment.php">Recruitment</a>
+                        </li>
                         <!---Home end --->
 
                         <!--About Us Start-->

@@ -224,11 +224,17 @@ include 'include/headerr.php';
                                         Central Sector Schemes in their respective fields.
                                     </p>                            </div>
 
-                            <div class="svg-wrapper">
+                            <!-- <div class="svg-wrapper">
                                 <a href="/en/About" class="font_size link_btn_all">
                                     <div class="link-text"><p>More</p></div>
                                 </a>
-                            </div>
+                            </div> -->
+
+                            <div class="about-one__btn-box">
+                                    <a href="about.php" class="thm-btn about-one__btn" style="text-decoration: none;">More<i
+                                            class="icon-right-arrow"></i> </a>
+                                    </div>
+
 
                             <!-- <a href="#" class="readmore_ font_size">Read More</a> -->
                         </div>
@@ -242,10 +248,15 @@ include 'include/headerr.php';
                                     </div>
 
 
-                                    <div class="svg-wrapper">
+                                    <!-- <div class="svg-wrapper">
                                         <a href="/en/Recent" class="font_size link_btn_all">
-                                            <div class="link-text font_size"><p>More</p></div>
+                                            <div class="link-text"><p>More</p></div>
                                         </a>
+                                    </div> -->
+
+                                    <div class="about-one__btn-box">
+                                    <a href="about.php" class="thm-btn about-one__btn" style="text-decoration: none;">More<i
+                                            class="icon-right-arrow"></i> </a>
                                     </div>
 
                                     <!-- <a href="#" class="readmore_ font_size">Read More</a> -->
@@ -332,7 +343,7 @@ $result = json_decode($response);
                             THE MOTIVE OF SHYAMAVSVSS KRISHI LIMITED IS TO REFORMS THE EDUCATION, AGRICULTURE AND UNEMPLOYMENT FACTOR IN UTTAR PRADESH...</p>
                             <div class="about-one__btn-and-ceo mt-5">
                                 <div class="about-one__btn-box">
-                                    <a href="about.php" class="thm-btn about-one__btn">About More <i
+                                    <a href="about.php" class="thm-btn about-one__btn">About More<i
                                             class="icon-right-arrow"></i> </a>
                                 </div>
                                 <div class="about-one__ceo">
@@ -391,6 +402,8 @@ $result = json_decode($response);
                 
                 <div class="row gallery-wrap">
                 <center>
+
+                <div>
                 <div id="backbtn"><</div>
                     <!--Services One Single Start-->
                     <div class="gallery">
@@ -510,6 +523,8 @@ $result = json_decode($response);
                     <!--Services One Single End-->
                     </div>
                     <div id="nextbtn">></div>
+                    </div>
+
                     
                     </center>
                 </div>
@@ -552,24 +567,23 @@ $result = json_decode($response);
 
         <style>
             .gallery{
-                width: 450px;
+                width: 80%;
                 display: flex;
                 overflow-x: scroll;
             }
             .gallery div{
                 display: grid;
-                width: 100%;
+                width: 70%;
                 grid-template-columns:  auto;
                 flex: none;
-            }
-            .gallery div img{
-                width: ;
+                margin: 10px;
             }
             .gallery::-webkit-scrollbar{
                 display: none;
             }
             .gallery-wrap{
-                display: flex;
+                display: inline-flex;
+                width: 100%;
             }
             #backbtn, #nextbtn {
                 width: 50px;

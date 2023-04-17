@@ -1983,6 +1983,7 @@ span.numb {
     background: #533612;
     color: #ffff !important;
     font-weight: 500;
+    background-color: #1f6306;
 }
 /*===============Rashmi 16March=============*/
 .table td a {
@@ -5427,13 +5428,14 @@ h5.name {
     margin-top: 6px;
 }
 
+
     .thirdlable ul li {
         list-style: disc;
     }
 
 .btn-info {
     color: #fff !important;
-    background: #533612 !important;
+    background: #1f6306 !important;
     padding: 5px 0 7px 0px !important;
     border: 1px solid #533612 !important;
 }

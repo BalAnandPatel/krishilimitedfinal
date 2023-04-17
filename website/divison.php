@@ -294,54 +294,6 @@ include 'include/headerr.php';
 
 
 
-
-
-<section class="content footer_logo">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="">
-                    <div class="swiper mySwiper0">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important">
-                                <a class="redirectconfirmation" href="http://cashlessindia.gov.in/" target="_blank"><img alt="cashlessindia" src="/public/images/cashlessindia.png"></a>
-                            </div>
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a class="redirectconfirmation"  href="https://pgportal.gov.in/" target="_blank"><img alt="public" src="/public/images/public.png"></a>
-                            </div>
-
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a class="redirectconfirmation"  href="https://igod.gov.in/" target="_blank"><img alt="webdirectory" src="/public/images/webdirectory.png"></a>
-                            </div>
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a class="redirectconfirmation"  href="https://www.digitalindia.gov.in/" target="_blank"><img alt="degitalindia" src="/public/images/degitalindia.png"></a>
-                            </div>
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a  class="redirectconfirmation" href="https://www.mygov.in/" target="_blank"><img alt="mygov" src="/public/images/mygov.png"></a>
-                            </div>
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a class="redirectconfirmation"  href="https://www.makeinindia.com/home" target="_blank"><img alt="makeinindia" src="/public/images/makeinindia.png" style="width:60%"></a>
-                            </div>
-                            
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a class="redirectconfirmation"  href="https://data.gov.in/" target="_blank"><img alt="datagov" src="/public/images/datagov.png"></a>
-                            </div>
-                            <div class="swiper-slide swiper-slide_" style="width:150px !important;height: 150px !important;">
-                                <a class="redirectconfirmation"  href="https://www.india.gov.in/" target="_blank"><img alt="indiagov" src="/public/images/indiagov.png"></a>
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
 <?php 
 include 'include/footerr.php'; 
 ?>
