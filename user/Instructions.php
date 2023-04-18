@@ -19,21 +19,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <body class="hold-transition sidebar-mini">
 
   <?php
-  include "../constant.php";
-  $exam_name = $_GET["examname"];
-  $url = $URL."exam/read_exam_details.php";
-  $data = array("exam_name"=>$exam_name);
+  // include "../constant.php";
+  // $exam_name = $_GET["examname"];
+  // $url = $URL."exam/read_exam_details.php";
+  // $data = array("exam_name"=>$exam_name);
 
-  //print_r($data);
-  $postdata = json_encode($data);
-  $client = curl_init($url);
-  curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
-  //curl_setopt($client, CURLOPT_POST, 5);
-  curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
-  $response = curl_exec($client);
-  //print_r($response);
-  $result = json_decode($response);
-  //print_r($result);
+  // //print_r($data);
+  // $postdata = json_encode($data);
+  // $client = curl_init($url);
+  // curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
+  // //curl_setopt($client, CURLOPT_POST, 5);
+  // curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
+  // $response = curl_exec($client);
+  // //print_r($response);
+  // $result = json_decode($response);
+  // //print_r($result);
   ?>
 
 <div class="wrapper">
@@ -86,25 +86,25 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <tbody>
                     <?php 
                      
-                     foreach($result as $key => $value){
-                     foreach($value as $key1 => $value1)
-                     {
+                    //  foreach($result as $key => $value){
+                    //  foreach($value as $key1 => $value1)
+                    //  {
                      
                     ?>  
                     <tr>
-                      <td><?php echo $value1->exam_name; ?></td>
+                      <td><?php // echo $value1->exam_name; ?></td>
     
-                      <td><?php echo $value1->eligibility; ?></td>
-                      <td><?php echo $value1->amount; ?></td>
-                      <td><?php echo $value1->age; ?></td>
+                      <td><?php // echo $value1->eligibility; ?></td>
+                      <td><?php // echo $value1->amount; ?></td>
+                      <td><?php // echo $value1->age; ?></td>
                       <td>
                         <?php 
-                         $date = date("d-m-Y", strtotime($value1->exam_date_start)); 
-                         echo $date=="01-01-1970" ? '0' : $date; 
+                        // $date = date("d-m-Y", strtotime($value1->exam_date_start)); 
+                        // echo $date=="01-01-1970" ? '0' : $date; 
                         ?>
                       </td>
                     </tr>
-                  <?php } } ?>
+                  <?php // } } ?>
                   </tbody>
                 </table>
               </div>
@@ -113,9 +113,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="card-body">
                 <h5 class="card-title mb-2"><b>Instructions and Procedure for online submission of Application Form</b></h5>
                 <p class="card-text"><i class="fa fa-hand-point-right mr-2"></i>
-                Please read the Information Bulletin of <?php echo $value1->exam_name; ?> <?php echo date("M Y",strtotime($value1->exam_date_start)); ?> carefully before you start filling the Online Application  Form.</p>
+                Please read the Information Bulletin of <?php // echo $value1->exam_name; ?> <?php // echo date("M Y",strtotime($value1->exam_date_start)); ?> carefully before you start filling the Online Application  Form.</p>
                 <p class="card-text"><i class="fa fa-hand-point-right mr-2"></i>
-                Candidates can apply for <?php echo $value1->exam_name; ?> <?php echo date("M Y",strtotime($value1->exam_date_start)); ?> ‘ON-LINE’ through website https://ssegr.org.in
+                Candidates can apply for <?php // echo $value1->exam_name; ?> <?php // echo date("M Y",strtotime($value1->exam_date_start)); ?> ‘ON-LINE’ through website https://ssegr.org.in
                 </p>
                 <p class="card-text"><i class="fa fa-hand-point-right mr-2"></i>
                   The candidate should supply all details while filling the Online Form. Candidates are required to take a print out of the computer generated Confirmation Page with Registration Number after successful submission of data.
@@ -138,14 +138,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <li>Size of the photo image must be greater than 10 kb and less than 100 kb.</il>
                   <li>Size of the signature image must be greater than 3 kb and less than 30 kb.</il>
                 </ul>
-                <p><b>Note:</b> The candidate particulars can be edited till the payment of fees has not been made. Once the payment of fees has been made, candidate particulars cannot be edited at this stage. Thereafter corrections can be made only during the period in which online correction will be allowed as per the given schedule of <?php echo $value1->exam_name; ?> <?php echo date("M Y",strtotime($value1->exam_date_start)); ?> . No change will be accepted through offline mode i.e. through fax/application or by email etc. No correspondence in this regard will be entertained.</p>
+                <p><b>Note:</b> The candidate particulars can be edited till the payment of fees has not been made. Once the payment of fees has been made, candidate particulars cannot be edited at this stage. Thereafter corrections can be made only during the period in which online correction will be allowed as per the given schedule of <?php // echo $value1->exam_name; ?> <?php // echo date("M Y",strtotime($value1->exam_date_start)); ?> . No change will be accepted through offline mode i.e. through fax/application or by email etc. No correspondence in this regard will be entertained.</p>
                 <p class="card-text"><b>Step 2:</b> Pay Examination Fee by debit card/credit card or Pay Examination Fee by Internet Banking.</p>
                 <p class="card-text"><b>Step 3:</b> Print Confirmation Page for your record and future reference. All Steps are mandatory, On-line application submission will be considered as complete only after receipt of “Confirmation Page” by candidate.</p>
                 <form action="registration.php" method="post">
                 <div class="form-group">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                    <input type="hidden" name="exam_name" value="<?php echo $exam_name; ?>">
+                    <input type="hidden" name="exam_name" value="<?php // echo $exam_name; ?>">
                     <label class="form-check-label" for="gridCheck">
                      I have downloaded Information Bulletin, read and understood all the Instructions therein as well as those mentioned above, and filling up the online application form accordingly.
                     </label>

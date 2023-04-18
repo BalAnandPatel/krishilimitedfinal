@@ -57,16 +57,39 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
   <link rel="stylesheet" href="../common/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../common/dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="../common/build/scss/pages/_login_and_register.scss"
+  <link rel="stylesheet" href="../common/build/scss/pages/_login_and_register.scss">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
 </head>
 
-<body class="hold-transition register-page">
-<div class="register-box">
+<style>
+  .card{
+    padding: 20px;
+    border-top: 3px solid green;
+}
+  body{
+    background-color: lightgrey;
+  }
+</style>
+<body class="hold-transition">
+<!-- <div class="register-box">
   <div class="register-logo mb-3">
     <a href="#"><b>REGISTRATION</b></a>
   </div>
   <div class="card card-success card-outline">
-    <div class="card-body register-card-body">
+    <div class="card-body register-card-body"> -->
+
+    <br>
+    <div class="container">
+
+    <h1 align="center">
+    <a href="#">REGISTRATION</a>
+  </h1>
+
+  <br>
+
+    <div class="row align-items-start card">
       
       
       <h2 class="login-box-msg"><u>Personal Details</u></h2>
@@ -78,7 +101,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 
   <div class="row">
     
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
             <div class="form-group">
               <label for="input">Apply For</label>
                <div class="input-group-append">
@@ -90,7 +113,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-md-6">
           <div class="form-group">
            <label for="input">Full Name </label>
              <div class="input-group-append">
@@ -105,7 +128,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
         </div>
  
   <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Date of Birth </label>
 
@@ -119,7 +142,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Gender </label>
 
@@ -142,7 +165,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             <div class="row">
 
     
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Marital Status</label>
 
@@ -160,7 +183,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Spouse Name </label>
 
@@ -178,7 +201,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             <div class="row">
 
     
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Father Name </label>
 
@@ -192,7 +215,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Mother Name </label>
 
@@ -208,7 +231,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             </div>
 
             <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Email</label>
 
@@ -223,7 +246,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Mobile</label>
 
@@ -241,7 +264,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 
 
             <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Correspondance Address </label>
 
@@ -256,7 +279,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Address 1</label>
 
@@ -272,7 +295,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             </div>
 
             <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Address 2</label>
 
@@ -285,7 +308,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Address 3 </label>
 
@@ -303,7 +326,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             <div class="row">
   <!-- <div class="col-sm-12"> -->
     
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">District </label>
 
@@ -317,7 +340,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Pincode</label>
 
@@ -336,7 +359,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             <div class="row">
   <!-- <div class="col-sm-12"> -->
     
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">State </label>
 
@@ -350,7 +373,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Category</label>
 
@@ -366,7 +389,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             </div>
             
             <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Religion </label>
 
@@ -380,7 +403,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                <div class="form-group">
   <label for="input">Nationality</label>
 
@@ -396,7 +419,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
             </div>
 
             <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Alternate Mobile </label>
 
@@ -417,7 +440,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 <h2 class="login-box-msg"><b><u>Qualification & Other Details</u></b></h2>
       <hr>
       <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Highest Qualification </label>
       <div class="input-group-append">
@@ -436,7 +459,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
       </div></div></div>
 
 
-       <div class="col-sm-6">
+       <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Subject/Stream/Degree Name </label>
   <div class="input-group-append">
@@ -449,7 +472,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div></div></div>
 
           <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Passing Date</label>
   <div class="input-group-append">
@@ -462,7 +485,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
         </div>
       </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Highest Qualification </label>
   <div class="input-group-append">
@@ -477,7 +500,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 </div> 
 
 <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Grade</label>
 <div class="input-group-append">
@@ -492,7 +515,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
              <option class="form-control" value="Third">Third</option>
          </select>
 </div></div></div>
-<div class="col-sm-6">
+<div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Language</label>
 
@@ -512,7 +535,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 </div>
 
 <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Are You Able To Read?</label>
         <div class="input-group-append">
@@ -526,7 +549,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
          </select>
         </div></div></div>
 
-         <div class="col-sm-6">
+         <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Are You Able To Write?</label>
          <div class="input-group-append">
@@ -541,7 +564,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
           </div></div></div>
       
         <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Are You Able To Speak?</label>
         <div class="input-group-append">
@@ -553,7 +576,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
              <option class="form-control" value="No">No</option>
          </select>
         </div></div></div>
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Disability Category?</label>
   <div class="input-group-append">
@@ -565,7 +588,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 </div></div></div></div>
 
 <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Disability Type (If Any)</label>
   <div class="input-group-append">
@@ -575,7 +598,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
   <input type="text" class="form-control" placeholder="Disability Type (If Any)" name="disability_type" autocomplete="off">
   
   </div></div></div>
-  <div class="col-sm-6">
+  <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Are you Ex-Serviceman?</label>
 <div class="input-group-append">
@@ -590,7 +613,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 </div></div></div></div>
 
 <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Are you Serving Defence Personnel?</label>
 
@@ -603,7 +626,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
          <option class="form-control" value="Yes">Yes</option>  
          </select>
 </div></div></div>
-<div class="col-sm-6">
+<div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Service Period (In month)</label>
 
@@ -618,7 +641,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
   
 
 <div class="row">    
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Upload Image</label>
 
@@ -631,7 +654,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
                     <label id="selectedFile"  style="background-color:skyblue;"></label>
                   </div></div>
            
-                  <div class="col-sm-6">
+                  <div class="col-sm-12 col-md-6">
           <div class="form-group">
   <label for="input">Upload Thumb Image</label>
                      <div class="input-group">

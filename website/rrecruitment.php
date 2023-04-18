@@ -73,7 +73,7 @@
             <h4 class="font_size pb-2">Recruitments</h4>
         </div>
 
-        <div class="row" style=" margin-bottom: 45px;">
+        <!-- <div class="row" style=" margin-bottom: 45px;">
             <div class="col-12">
                 <div>
                     <h3 class="font_size" style="font-size: inherit; font-weight: bold; "></h3>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="form-control" id="divRecruitment" style="display:none;">
             <div class="row">
@@ -99,11 +99,12 @@
                     <thead>
                         <tr>
                             <th style="width: 10% !important">Sr. No</th>
-                            <th style="width: 40% !important">Title</th>
+                            <th style="width: 35% !important">Title</th>
                             <th style="width: 10% !important">Start Date</th>
                             <th style="width: 10% !important">End Date</th>
                             <th style="width: 10% !important">Publish Date</th>
-                            <th style="width: 20% !important">Details</th>
+                            <th style="width: 15% !important">Details</th>
+                            <th style="width: 10% !important">Action</th>
                         </tr>
                     </thead>
                     <tbody id="tbodyRecruitment">
@@ -114,6 +115,11 @@
                             <td>24-04-2023</td>
                             <td>03-04-2023</td>
                             <td>Download (3.42MB) pdf</td>
+                            <td>
+                                <div>
+                                  <button class="form-control btn-info"><a href="../user/Instructions.php"> Apply </a></button>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
