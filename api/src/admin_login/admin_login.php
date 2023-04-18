@@ -4,7 +4,6 @@ header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-
 require '../../../constant.php';
 include_once '../../config/database.php';
 include_once '../../objects/admin_login.php';
@@ -18,13 +17,15 @@ use \Firebase\JWT\JWT;
  $notbefore_claim = $issuedat_claim ; //not before in seconds
  $expire_claim = $issuedat_claim + 30; // expire time in seconds
 
-$data = json_decode(file_get_contents("php://input"));
-//var_dump($data);
 $database = new Database();
 $db = $database->getConnection();
 
 $login = new Admin($db);
-$login->email = $data->email;
+
+$data = json_decode(file_get_contents("php://input"));
+//print_r($data);
+
+$login->userName = $data->userName;
 $login->password = $data->password;
 //$login->updated_on=date('Y-m-d H:i:s');
 
@@ -43,11 +44,11 @@ if ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
             "exp" => $expire_claim,
             "data" => array(
                 "message" => $LOGIN_SUCCESS_MSG,
-                "email" => $email,
-                "full_name" =>$full_name,
+                "userName" => $userName,
+                "fullName" =>$fullName,
                 "password" =>$password,
                 "id"=>$id,
-                "created_on"=>$created_on,
+                "createdOn"=>$createdOn
                 
                
         ));
@@ -65,7 +66,7 @@ if ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 else{
 
         http_response_code(401);
-        echo json_encode(array("message" => $LOGIN_FAILED_MSG));
+        echo json_encode(array("message"=>$LOGIN_FAILED_MSG));
 }
 
 ?>

@@ -2,17 +2,17 @@
 class Admin{
 
     private $conn;
-    private $table_name = "admin";
-    public $id,$full_name,$email,$password,$created_on,$created_by;
+    private $table_name = "adminlogin";
+    public $id,$fullName,$userName,$password,$createdOn,$createdBy;
     public function __construct($db){
         $this->conn = $db;
     }
 
     function adm_login(){
         $query="Select 
-        id,password,  email,full_name,created_on,updated_on  from " .$this->table_name .  " where email=:email and password=:password";
+        id, password, userName, fullName, createdOn, updatedOn  from " .$this->table_name .  " where userName=:userName and password=:password";
         $stmt = $this->conn->prepare($query); 
-        $stmt->bindParam(":email", $this->email);
+        $stmt->bindParam(":userName", $this->userName);
         $stmt->bindParam(":password", $this->password);
 
         $stmt->execute();

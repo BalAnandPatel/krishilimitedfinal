@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Kolkata');
 
 $BASE_URL="website/index.php";
-$URL=$BASE_URL."/api/src/";
+$URL="http://localhost/krishilimitedfinal/api/src/";
 $EXAM_NAME="UPPCL EXAMINATION";
 
 $ADMIN_IMG_PATH=$BASE_URL."/user/img/";
