@@ -1,4 +1,4 @@
-<?php include "include/header.php"; ?>
+<?php include "include/headerr.php"; ?>
 
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
@@ -66,4 +66,4 @@
 
        
 
-<?php include "include/footer.php"; ?>
+<?php include "include/footerr.php"; ?>

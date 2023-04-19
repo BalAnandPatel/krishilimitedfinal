@@ -275,7 +275,7 @@ include "../constant.php";
         </div>        
     </div>
 </div>
-<div class="col-md-2 col-lg-1 mt-2">
+<!-- <div class="col-md-2 col-lg-1 mt-2">
     <div class="row">
         <div class="col-2">
             <div class="old-webiste-link">
@@ -286,7 +286,7 @@ include "../constant.php";
             </div>
         </div>
     </div>
-</div>
+</div> -->
             </div>
         </div>
         <div class="wrapper main-header-menu-wrap" id="logoAndNav">
@@ -324,7 +324,7 @@ include "../constant.php";
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="About Us">
                                 About Us
-                                <span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
                             <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu animated sub_menu_open pagesSubMenudoc" style="width: 270px;" aria-labelledby="pagesMegaMenu">
@@ -370,7 +370,7 @@ include "../constant.php";
                                aria-haspopup="true" aria-expanded="true"
                                aria-label="Documents">
                                 Documents
-                                <span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
                             <ul id="pagesSubMenu2" class="hs-sub-menu main-sub-menu animated expanded_opn20 pagesSubMenudoc" style="width: 300px;" aria-labelledby="pagesMegaMenu1">
@@ -476,7 +476,8 @@ include "../constant.php";
                             <a id="pagesMegaMenu3" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="Statistics">
-                                Service<span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                Service
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
 
@@ -592,7 +593,8 @@ include "../constant.php";
                             <a id="pagesMegaMenu4" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="Schemes">
-                                Schemes<span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                Schemes
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
 
@@ -638,7 +640,8 @@ include "../constant.php";
                             <a id="pagesMegaMenu5" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="Media">
-                                Media<span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                Media
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
 
@@ -682,7 +685,8 @@ include "../constant.php";
                         <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn6 expanded_opnion">
                             <a id="pagesMegaMenu6" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
                                aria-label="Related Links">
-                                Related Links<span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                Related Links
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
                             <ul id="pagesSubMenu6" class="hs-sub-menu main-sub-menu animated" aria-labelledby="pagesMegaMenu6" style="width: 250px;">
                                 <li class="nav-item submenu-item">
@@ -777,7 +781,8 @@ include "../constant.php";
                         <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn7 expanded_opnion">
                             <a id="pagesMegaMenu7" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
                                aria-label="Dashboard">
-                                Dashboard<span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                                Dashboard
+                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
 

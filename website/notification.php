@@ -1,4 +1,4 @@
-<?php include "include/header.php"; ?>
+<?php include "include/headerr.php"; ?>
 <?php
 $url = $URL."notification/read_notification.php";
 $data = array();
@@ -86,4 +86,4 @@ $result = json_decode($response);
         </section>
         <!--Faq page End-->
 
-<?php include "include/footer.php"; ?>
+<?php include "include/footerr.php"; ?>

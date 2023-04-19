@@ -1,5 +1,5 @@
 <?php 
-include "include/header.php"; 
+include "include/headerr.php"; 
 ?>
 <?php
 
@@ -304,5 +304,5 @@ include "include/header.php";
 
         </script>
 <?php
-include "include/footer.php"; 
+include "include/footerr.php"; 
 ?>

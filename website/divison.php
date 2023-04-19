@@ -66,6 +66,11 @@ include 'include/headerr.php';
         </div>
     </div>
 
+    <style>
+        h3.font_size{
+            font-family: arial;
+        }
+    </style>
 
     <div class="container">
 

@@ -1,5 +1,5 @@
 <?php
-include "include/header.php";
+include "include/headerr.php";
 ?>
 
         <div class="stricky-header stricked-menu main-menu">
@@ -131,5 +131,5 @@ organic fertilizes to complete with the international market.
         </div>
         <!--Services Details End-->
 <?php
-include "include/footer.php";
+include "include/footerr.php";
 ?>

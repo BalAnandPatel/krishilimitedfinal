@@ -1,5 +1,5 @@
 <?php
-include "include/header.php";
+include "include/headerr.php";
 ?>
 
         <div class="stricky-header stricked-menu main-menu">
@@ -114,5 +114,5 @@ include "include/header.php";
         </div>
         <!--Services Details End-->
 <?php
-include "include/footer.php";
+include "include/footerr.php";
 ?>
