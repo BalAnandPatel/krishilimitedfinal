@@ -71,41 +71,46 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
 
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-mini layout-fixed" style="background-color: lightgrey;">
 <div class="wrapper">
 
   <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
+  <!-- <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="../common/assets/img/logo/logo.png" alt="AdminLTELogo" height="60" width="60">
-  </div>
+  </div> -->
+
+  <div class="container">
+
+<br><br>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <!-- <div class="content-wrapper"> -->
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Member Login Detail</h1>
+            <h1 class="m-0">Update Registration Detail</h1>
           </div><!-- /.col -->
           <!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>  <!-- Content Header (Page header) -->
      <!-- Main content -->
-    <section class="content">
+    <!-- <section class="content">
       
       <div class="container-fluid">
   
         <div class="row">
           
-          <div class="col-md-10">
+          <div class="col-md-10"> -->
                 <!---------------************--------->
 				<!-- Main content -->
             <!-- general form elements -->
-            <div class="card card-primary">
-              <div class="card-header">
-                <h3 class="card-title">Registration Detail- Please save it for future use</h3>
+            <!-- <div class="card card-primary"> -->
+            <div class="row align-items-start card">
+              <div class="card-header" style="background-color: #007BFF;">
+                <h3 class="card-title" style="color: #fff;">Registration Detail- Please save it for future use</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -402,6 +407,10 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 
 <h2 class="login-box-msg"><b><u>Qualification & Other Details</u></b></h2>
    <hr>
+
+   <div class="row">
+
+<div class="col-sm-6">
    <label for="exampleInputEmail1">Highest Qualification*</label>
      <div class="input-group mb-3">
        <input type="text" class="form-control" placeholder="Category- <?php // echo  $value1->h_qualification ?>" name="h_qualification" autocomplete="off" required>
@@ -411,6 +420,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
          </div>
        </div>
      </div>  
+                    </div>
+
+                    <div class="col-sm-6">
 
      <label for="exampleInputEmail1">Subject/Stream/Degree*</label>
      <div class="input-group mb-3">
@@ -420,7 +432,14 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
    <span class="fas fa-user"></span>
  </div>
 </div>
-</div>
+</div> 
+                    </div>
+                    </div>
+
+
+<div class="row">
+
+<div class="col-sm-6">
 <label for="exampleInputEmail1">Passing Date*</label>
      <div class="input-group mb-3">
 <input type="date" class="form-control" placeholder="Passing Date<?php // echo  $value1->passing_date ?>" name="passing_date" autocomplete="off" required>
@@ -430,6 +449,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
  </div>
 </div>
 </div>
+                    </div>
+
+                    <div class="col-sm-6">
 <label for="exampleInputEmail1">Marks Obtained(%)*</label>
      <div class="input-group mb-3">
 <input type="number" class="form-control" placeholder="Marks Obtained(%)-<?php // echo  $value1->h_percentage ?>" name="h_percentage" autocomplete="off" required>
@@ -439,6 +461,13 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
  </div>
 </div>
 </div> 
+ 
+</div>
+                    </div>
+
+<div class="row">
+
+<div class="col-sm-6">
 <label for="exampleInputEmail1">Grade*</label>
 <div class="input-group mb-3">
 <input type="number" class="form-control" placeholder="Grade- <?php // echo  $value1->grade ?>" name="grade" autocomplete="off" required>
@@ -448,6 +477,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
  </div>
 </div>
 </div> 
+                    </div>
+
+                    <div class="col-sm-6">
      <label for="exampleInputEmail1">Language*</label>
      <div class="input-group mb-3">
 <input type="number" class="form-control" placeholder="Language- <?php // echo  $value1->language ?>" name="language" autocomplete="off" required>
@@ -456,8 +488,14 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
    <span class="fas fa-number"></span>
  </div>
 </div>
-</div> 
+</div>  
+                    </div>
+                    </div>
 
+
+<div class="row">
+
+<div class="col-sm-6">
      <label for="exampleInputEmail1">Able to Read*</label>
      <div class="input-group mb-3">
 <input type="number" class="form-control" placeholder="Read- <?php // echo  $value1->read ?>" name="read" autocomplete="off" required>
@@ -468,6 +506,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 </div>
 </div>
 
+</div>
+
+<div class="col-sm-6">
      <label for="exampleInputEmail1">Able to Write*</label>
      <div class="input-group mb-3">
 <input type="number" class="form-control" placeholder="Write- <?php // echo  $value1->write ?>" name="write" autocomplete="off" required>
@@ -476,7 +517,14 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
    <span class="fas fa-number"></span>
  </div>
 </div>
-</div>
+</div> 
+                    </div>
+                    </div>
+
+
+<div class="row">
+
+<div class="col-sm-6">
 <label for="exampleInputEmail1">Disability Category(If any)</label>
 <div class="input-group mb-3">
 <input type="text" class="form-control" placeholder="Disability Category- <?php // echo  $value1->disability_cat ?>" name="disability_cat" autocomplete="off">
@@ -486,6 +534,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
  </div>
 </div>
 </div>
+                    </div>
+
+                    <div class="col-sm-6">
 <label for="exampleInputEmail1">Disability Type(If Any)</label>
 <div class="input-group mb-3">
 <input type="text" class="form-control" placeholder="Disability Type- <?php // echo  $value1->disability_typet ?>" name="disability_type" autocomplete="off">
@@ -494,7 +545,14 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
    <span class="fas fa-user"></span>
  </div>
 </div>
-</div>
+</div> 
+                    </div>
+                    </div>
+
+
+<div class="row">
+
+<div class="col-sm-6">
 
 <label for="exampleInputEmail1">Are you Ex-Serviceman</label>
      <div class="input-group mb-3">
@@ -506,6 +564,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 </div>
 </div>
      
+</div>
+
+<div class="col-sm-6">
      <label for="exampleInputEmail1">Are you Serving Defence Personnel</label>
         <div class="input-group mb-3">
 <input type="text" class="form-control" placeholder=" Serving Defence Personnel- <?php // echo  $value1->serving_defence_per ?>" name="serving_defence_per" autocomplete="off">
@@ -514,7 +575,14 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
    <span class="fas fa-user"></span>
  </div>
 </div>
-</div>
+</div> 
+                    </div>
+                    </div>
+
+
+<div class="row">
+
+<div class="col-sm-6">
 
      <label for="exampleInputEmail1">Service Period (In Month)</label>
 <div class="input-group mb-3">
@@ -525,12 +593,18 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
  </div>
 </div>
 </div>
+                    </div>
+
+                    </div>
 
 <?php //}
         //             }
 ?>
 
-<div class="card-body">
+<div class="row">
+
+<div class="col-sm-6">
+                <!-- <div class="card-body"> -->
                   <div class="form-group">
                     <label for="exampleInputFile">Please select a Photo</label>
                      <div class="input-group">
@@ -541,8 +615,10 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
                     </div>
                     <label id="selectedFile"  style="background-color:skyblue;"></label>
                   </div>
-                </div>
-                <div class="card-body">
+</div>
+                <!-- </div> -->
+                <!-- <div class="card-body"> -->
+<div class="col-sm-6">
                   <div class="form-group">
                     <label for="exampleInputFile">Please upload thumb's Image</label>
                      <div class="input-group">
@@ -553,7 +629,9 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
                     </div>
                     <label id="selectedFileThumb"  style="background-color:skyblue;"></label>
                   </div>
-                </div>
+</div>
+                <!-- </div> -->
+                    </div>
 
                 <div class="card-footer">
                 <input type="hidden" name="id" value="<?php // echo $id?>" readonly>
@@ -562,10 +640,10 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
               </form>
             </div>
 <!-----------*******************------->			
-            </div>
+            <!-- </div>
           </div>
        </div>
- </section>
+ </section> -->
     <!-- /.content -->
   </div>
   </html>
@@ -575,7 +653,3 @@ $(function () {
   bsCustomFileInput.init();
 });
 </script>
-
-<?php
-include "include/footer.php";
-?>
