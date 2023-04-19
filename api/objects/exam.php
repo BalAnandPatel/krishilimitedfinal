@@ -21,9 +21,10 @@
 
     public function read_exam_details(){
         $query="Select  id,exam_name,type, age, total_post, eligibility, amount, status, exam_date_start, exam_date_end, result_date,admit_card_date,created_by,created_on
-        from " .$this->table_name .  " where exam_name=:exam_name";
+        from " .$this->table_name .  " where exam_name=:exam_name and id=:id";
         $stmt = $this->conn->prepare($query); 
         $stmt->bindParam(":exam_name", $this->exam_name);
+        $stmt->bindParam(":id", $this->id);
         $stmt->execute();
         return $stmt;
     }
@@ -145,7 +146,7 @@
     function update_exam(){
   
         // query to insert record
-        $query = "UPDATE 
+       $query = "UPDATE 
                     " . $this->table_name . "
                 SET
                    exam_name=:exam_name,
@@ -161,7 +162,7 @@
                    status=:status,
                    updated_on=:updated_on,
                    updated_by=:updated_by 
-                   where exam_name=:exam_name";
+                   where id=:id";
                           
         // prepare query
         $stmt = $this->conn->prepare($query);
@@ -181,6 +182,7 @@
         
         
         //bind values
+        $stmt->bindParam(":id", $this->id);
         $stmt->bindParam(":exam_name", $this->exam_name);
         $stmt->bindParam(":type", $this->type);
         $stmt->bindParam(":amount", $this->amount);

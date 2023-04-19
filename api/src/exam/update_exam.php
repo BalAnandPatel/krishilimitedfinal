@@ -19,7 +19,7 @@ $exam = new exam($db);
   
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
-print_r($data);
+//print_r($data);
 // mavarke sure data is not empty
 if(
 
@@ -36,6 +36,7 @@ if(
 )
 
 {
+    $exam->id=$data->id;
     $exam->exam_name=$data->exam_name;
     $exam->type = $data->type;
     $exam->amount = $data->amount;

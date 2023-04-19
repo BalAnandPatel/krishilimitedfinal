@@ -117,6 +117,7 @@
                     <td>
                       <form action="update_exam.php" method="post">
                       <input type="hidden" name="exam_name" value="<?php echo $value1->exam_name; ?>">
+                      <input type="hidden" name="id" value="<?php echo $value1->id; ?>">
                       <button type="submit" name="update_exam" class="btn btn-primary"><i class="fa fa-edit"><b class="ml-1">Edit</b></i>
                       </button>
                     </form>

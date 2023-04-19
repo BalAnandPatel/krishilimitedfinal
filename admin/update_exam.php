@@ -3,9 +3,10 @@
   include "../constant.php";
 
   $exam_name = $_POST['exam_name'];
+  $id = $_POST['id'];
 
   $url = $URL."exam/read_exam_details.php";
-  $data = array("exam_name"=>$exam_name);
+  $data = array("exam_name"=>$exam_name, "id"=>$id);
 
   //print_r($data);
   $postdata = json_encode($data);
@@ -73,6 +74,7 @@
               <div class="input-group-text">
                 <span class="fas fa-boxes"></span>
               </div>
+              <input type="hidden" name="id" value="<?php echo $value1->id; ?>">
               <input type="text" class="form-control" name="exam_name" value="<?php echo $value1->exam_name; ?>" autocomplete="off"  data-toggle="tooltip">         
           
           </div>
