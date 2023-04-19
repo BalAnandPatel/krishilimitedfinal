@@ -9,7 +9,7 @@
         $this->conn = $db;
     }
 
-    public $id,$full_name,$registration_no,$dob,$mobile,$exam_name,$type,$age,$total_post,$amount,$eligibility,$status,$exam_date_start,$exam_date_end,$result_date,$admit_card_date,$created_by,$created_on;
+    public $id,$full_name,$registration_no,$dob,$mobile,$exam_name,$type,$age,$total_post,$amount,$eligibility,$status,$exam_date_start,$exam_date_end,$result_date,$admit_card_date,$created_by,$created_on,$updated_on,$updated_by;
 
     public function read_exam(){
         $query="Select  id,exam_name,type,age, amount,status,exam_date_start, result_date,admit_card_date,created_by,created_on
@@ -158,9 +158,10 @@
                    exam_date_end=:exam_date_end,
                    result_date=:result_date,
                    admit_card_date=:admit_card_date,
+                   status=:status,
                    updated_on=:updated_on,
                    updated_by=:updated_by 
-                   ";
+                   where exam_name=:exam_name";
                           
         // prepare query
         $stmt = $this->conn->prepare($query);
@@ -174,8 +175,10 @@
         $this->exam_date_start=htmlspecialchars(strip_tags($this->exam_date_start));
         $this->admit_card_date=htmlspecialchars(strip_tags($this->admit_card_date));
         $this->result_date=htmlspecialchars(strip_tags($this->result_date));
-        $this->updated_by=htmlspecialchars(strip_tags($this->updated_by));
+        $this->status=htmlspecialchars(strip_tags($this->status));
         $this->updated_on=htmlspecialchars(strip_tags($this->updated_on));
+        $this->updated_by=htmlspecialchars(strip_tags($this->updated_by));
+        
         
         //bind values
         $stmt->bindParam(":exam_name", $this->exam_name);
@@ -188,8 +191,9 @@
         $stmt->bindParam(":exam_date_start", $this->exam_date_start);
         $stmt->bindParam(":admit_card_date", $this->admit_card_date);
         $stmt->bindParam(":result_date", $this->result_date);
-        $stmt->bindParam(":updated_by", $this->updated_by);
+        $stmt->bindParam(":status", $this->status);
         $stmt->bindParam(":updated_on", $this->updated_on);
+        $stmt->bindParam(":updated_by", $this->updated_by);
         
       
         // execute query

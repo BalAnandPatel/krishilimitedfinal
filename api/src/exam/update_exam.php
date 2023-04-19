@@ -19,11 +19,11 @@ $exam = new exam($db);
   
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
-//var_dump($data);  
+//print_r($data);
 // mavarke sure data is not empty
 if(
     
-    !empty($data->exam_name) &&
+    !empty($data->exam_name) &&     
     !empty($data->type) &&
     !empty($data->amount) &&
     !empty($data->eligibility) &&
@@ -46,6 +46,7 @@ if(
     $exam->exam_date_end = $data->exam_date_end;
     $exam->admit_card_date = $data->admit_card_date;
     $exam->result_date = $data->result_date;
+    $exam->status = $data->status;
     $exam->updated_on = $data->updated_on;
     $exam->updated_by = $data->updated_by;
    
