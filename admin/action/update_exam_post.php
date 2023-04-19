@@ -19,7 +19,7 @@ if(isset($_POST["update_exam"])){
  $updated_by="Admin";
  $url = $URL . "exam/update_exam.php";
 
- $data = array("exam_name"=>$exam_name,"amount"=>$amount, "eligibility"=>$eligibility, 
+ $data = array("exam_name"=>$exam_name, "amount"=>$amount, "eligibility"=>$eligibility, 
  "total_post"=>$total_post, "type"=>$type, "age"=>$age, "exam_date_start"=>$exam_date_start,
  "admit_card_date"=>$admit_card_date, "result_date"=>$result_date, "status"=>"1", "updated_by"=>"Admin",
  "exam_date_end"=>$exam_date_end, "status"=>$status, "updated_on"=>$updated_on, "updated_by"=>$updated_by);
@@ -27,9 +27,9 @@ if(isset($_POST["update_exam"])){
 
  $postdata = json_encode($data);
  $result_exam=url_encode_Decode($url,$postdata);
- //print_r($result_exam);
+ print_r($result_exam);
    
- header('location:../exam_list.php'); 
+// header('location:../exam_list.php'); 
 
      }
     

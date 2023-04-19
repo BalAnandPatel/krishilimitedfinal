@@ -19,10 +19,10 @@ $exam = new exam($db);
   
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
-//print_r($data);
+print_r($data);
 // mavarke sure data is not empty
 if(
-    
+
     !empty($data->exam_name) &&     
     !empty($data->type) &&
     !empty($data->amount) &&
