@@ -666,9 +666,12 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
                     <label id="selectedFileThumb"  style="background-color:skyblue;"></label>
                   </div>
                 </div></div>
-          <div class="col-4"  style="margin: 0px 281px 0px;">
+
+                <div class="row d-flex justify-content-center">
+          <div class="col-6">
             <button type="submit" class="btn btn-success btn-block">Register</button>
           </div>
+</div>
           <!-- /.col -->
         </div>
       </div>

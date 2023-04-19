@@ -14,17 +14,36 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../common/dist/css/adminlte.min.css">
   <link rel="stylesheet" href="../common/build/scss/pages/_login_and_register.scss">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
 </head>
 
-<body class="hold-transition register-page">
-<div class="register-box">
+<style>
+  .card{
+    padding: 20px;
+    border-top: 3px solid green;
+}
+  body{
+    background-color: lightgrey;
+  }
+</style>
+
+<body class="hold-transition">
+<!-- <div class="register-box">
   <div class="register-logo">
     <a href="#"><b></b></a>
   </div>
   <div class="card card-success card-outline">
     <div class="card-body register-card-body">
+       -->
       
+    <div class="container">
+
+    <div class="row align-items-start card">
       
+
+
       <h2 class="login-box-msg"><b><u>Exam Details</u></b></h2>
       
       <hr>
@@ -189,9 +208,10 @@
             </div>
             </div>
            
-                  
-          <div class="col-4"  style="margin: 0px 281px 0px;">
+                  <div class="row d-flex justify-content-center">
+          <div class="col-6">
             <button type="submit" class="btn btn-success btn-block">Submit</button>
+          </div>
           </div>
           <!-- /.col -->
         </div>
@@ -200,6 +220,7 @@
 
     <!-- /.form-box -->
   </div><!-- /.card -->
+</div>
 </div>
 <!-- /.register-box -->
 
