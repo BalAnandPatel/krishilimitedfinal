@@ -81,7 +81,8 @@ include "include/header.php";
                     <th>Grade</th>
                     <th>Status</th>
                     <th>Reg. Date</th>
-                    <th width="100px" colspan="2">Action</th>
+                    <th width="100px">Approve</th>
+                    <th>Reject</th>
                   </tr>
                   	
                   </thead>

@@ -833,6 +833,10 @@ include "../constant.php";
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link redirectconfirmation" href="https://amd-india.net" target="_blank">Indo-Ger AMD</a>
                         </li>
+                                            <!---Home start --->
+                    <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="contactmin.php">Contact Us</a>
+                        </li>
                     </ul>
 
                 </div>
