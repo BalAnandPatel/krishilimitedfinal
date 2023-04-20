@@ -41,7 +41,7 @@ function giplCurl($api,$postdata){
       curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
       curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
       $response = curl_exec($client);
-      //print_r($response);
+      print_r($response);
       return  json_decode($response);
   }
 

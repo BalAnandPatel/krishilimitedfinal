@@ -20,8 +20,8 @@
     }
 
     public function read_exam_details(){
-        $query="Select  id,exam_name,type, age, total_post, eligibility, amount, status, exam_date_start, exam_date_end, result_date,admit_card_date,created_by,created_on
-        from " .$this->table_name .  " where exam_name=:exam_name and id=:id";
+        $query="Select  id, exam_name, type, age, total_post, eligibility, amount, status, exam_date_start, exam_date_end, result_date, admit_card_date, created_by, created_on
+        from " .$this->table_name . " where exam_name=:exam_name and id=:id";
         $stmt = $this->conn->prepare($query); 
         $stmt->bindParam(":exam_name", $this->exam_name);
         $stmt->bindParam(":id", $this->id);

@@ -97,7 +97,7 @@ include "include/header.php";
                   <tr>
                     <td><?php echo $value1->id ?></td>
                     <td><?php echo $value1->registration_no ?></td>
-                    <td><img class="img-fluid img-thumbnail" height="100" widht="100" src="<?php echo $image; ?>"></td>
+                    <td><img class="img-fluid img-thumbnail" height="200" widht="200" src="<?php echo $image; ?>"></td>
                     
                     <td><?php echo $value1->full_name?></td>
                     <td><?php echo $value1->father_name ?></td>

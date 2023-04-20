@@ -5,10 +5,10 @@ $BASE_URL="website/index.php";
 $URL="http://localhost/Krishilimited/krishilimitedfinal/api/src/";
 $EXAM_NAME="UPPCL EXAMINATION";
 
-$ADMIN_IMG_PATH=$BASE_URL."/user/img/";
+$ADMIN_IMG_PATH="http://localhost/Krishilimited/krishilimitedfinal/user/img/";
 
-
- $HOME="website/index.php";
+    
+ $HOME="website/index.php"; 
 
 $SECRET_KEY = "dKgLINTEL2013aN99840$@";  
 $ISSUER_CLAIM = "GLINTEL TECHNOLOGY PVT LTD"; // this can be the servername
