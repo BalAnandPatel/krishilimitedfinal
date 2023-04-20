@@ -364,13 +364,17 @@ include "../constant.php";
                             <a class="nav-link font_size custom-nav-link" href="/en/Acts">Act &amp; Rules</a>
                         </li>
                         <!---Act & Rules end --->
-                        <!--Documents Start-->
+                        <!---Documents start --->
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="Document.php">Documents</a>
+                        </li>
+                       <!-- Documents Start
                         <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn2 expanded_opn20 haschild expanded_opnion">
                             <a id="pagesMegaMenu1" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
                                aria-haspopup="true" aria-expanded="true"
                                aria-label="Documents">
                                 Documents
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
+                                <span class="d_icon"><i class="fas fa-angle-down"></i></span> 
                             </a>
 
                             <ul id="pagesSubMenu2" class="hs-sub-menu main-sub-menu animated expanded_opn20 pagesSubMenudoc" style="width: 300px;" aria-labelledby="pagesMegaMenu1">
@@ -467,8 +471,8 @@ include "../constant.php";
                                 
                             </ul>
 
-                        </li>
-                        <!--Documents end-->
+                        </li> -->
+                        <!--Documents end -->
                         <!--Statistics start-->
 
 
@@ -833,10 +837,13 @@ include "../constant.php";
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link redirectconfirmation" href="https://amd-india.net" target="_blank">Indo-Ger AMD</a>
                         </li>
-                                            <!---Home start --->
-                    <li class="nav-item custom-nav-item">
+
+                        <!---Contact start --->
+                        <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="contactmin.php">Contact Us</a>
                         </li>
+
+                        
                     </ul>
 
                 </div>
