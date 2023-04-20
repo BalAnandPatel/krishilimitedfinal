@@ -1,6 +1,6 @@
 <?php
 session_start();
-//This page is used by admin to view the login details of created agents.
+
 include '../constant.php';
 
 $exam_name=$_POST["exam_name"];
@@ -12,12 +12,13 @@ $id=$_POST["id"];
 $img="img/".$id."/profile"."/".$id.".png";
 $img_thumb="img/".$id."/profile"."/".$id."_thumb".".png";
 
- $url = $URL ."exam/read_exam_details.php";
+$url = $URL ."exam/read_exam_details.php";
 
-$data=array("exam_name"=>$exam_name);
+$data=array("exam_name"=>$exam_name, "id"=>$id);
+//print_r($data);
 $postdata1 = json_encode($data);
 $results=giplCurl($url,$postdata1);
-//print_r($results);
+print_r($results);
 
 $_SESSION['exam_name'] = $_POST["exam_name"];
 $_SESSION['registration_no'] = $_POST["registration_no"];

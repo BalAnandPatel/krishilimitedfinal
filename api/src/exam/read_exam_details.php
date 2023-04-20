@@ -42,7 +42,7 @@ if($num>0){
   
         $exam_item=array(
 
-            "id" => $id,
+            "id"=>$id,
             "exam_name"=>$exam_name,
             "amount"=>$amount,
             "type"=>$type,
@@ -76,7 +76,7 @@ else{
   
     // tell the user no products found
     echo json_encode(
-        array("message" => "No user found.")
+        array("message" => "No Exam details found.")
     );
 }
 ?>

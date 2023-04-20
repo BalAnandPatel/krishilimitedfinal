@@ -1,6 +1,6 @@
 <?php
 include '../../constant.php';
-// var_dump($_POST);
+
 // if(isset($_POST["full_name"])){
 $full_name=strtoupper($_POST["full_name"]);
 $father_name=strtoupper($_POST["father_name"]);
@@ -56,46 +56,46 @@ $data = array(
   "admit_card"=>"0",
   "result"=>"0",
   "password"=>$password,
-   "spouse_name" => $spouse_name, 
+  "spouse_name" => $spouse_name, 
   "marital_status"=>$marital_status, 
   "dob" => $dob, 
-   "gender" => $gender,
-    "email" => $email,
-     "mobile" => $mobile, 
+  "gender" => $gender,
+  "email" => $email,
+  "mobile" => $mobile, 
   "alternate_mobile" => $alternate_mobile, 
-    "address1" => $address1, 
-     "address2" => $address2, 
-   "address3" => $address3,
-   "cor_address"=>$cor_address,
-    "district" => $district,
-      "state" => $state,  
-     "pincode" => $pincode,
-    "religion" => $religion, 
-     "category" => $category,
-     "nationality"=>$nationality, 
-      "h_qualification" => $h_qualification,
-       "subject" => $subject, 
-      "passing_date" => $passing_date, 
-      "h_percentage" => $h_percentage,
-       "grade" => $grade, 
-       "languages" => $languages, 
-      "is_read" => $is_read,
-       "is_write" => $is_write,
-      "is_speak"=>$is_speak,
-       "disability_cat" => $disability_cat, 
-        "disability_type" => $disability_type,
-         "ex_serviceman" => $ex_serviceman,  
-         "exam_name" => $exam_name,
-         "serving_defence_per" => $serving_defence_per,
-            "service_period" => $service_period, 
-            "created_on" => $created_on, 
-            "registration_no"=>$registration_no, 
-           "created_by" => $created_by);
+  "address1" => $address1, 
+  "address2" => $address2, 
+  "address3" => $address3,
+  "cor_address"=>$cor_address,
+  "district" => $district,
+  "state" => $state,  
+  "pincode" => $pincode,
+  "religion" => $religion, 
+  "category" => $category,
+  "nationality"=>$nationality, 
+  "h_qualification" => $h_qualification,
+  "subject" => $subject, 
+  "passing_date" => $passing_date, 
+  "h_percentage" => $h_percentage,
+  "grade" => $grade, 
+  "languages" => $languages, 
+  "is_read" => $is_read,
+  "is_write" => $is_write,
+  "is_speak"=>$is_speak,
+  "disability_cat" => $disability_cat, 
+  "disability_type" => $disability_type,
+  "ex_serviceman" => $ex_serviceman,  
+  "exam_name" => $exam_name,
+  "serving_defence_per" => $serving_defence_per,
+  "service_period" => $service_period, 
+  "created_on" => $created_on, 
+  "registration_no"=>$registration_no, 
+  "created_by" => $created_by);
 
-    //  print_r($data);
-     $postdata = json_encode($data);
+  //print_r($data);
+  $postdata = json_encode($data);
 
-$result_registration=url_encode_Decode($url,$postdata);
+ $result_registration=url_encode_Decode($url,$postdata);
  //print_r($result_registration);
 if($result_registration->message=="Successfull"){
 
@@ -104,7 +104,7 @@ if($result_registration->message=="Successfull"){
     $data_maxId=array();
     $maxId_postdata = json_encode($data_maxId);
     $result_max_registration=url_encode_Decode($url_read_maxId,$maxId_postdata);
-   $id=$result_max_registration->records[0]->id;
+    $id=$result_max_registration->records[0]->id;
 
 
 /*--- update the images in img folder inside user folder ---*/
@@ -173,7 +173,7 @@ if($result_registration->message=="Successfull"){
         //echo "The file ". htmlspecialchars( basename( $_FILES["fileUpload"]["name"])). " has been uploaded.";
        // echo "The file ". htmlspecialchars( basename( $_FILES["fileUploadThumb"]["name"])). " has been uploaded.";
         $_SESSION["registration"] = "File uploaded succesfully.";
-          header('Location:../registration_view.php?id='.$id);
+        header('Location:../registration_view.php?id='.$id);
       }
        else {
         //echo "Sorry, there was an error uploading your file.";

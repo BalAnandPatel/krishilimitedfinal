@@ -1,8 +1,20 @@
-    <?php 
+<?php 
     include "include/headerr.php"
-    ?>
-
-
+ ?>
+<?php
+  $url = $URL."exam/read_exam_list.php";
+  $data = array();
+  //print_r($data);
+	$postdata = json_encode($data);
+	$client = curl_init($url);
+	curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
+	//curl_setopt($client, CURLOPT_POST, 5);
+	curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
+	$response = curl_exec($client);
+ //print_r($response);
+  $result = json_decode($response);
+  //print_r($result);
+  ?>
 <head>
     <script src="/Scripts/dtjs/jquery.min.js"></script>
     
@@ -98,29 +110,52 @@
                 <table id="tblRecruitment" class="table table-striped table-bordered table-hover dataTable no-footer" style="width:100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <th style="width: 10% !important">Sr. No</th>
-                            <th style="width: 35% !important">Title</th>
-                            <th style="width: 10% !important">Start Date</th>
-                            <th style="width: 10% !important">End Date</th>
-                            <th style="width: 10% !important">Publish Date</th>
-                            <th style="width: 15% !important">Details</th>
-                            <th style="width: 10% !important">Action</th>
+                            <th style="width:auto;">Sr. No</th>
+                            <th style="width:auto;">Post Name</th>
+                            <th style="width:auto;">Totle Post</th>
+                            <th style="width:auto;">Start Date</th>
+                            <th style="width:auto;">End Date</th>
+                            <th style="width:auto;">Publish Date</th>
+                            <th style="width:auto;">Action</th>
                         </tr>
                     </thead>
                     <tbody id="tbodyRecruitment">
+                    <?php 
+								     
+                                     $counter=0;
+                                     foreach($result as $key => $value){
+                                     foreach($value as $key1 => $value1)
+                                     {
+                                     
+                                  ?>  
                         <tr>
-                            <td>1</td>
-                            <td>Application are invited for the engagement of One Consultant to be filled on a purely contractual basis for working in the Directorate of Wheat Development (DWD), Gurugram under National Food Security Mission(NFSM) scheme during 2023-24.</td>
-                            <td>03-04-2023</td>
-                            <td>24-04-2023</td>
-                            <td>03-04-2023</td>
-                            <td>Download (3.42MB) pdf</td>
+                            <td><?php echo ++$counter; ?></td>
+                            <td><?php echo $value1->exam_name; ?></td>
+                            <td><?php echo $value1->total_post; ?></td>
                             <td>
-                                <div>
-                                  <button class="form-control btn-info"><a href="../user/Instructions.php"> Apply </a></button>
+                                <?php  $date = date("d-m-Y",strtotime($value1->exam_date_start)); 
+                                echo $date=="01-01-1970" ? '0' : $date; ?>
+                            </td>
+                            <td>
+                                <?php  $date = date("d-m-Y",strtotime($value1->exam_date_end)); 
+                                echo $date=="01-01-1970" ? '0' : $date; ?>
+                            </td>
+                            <td>
+                                <?php  $date = date("d-m-Y",strtotime($value1->created_on)); 
+                                echo $date=="01-01-1970" ? '0' : $date; ?>
+                            </td>
+                            <td>
+                                
+                                <div class="btn">
+                                <form action="../user/Instructions.php" method="post">
+                                 <input type="hidden" name="id" value="<?php echo $value1->id; ?>">   
+                                 <input type="hidden" name="exam_name" value="<?php echo $value1->exam_name; ?>">   
+                                 <button type="submit" name="submit" class="btn btn-success text-white">Apply</button>
+                                </form>
                                 </div>
                             </td>
                         </tr>
+                        <?php } } ?>
                     </tbody>
                 </table>
             </div>

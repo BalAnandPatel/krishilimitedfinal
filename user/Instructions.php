@@ -1,3 +1,25 @@
+<?php
+  include "../constant.php";
+  if(isset($_POST["submit"])){
+  $exam_name = $_POST["exam_name"];
+  $id = $_POST["id"];
+  $url = $URL."exam/read_exam_details.php";
+  $data = array("id"=>$id, "exam_name"=>$exam_name);
+
+  //print_r($data);
+  $postdata = json_encode($data);
+  $client = curl_init($url);
+  curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
+  //curl_setopt($client, CURLOPT_POST, 5);
+  curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
+  $response = curl_exec($client);
+  //print_r($response);
+  $result = json_decode($response);
+  //print_r($result);
+  }else{
+  header('location:../website/rrecruitment.php');  
+  }
+  ?>
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -18,23 +40,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 <body class="hold-transition sidebar-mini">
 
-  <?php
-  // include "../constant.php";
-  // $exam_name = $_GET["examname"];
-  // $url = $URL."exam/read_exam_details.php";
-  // $data = array("exam_name"=>$exam_name);
-
-  // //print_r($data);
-  // $postdata = json_encode($data);
-  // $client = curl_init($url);
-  // curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
-  // //curl_setopt($client, CURLOPT_POST, 5);
-  // curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
-  // $response = curl_exec($client);
-  // //print_r($response);
-  // $result = json_decode($response);
-  // //print_r($result);
-  ?>
 
 <div class="wrapper">
 
@@ -80,31 +85,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
                      <th scope="col">POST ELIGIBILITY</th>
                      <th scope="col">APPLICATION FEE</th>
                      <th scope="col">AGE</th>
-                     <th scope="col">DATE</th>
+                     <th scope="col">START DATE</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php 
                      
-                    //  foreach($result as $key => $value){
-                    //  foreach($value as $key1 => $value1)
-                    //  {
+                     foreach($result as $key => $value){
+                     foreach($value as $key1 => $value1)
+                     {
                      
                     ?>  
                     <tr>
-                      <td><?php // echo $value1->exam_name; ?></td>
+                      <td><?php  echo $value1->exam_name; ?></td>
     
-                      <td><?php // echo $value1->eligibility; ?></td>
-                      <td><?php // echo $value1->amount; ?></td>
-                      <td><?php // echo $value1->age; ?></td>
+                      <td><?php  echo $value1->eligibility; ?></td>
+                      <td><?php  echo $value1->amount; ?></td>
+                      <td><?php  echo $value1->age; ?></td>
                       <td>
                         <?php 
-                        // $date = date("d-m-Y", strtotime($value1->exam_date_start)); 
-                        // echo $date=="01-01-1970" ? '0' : $date; 
+                         $date = date("d-m-Y", strtotime($value1->exam_date_start)); 
+                         echo $date=="01-01-1970" ? '0' : $date; 
                         ?>
                       </td>
                     </tr>
-                  <?php // } } ?>
+                  <?php  } } ?>
                   </tbody>
                 </table>
               </div>
@@ -145,7 +150,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="form-group">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                    <input type="hidden" name="exam_name" value="<?php // echo $exam_name; ?>">
+                    <input type="hidden" name="exam_name" value="<?php  echo $exam_name; ?>">
                     <label class="form-check-label" for="gridCheck">
                      I have downloaded Information Bulletin, read and understood all the Instructions therein as well as those mentioned above, and filling up the online application form accordingly.
                     </label>
@@ -153,7 +158,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </div>
                 <!-- <div class="btn btn-success">Click hear to Proceed</div> -->
                 <a href="registration.php">
-                <button type="submit" class="btn btn-success btn-sm btn-block">
+                <button type="submit" name="submit" class="btn btn-success btn-sm btn-block">
                   Click here to Proceed
                 </button>
               </a>

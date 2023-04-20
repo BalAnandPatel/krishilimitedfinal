@@ -13,7 +13,7 @@ if(isset($_POST["exam_name"])){
  $exam_date_end=date("d-m-Y", strtotime($_POST["exam_date_end"]));
  $admit_card_date=date("d-m-Y", strtotime($_POST["admit_card_date"]));
  $result_date=date("d-m-Y", strtotime($_POST["result_date"]));
- $date=date('d-m-Y h:i:s');
+ $date=date('d-m-y h:i:s');
  $url=$URL. "exam/insert_exam.php";
  $data = array("exam_name"=>$exam_name,"amount"=>$amount, "eligibility"=>$eligibility, 
  "total_post"=>$total_post, "type"=>$type, "age"=>$age, "exam_date_start"=>$exam_date_start,

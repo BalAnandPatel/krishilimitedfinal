@@ -22,13 +22,13 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Exam List Details</h1>
+            <h1>Exam Details</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Exam List Details</li>
-              <li class="breadcrumb-item active">Exam List Details</li>
+              <li class="breadcrumb-item active">Exam Details</li>
+              <li class="breadcrumb-item active">Exam List</li>
             </ol>
           </div>
         </div>
@@ -48,13 +48,13 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">EXAM LIST DETAILS</h3> 
+                <h3 class="card-title">EXAM DETAILS</h3> 
               </div>
               <!-- /.card-header -->
               <div class="card-body">
                 <table id="example1" class="table table-bordered table-striped text-center">
                   <thead>
-                  <tr>
+                  <tr class="table-warning">
                   
                     <th>S.N</th>
                     <th>Exam_Name</th>
@@ -66,7 +66,8 @@
                     <th>Exam Start Date</th>
                     <th>Result Date</th>
                     <th>Created Date</th>
-                    <th colspan="2">Action</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                   </tr>
                   	
                   </thead>
