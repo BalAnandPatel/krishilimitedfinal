@@ -105,7 +105,7 @@
             </div>
         </div> -->
 
-        <div class="form-control" id="divRecruitment" style="display:none;">
+        <div class="form-control" id="divRecruitment">
             <div class="row">
                 <table id="tblRecruitment" class="table table-striped table-bordered table-hover dataTable no-footer" style="width:100%" cellspacing="0">
                     <thead>

@@ -618,12 +618,12 @@ function giplCurl($api,$postdata){
           <form action="payment.php" method="post" enctype="multipart/form-data">
           <!-- <div class="col-4"  style="margin: 0px 281px 0px;"> -->
             <input type="hidden" name="id" value="<?php echo $value1->id; ?>" >
-            <input type="hidden" name="full_name" value="<?php echo $value1->full_name; ?>" readonly>
+            <input type="hidden" name="full_name" value="<?php echo $value1->full_name; ?>">
 
-            <input type="hidden" name="registration_no" value="<?php echo $value1->registration_no; ?>" readonly>
+            <input type="hidden" name="registration_no" value="<?php echo $value1->registration_no; ?>">
 
-                <input type="hidden" name="exam_name" value="<?php echo $value1->exam_name; ?>" readonly>
-                <input type="hidden" name="mobile" value="<?php echo $value1->mobile; ?>" readonly>
+                <input type="hidden" name="exam_name" value="<?php echo $value1->exam_name; ?>">
+                <input type="hidden" name="mobile" value="<?php echo $value1->mobile; ?>">
             <button type="submit" class="btn btn-success btn-block">Confirm & Pay</button>
           </form>
           </div>

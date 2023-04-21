@@ -23,7 +23,7 @@ $data = json_decode(file_get_contents("php://input"));
 //print_r($data);
 
 $exam->exam_name=$data->exam_name;
-$exam->id=$data->id;
+// $exam->id=$data->id;
 
 $stmt = $exam->read_exam_details();
 $num = $stmt->rowCount();

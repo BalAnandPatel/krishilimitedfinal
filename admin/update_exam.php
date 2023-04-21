@@ -6,7 +6,7 @@
   $id = $_POST['id'];
 
   $url = $URL."exam/read_exam_details.php";
-  $data = array("exam_name"=>$exam_name, "id"=>$id);
+  $data = array("exam_name"=>$exam_name);
 
   //print_r($data);
   $postdata = json_encode($data);
