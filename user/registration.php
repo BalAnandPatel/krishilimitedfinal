@@ -52,7 +52,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
     border-top: 3px solid green;
 }
   body{
-    background-color: lightgrey;
+    background-color: #E9ECEF;
   }
 </style>
 <body class="hold-transition">
@@ -66,8 +66,8 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
     <br>
     <div class="container">
 
-    <h1 align="center">
-    <a href="#">REGISTRATION</a>
+    <h1 align="center" class="register-logo">
+    <a href="#"><b>REGISTRATION</b></a>
   </h1>
 
   <br>
