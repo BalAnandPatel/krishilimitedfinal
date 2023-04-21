@@ -85,21 +85,21 @@ include 'include/headerr.php';
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
+                        <img src="assets/images/resources/agri.jfif" style="border-radius: 50%; width: 40%;">
                         <h3 class="font_size">Agriculture</h3>
                         <a href="ser-agriculture.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
+                        <img src="assets/images/resources/ss-industry.jpg" style="border-radius: 50%; width: 29%;">
                         <h3 class="font_size">Small Scale Industry</h3>
                         <a href="ser-ssindustry.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
+                    <img src="assets/images/resources/animal.jpg" style="border-radius: 50%; width: 30%;">
                         <h3 class="font_size">Animal Husbandry</h3>
                         <a href="ser-animalhusbandry.php">Click here</a>
                     </div>
