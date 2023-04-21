@@ -476,14 +476,16 @@ include "../constant.php";
                         <!--Statistics start-->
 
 
-                        <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn3 expanded_opn expanded_opnion">
+                        <!-- <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn3 expanded_opn expanded_opnion">
                             <a id="pagesMegaMenu3" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="Statistics">
                                 Service
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
-                            </a>
-
+                                <span class="d_icon"><i class="fas fa-angle-down"></i></span>
+                            </a> -->
+                            <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="service.php">Services</a>
+                            </li>
 
                             <ul id="pagesSubMenu3" class="hs-sub-menu main-sub-menu animated expanded_opn" aria-labelledby="pagesMegaMenu3" style="width: 250px;">
 
