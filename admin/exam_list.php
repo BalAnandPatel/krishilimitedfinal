@@ -38,7 +38,11 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-      
+      <?php if(isset($_SESSION["exam_post_success"])){ ?>
+      <div class="alert alert-success text-center" id="success-alert" role="alert">
+        <?php echo $_SESSION["exam_post_success"]; unset($_SESSION["exam_post_success"]); ?>
+      </div>
+      <?php } ?>
         <div class="row">
           <div class="col-12">
             <div class="card">

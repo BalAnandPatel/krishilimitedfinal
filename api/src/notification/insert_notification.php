@@ -28,6 +28,7 @@ if(
 
 {
     $notification->n_title = $data->n_title;
+    // $notification->n_description = $data->n_description;
     $notification->created_by = $data->created_by;
     $notification->created_on = $data->created_on;
 

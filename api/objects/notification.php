@@ -24,11 +24,13 @@ class Notice{
         // prepare query
         $stmt = $this->conn->prepare($query);
         $this->n_title=htmlspecialchars(strip_tags($this->n_title));
+        // $this->n_description=htmlspecialchars(strip_tags($this->n_description));
         $this->created_by=htmlspecialchars(strip_tags($this->created_by));
         $this->created_on=htmlspecialchars(strip_tags($this->created_on));
         
         //bind values
         $stmt->bindParam(":n_title", $this->n_title);
+        // $stmt->bindParam(":n_description", $this->n_description);
         $stmt->bindParam(":created_by", $this->created_by);
         $stmt->bindParam(":created_on", $this->created_on);
     

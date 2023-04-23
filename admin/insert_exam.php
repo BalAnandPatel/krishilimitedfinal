@@ -1,3 +1,4 @@
+<?php include "../constant.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,19 +45,20 @@
     <br><br>
     <div class="row align-items-start card">
       
-
-
       <h2 class="login-box-msg"><b><u>Exam Details</u></b></h2>
-      
       <hr>
-     
+      <?php if(isset($_SESSION["exam_post_faild"])){ ?>
+      <div class="alert alert-danger text-center" id="success-alert" role="alert">
+        <?php echo $_SESSION["exam_post_faild"]; unset($_SESSION["exam_post_faild"]); ?>
+      </div>
+      <?php } ?>
       <form action="action/insert_exam_post.php" method="post" enctype="multipart/form-data">
       <div class="container-fluid">
 
   <div class="row">
     
          
-  <div class="col-sm-6">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
   <label for="input">Exam Name </label>
 
@@ -71,7 +73,7 @@
           </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
   <label for="input">Exam Type</label>
 
@@ -87,7 +89,7 @@
             </div>
  
   <div class="row">
-  <div class="col-sm-6">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
   <label for="input">Exam Amount</label>
 
@@ -101,7 +103,7 @@
           </div>
             </div>
           
-            <div class="col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
   <label for="input">Age</label>
 
@@ -117,7 +119,7 @@
           </div>
 
             <div class="row">
-  <div class="col-sm-6">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
   <label for="input">Eligibility</label>
 
@@ -131,7 +133,7 @@
           </div>
             </div>
           
-            <div class="col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
   <label for="input">Total Post</label>
 
@@ -149,7 +151,7 @@
             <div class="row">
 
     
-            <div class="col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="form-group">
   <label for="input">Exam Start Date </label>
 
@@ -163,7 +165,7 @@
           </div>
             </div>
 
-             <div class="col-sm-6">
+             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="form-group">
   <label for="input">Exam End date </label>
 
@@ -181,7 +183,7 @@
             <div class="row">
 
 
-             <div class="col-sm-6">
+             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="form-group">
   <label for="input">Admit Card Release Date </label>
 
@@ -195,7 +197,7 @@
           </div>
             </div>
 
-               <div class="col-sm-6">
+               <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="form-group">
   <label for="input">Result Release Date</label>
 

@@ -10,6 +10,14 @@
     }
 
     public $id,$full_name,$registration_no,$dob,$mobile,$exam_name,$type,$age,$total_post,$amount,$eligibility,$status,$exam_date_start,$exam_date_end,$result_date,$admit_card_date,$created_by,$created_on,$updated_on,$updated_by;
+    
+    public function read_only_examname(){
+        $query="Select exam_name from " .$this->table_name .  " where exam_name=:exam_name";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(":exam_name", $this->exam_name); 
+        $stmt->execute();
+        return $stmt;
+    }
 
     public function read_exam(){
         $query="Select  id,exam_name,type,age, amount,status,exam_date_start, result_date,admit_card_date,created_by,created_on

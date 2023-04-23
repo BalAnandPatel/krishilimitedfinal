@@ -3,7 +3,7 @@ include '../../constant.php';
 // var_dump($_POST);
 // if(isset($_POST["full_name"])){
 $n_title=ucfirst($_POST["n_title"]);
-$n_description=ucfirst($_POST["n_description"]);
+// $n_description=ucfirst($_POST["n_description"]);
 $created_on=date("Y-m-d H:i:s");
 $created_by="Admin";
 

@@ -15,19 +15,41 @@ if(isset($_POST["exam_name"])){
  $result_date=date("d-m-Y", strtotime($_POST["result_date"]));
  $date=date('d-m-y h:i:s');
  $url=$URL. "exam/insert_exam.php";
- $data = array("exam_name"=>$exam_name,"amount"=>$amount, "eligibility"=>$eligibility, 
- "total_post"=>$total_post, "type"=>$type, "age"=>$age, "exam_date_start"=>$exam_date_start,
- "admit_card_date"=>$admit_card_date, "result_date"=>$result_date, "status"=>"1", "created_by"=>"Admin",
- "exam_date_end"=>$exam_date_end, "created_on"=>$date);
+ $read_exam_url=$URL. "exam/read_only_examname.php";
+ $read_exam_data = array("exam_name"=>$exam_name);
+  //print_r($data);
+  $read_exam_postdata = json_encode($read_exam_data);
+  $read_exam_result=url_encode_Decode($read_exam_url,$read_exam_postdata);
+  //print_r($read_exam_result);
+  $check_exam=$read_exam_result->records[0]->exam_name;
+  $text=strcmp($check_exam,$exam_name);
+  //echo $text;
+  //print_r($check_exam);
+  if($read_exam_result->message="No exam name found" && $text!='0'){
 
- //print_r($data);
- $postdata = json_encode($data);
- $result=url_encode_Decode($url,$postdata);
- //print_r($result);
+// echo "Not Matchd";
+$data = array("exam_name"=>$exam_name,"amount"=>$amount, "eligibility"=>$eligibility, 
+"total_post"=>$total_post, "type"=>$type, "age"=>$age, "exam_date_start"=>$exam_date_start,
+"admit_card_date"=>$admit_card_date, "result_date"=>$result_date, "status"=>"1", "created_by"=>"Admin",
+"exam_date_end"=>$exam_date_end, "created_on"=>$date);
+
+//print_r($data);
+$postdata = json_encode($data);
+$result=url_encode_Decode($url,$postdata);
+//print_r($result);
  if($result->message=="Successfull"){
+ $msg="Successfully Created";
+ $_SESSION["exam_post_success"]=$msg;   
  header('Location:../exam_list.php');
+ }else{
+ header('Location:../insert_exam.php');
  } 
- header('Location:../exam_list.php');
+  }else{
+ $msg="Exam name can not be same.";
+ $_SESSION["exam_post_faild"]=$msg;
+header('location:../insert_exam.php');
+  }
+
  }
 
  function url_encode_Decode($url,$postdata){
