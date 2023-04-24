@@ -45,7 +45,7 @@
     <br><br>
     <div class="row align-items-start card">
       
-      <h2 class="login-box-msg"><b><u>Exam Details</u></b></h2>
+      <h2 class="login-box-msg"><b><u>Vacancy Details</u></b></h2>
       <hr>
       <?php if(isset($_SESSION["exam_post_faild"])){ ?>
       <div class="alert alert-danger text-center" id="success-alert" role="alert">
@@ -60,28 +60,28 @@
          
   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
-  <label for="input">Exam Name </label>
+  <label for="input">Post Name </label>
 
           <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-boxes"></span>
               </div>
-              <input type="text" class="form-control" placeholder="Exam Name" name="exam_name" autocomplete="off" required  data-toggle="tooltip" title="Please Enter Full Name">         
+              <input type="text" class="form-control" placeholder="Post Name" name="exam_name" autocomplete="off" required  data-toggle="tooltip" title="Please Enter Full Name">         
           
           </div>
-          <small id="emailHelp" class="form-text text-muted">Exam Name can not be same.</small>
+          <small id="emailHelp" class="form-text text-muted">Post Name can not be same.</small>
           </div>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
-  <label for="input">Exam Type</label>
+  <label for="input">Post Type</label>
 
           <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-boxes"></span>
               </div>
-              <input type="text" class="form-control" placeholder="Exam Type" name="type" autocomplete="off" required  data-toggle="tooltip" title="Please Enter Full Name">         
+              <input type="text" class="form-control" placeholder="Post Type" name="type" autocomplete="off" required  data-toggle="tooltip" title="Please Enter Full Name">         
           
           </div>
           </div>
@@ -91,13 +91,13 @@
   <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                <div class="form-group">
-  <label for="input">Exam Amount</label>
+  <label for="input">Post Amount</label>
 
           <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-boxes"></span>
               </div>
-              <input type="text" class="form-control" placeholder="Exam Amount" name="amount" autocomplete="off" required  data-toggle="tooltip" title="Please Enter Full Name">         
+              <input type="text" class="form-control" placeholder="Post Amount" name="amount" autocomplete="off" required  data-toggle="tooltip" title="Please Enter Full Name">         
           
           </div>
           </div>

@@ -22,13 +22,13 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Exam Details</h1>
+            <h1>Vacancy Details</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Exam Details</li>
-              <li class="breadcrumb-item active">Exam List</li>
+              <li class="breadcrumb-item active">Vacancy Details</li>
+              <li class="breadcrumb-item active">Vacancy List</li>
             </ol>
           </div>
         </div>
@@ -52,7 +52,7 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">EXAM DETAILS</h3> 
+                <h3 class="card-title">VACANCY DETAILS</h3> 
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -61,14 +61,13 @@
                   <tr class="table-warning">
                   
                     <th>S.N</th>
-                    <th>Exam_Name</th>
+                    <th>Post_Name</th>
                     <th>Type</th>
                     <th>Amount</th>
                     <th>Age</th>
                     <th>Status</th>
-                    <th>Admit Card Date</th>
-                    <th>Exam Start Date</th>
-                    <th>Result Date</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
                     <th>Created Date</th>
                     <th>Edit</th>
                     <th>Delete</th>
@@ -93,12 +92,6 @@
                     <td><?php echo $value1->age; ?></td>
                     <td><?php if($value1->status==0) echo "PENDING"; elseif($value1->status==1) echo "ACTIVE"; elseif($value1->status==2) echo "DISABLEDA"; ?></td>
 
-                    <td>
-                      <?php
-                       $date = date("d-m-Y",strtotime($value1->admit_card_date)); 
-                       echo $date=="01-01-1970" ? '0' : $date; 
-                      ?>
-                    </td>
 
                     <td>
                       <?php 
@@ -109,7 +102,7 @@
                     
                     <td>
                       <?php
-                       $date = date("d-m-Y",strtotime($value1->result_date)); 
+                       $date = date("d-m-Y",strtotime($value1->exam_date_end)); 
                        echo $date=="01-01-1970" ? '0' : $date; 
                       ?>
                     </td>
