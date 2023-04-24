@@ -107,7 +107,7 @@ function giplCurl($api,$postdata){
     
           <div class="col-sm-6">
           <div class="form-group">
-  <label for="input">Exam </label>
+  <label for="input">Post Name</label>
 
           <div class="input-group-append">
               <div class="input-group-text">
@@ -141,7 +141,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-calendar"></span>
               </div>
             <input type="text" class="form-control"  placeholder="<?php echo date("d-m-Y", strtotime($value1->dob)) ?>" readonly>         
 
@@ -204,7 +204,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-user"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->father_name ?>" readonly>         
                     </div>
@@ -217,7 +217,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-user"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->mother_name ?>" readonly>         
                     
@@ -268,7 +268,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-home"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->cor_address ?>" readonly>         
               
@@ -282,7 +282,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-home"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->address1 ?>" readonly>         
          
@@ -298,7 +298,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-home"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->address2 ?>" readonly>         
             </div>
@@ -311,7 +311,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-home"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->address3 ?>" readonly>         
        
@@ -342,7 +342,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-map-pin"></span>
               </div>
                <input type="text" class="form-control"  placeholder="<?php echo $value1->pincode ?>" readonly>                  
 
@@ -363,7 +363,7 @@ function giplCurl($api,$postdata){
 
           <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-boxes"></span>
+                <span class="fas fa-map-pin"></span>
               </div>
               
                <input type="text" class="form-control"  placeholder="<?php echo $value1->state ?>" readonly>                  
@@ -445,7 +445,7 @@ function giplCurl($api,$postdata){
   <label for="input">Highest Qualification </label>
       <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-boxes"></span>
+              <span class="fas fa-graduation-cap"></span>
             </div>
          <input type="text" class="form-control"  placeholder="<?php echo $value1->h_qualification ?>" readonly>                  
          

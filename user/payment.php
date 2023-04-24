@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 include '../constant.php';
 
 $exam_name=$_POST["exam_name"];

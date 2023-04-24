@@ -47,7 +47,7 @@
     <div class="card-body register-card-body">
       
       
-      <h2 class="login-box-msg"><b><u>Update Exam Details</u></b></h2>
+      <h2 class="login-box-msg"><b><u>Update Vacancy Details</u></b></h2>
       
       <hr>
      
@@ -68,7 +68,7 @@
          
   <div class="col-sm-6">
                <div class="form-group">
-  <label for="input">Exam Name </label>
+  <label for="input">Post Name </label>
 
           <div class="input-group-append">
               <div class="input-group-text">
@@ -78,13 +78,13 @@
               <input type="text" class="form-control" name="exam_name" value="<?php echo $value1->exam_name; ?>" autocomplete="off"  data-toggle="tooltip">         
           
           </div>
-           <small id="emailHelp" class="form-text text-muted">Exam Name can not be same.</small>
+           <small id="emailHelp" class="form-text text-muted">Post Name can not be same.</small>
           </div>
             </div>
 
             <div class="col-sm-6">
                <div class="form-group">
-  <label for="input">Exam Type</label>
+  <label for="input">Post Type</label>
 
           <div class="input-group-append">
               <div class="input-group-text">
@@ -100,7 +100,7 @@
   <div class="row">
   <div class="col-sm-6">
                <div class="form-group">
-  <label for="input">Exam Amount</label>
+  <label for="input">Post Amount</label>
 
           <div class="input-group-append">
               <div class="input-group-text">

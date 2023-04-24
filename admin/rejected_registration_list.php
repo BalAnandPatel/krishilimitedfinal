@@ -70,14 +70,15 @@ include "include/header.php";
                 <table id="example1" class="table table-bordered table-striped text-center">
                   <thead>
                   <tr>
-                  
-                    <th>User</th>
+                    <th>Sr_N.</th>
+                    <th>Post Name</th>
                     <th>Registration No.</th>
                     <th>Image</th>
                     <th>Name</th>
                     <th>Father Name</th>
                     <th>Mother Name</th>
-                    <th>Address</th>
+                    <th>Mobile No.</th>
+                    <th>Email id</th>
                     <th>Higher Education</th>
                     <th>Marks Obtained</th>
                     <th>Grade</th>
@@ -95,16 +96,17 @@ include "include/header.php";
                       $image = $ADMIN_IMG_PATH.$value1->id."/profile/".$value1->id.".png";
                   ?>  
                   <tr>
-                    <td><?php echo $value1->id ?></td>
+                    <td><?php echo ++$counter; ?></td>
+                    <td><?php echo $value1->exam_name; ?></td>
                     <td><?php echo $value1->registration_no ?></td>
                     <td><img class="img-fluid img-thumbnail" height="200" widht="200" src="<?php echo $image; ?>"></td>
                     
                     <td><?php echo $value1->full_name?></td>
                     <td><?php echo $value1->father_name ?></td>
                     <td><?php echo $value1->mother_name ?></td>
-                    <td><?php echo $value1->address1 ?></td>
+                    <td><?php echo $value1->mobile; ?></td>
+                    <td><?php echo $value1->email; ?></td>
                     <td><?php echo $value1->h_qualification ?></td>
-                    
                     <td><?php echo $value1->h_percentage ?></td>
                     <td><?php echo $value1->grade ?></td>
                     <td><?php if($value1->status==0) echo "PENDING"; elseif($value1->status==1) echo "ACTIVE"; elseif($value1->status==2) echo "REJECTED"; ?></td>

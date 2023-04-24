@@ -1,5 +1,4 @@
 <?php
-session_start();
 include '../../constant.php';
 include '../../common/php-jwt/src/JWT.php';
 include '../../common/php-jwt/src/ExpiredException.php';

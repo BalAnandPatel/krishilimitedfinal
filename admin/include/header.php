@@ -146,7 +146,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-hand-holding-usd"></i>
               <p>
-                Exam Details
+                Vacancy Details
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -155,13 +155,13 @@
               <li class="nav-item">
                 <a href="insert_exam.php" class="nav-link">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>Insert Exam</p>
+                  <p>Insert Vacancy</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="exam_list.php" class="nav-link">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>Exam  List</p>
+                  <p>Vacancy List</p>
                 </a>
               </li>
               <!-- <li class="nav-item">

@@ -23,13 +23,13 @@ include "include/header.php";
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Approved Members Details</h1>
+            <h1>Approved Registration Details</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Members Details</li>
-              <li class="breadcrumb-item active">Approved Members Details</li>
+              <li class="breadcrumb-item active">Registration Details</li>
+              <li class="breadcrumb-item active">Approved Registration Details</li>
             </ol>
           </div>
         </div>
@@ -39,18 +39,6 @@ include "include/header.php";
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-      <?php if(isset($_SESSION['registration'])) {?>
-        <?php if(($_SESSION['registration']=="Payment Slip Rejected Successfully.")) {?> 
-    <div class="alert alert-success" id="success-alert" role="alert">
-                <?php echo $_SESSION['registration']; unset($_SESSION['registration'])?> 
-               </div>
-            <?php  }
-            else {         
-            ?>
-            <div class="alert alert-danger" id="success-alert" role="alert">
-                <?php echo $_SESSION['registration']; unset($_SESSION['registration'])?> 
-               </div>
-            <?php }} ?>
      
         <div class="row">
           <div class="col-12">
@@ -61,7 +49,7 @@ include "include/header.php";
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">APPROVED MEMBER DETAILS</h3> 
+                <h3 class="card-title">APPROVED REGISTRATION DETAILS</h3> 
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -69,24 +57,26 @@ include "include/header.php";
                   <thead>
                   <tr>
                   
-                    <th>User</th>
+                    <th>Sr_N.</th>
+                    <th>Post Name</th>
                     <th>Registration No.</th>
                     <th>Image</th>
                     <th>Name</th>
                     <th>Father Name</th>
                     <th>Mother Name</th>
-                    <th>Address</th>
+                    <th>Mobile No.</th>
+                    <th>Email id</th>
                     <th>Higher Education</th>
                     <th>Marks Obtained</th>
                     <th>Grade</th>
                     <th>Status</th>
-                    <th>Reg. Date</th>
+                    <th>Reg. Date</th>                  
                   </tr>
                   	
                   </thead>
                   <tbody>
                   <?php 
-								     
+								     $counter='0';
                      foreach($result as $key => $value){
                      foreach($value as $key1 => $value1)
                      {
@@ -94,14 +84,16 @@ include "include/header.php";
                       $image = $ADMIN_IMG_PATH.$value1->id."/profile/".$value1->id.".png";
                   ?>  
                   <tr>
-                    <td><?php echo $value1->id ?></td>
+                    <td><?php echo ++$counter; ?></td>
+                    <td><?php echo $value1->exam_name; ?></td>
                     <td><?php echo $value1->registration_no ?></td>
                     <td><img class="img-fluid img-thumbnail" height="200" widht="200" src="<?php echo $image; ?>"></td>
                     
                     <td><?php echo $value1->full_name?></td>
                     <td><?php echo $value1->father_name ?></td>
                     <td><?php echo $value1->mother_name ?></td>
-                    <td><?php echo $value1->address1 ?></td>
+                    <td><?php echo $value1->mobile; ?></td>
+                    <td><?php echo $value1->email; ?></td>
                     <td><?php echo $value1->h_qualification ?></td>
                     
                     <td><?php echo $value1->h_percentage ?></td>
