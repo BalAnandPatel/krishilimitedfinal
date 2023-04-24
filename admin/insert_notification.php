@@ -80,7 +80,7 @@ include "include/header.php";
         </form>
           <!-- /.card-body -->
           <div class="card-footer">
-            SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION (OPC) PRIVATE LIMITED.
+          SHYAMAVSVSS KRISHI LIMITED
           </div>
         </div>
         <!-- /.card -->

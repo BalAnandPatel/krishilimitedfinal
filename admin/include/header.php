@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <title>SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION PRIVATE LIMITED</title>
+  <title>SHYAMAVSVSS KRISHI LIMITED</title>
   <!-- jsGrid -->
   <link rel="stylesheet" href="../common/plugins/jsgrid/jsgrid.min.css">
   <link rel="stylesheet" href="../common/plugins/jsgrid/jsgrid-theme.min.css">
@@ -44,7 +44,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="../website/assets/images/resources/logo-1.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="../website/assets/images/resources/.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -99,7 +99,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <img src="../website/assets/images/resources/logo-1.png" alt="AdminLTE Logo" class="brand-image img-circle bg-white elevation-3" style="opacity: .8">
+      <img src="../website/assets/images/resources/.png" alt="AdminLTE Logo" class="brand-image img-circle bg-white elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Admin Control</span>
     </a>
 
