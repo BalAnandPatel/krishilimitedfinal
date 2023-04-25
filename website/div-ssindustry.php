@@ -50,7 +50,7 @@ include 'include/headerr.php';
                     </a>
                 </li>
                 <li class="breadcrumb-item font_size active" aria-current="page">Division</li>
-                <li class="breadcrumb-item font_size active" aria-current="page">Smalll Scale Industry</li>
+                <li class="breadcrumb-item font_size active" aria-current="page">Small Scale Industry</li>
 
             </ol>
         </nav>
@@ -229,6 +229,108 @@ include 'include/headerr.php';
                 </h2>
             </div> -->
 
+
+            <br>
+            <br>
+
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 style="color: white;">Fish Food Making</h1>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-3"><img src="assets/images/sector/fishfood.jpg" style="width: 100%;" alt="cooperation" /></div>
+                            <div class="col-lg-9" style="text-align:justify">
+                                <div class="row">
+                                    <div class="adminlist-group">
+                                        <ul>
+                                            <p>
+                                            Aquarium fish feed is plant or animal material intended for consumption by pet fish kept in aquariums or ponds. Fish foods normally contain macronutrients, trace elements and vitamins necessary to keep captive fish in good health. Approximately 80% of fishkeeping hobbyists feed their fish exclusively prepared foods that most commonly are produced in flake, pellet or tablet form. Pelleted forms, some of which sink rapidly, are often used for larger fish or bottom feeding species such as loaches or catfish.[citation needed] Some fish foods also contain additives such as sex hormones or beta carotene to artificially enhance the color of ornamental fish.
+                                            </p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+            <br>
+            <br>
+
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 style="color: white;">Silai Kadai</h1>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-9" style="text-align:justify">
+                                <div class="row">
+                                    <div class="adminlist-group">
+                                        <ul>
+                                            <p>Machine embroidery is an embroidery process whereby a sewing machine or embroidery machine is used to create patterns on textiles. It is used commercially in product branding, corporate advertising, and uniform adornment. It is also used in the fashion industry to decorate garments and apparel. Machine embroidery is used by hobbyists and crafters to decorate gifts, clothing, and home decor. Examples include designs on quilts, pillows, and wall hangings.</p>
+                                            <p>There are multiple types of machine embroidery. Free-motion sewing machine embroidery uses a basic zigzag sewing machine. Designs are done manually. Most commercial embroidery is done with link stitch embroidery. In link stitch embroidery, patterns may be manually or automatically controlled. Link Stitch embroidery is also known as chenille embroidery, and was patented by Pulse Microsystems in 1994. More modern computerized machine embroidery uses an embroidery machine or sewing/embroidery machine that is controlled with a computer that embroiders stored patterns.[citation needed] These machines may have multiple heads and threads.</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3"><img src="assets/images/sector/silai.jpg" style="width: 100%;" alt="cooperation" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 style="color: white;">Moti ki Mala</h1>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-3"><img src="assets/images/sector/moti-mala.jpg" style="width: 100%;" alt="cooperation" /></div>
+                            <div class="col-lg-9" style="text-align:justify">
+                                <div class="row">
+                                    <div class="adminlist-group">
+                                        <ul>
+                                            <p>A japamala, jaap maala, or simply mala (Sanskrit: माला; mālā, meaning 'garland') is a loop of prayer beads commonly used in Indian religions such as Hinduism, Jainism, Sikhism, and Buddhism for counting recitations when performing japa (reciting a mantra or other sacred sound) or for counting some other sadhana (spiritual practice) such as prostrating before a holy icon. They are similar to other forms of prayer beads used in various world religions (such as misbahahs in Islam) and are sometimes referred to in Christianity as a "rosary".</p>
+                                            <p>The main body of a mala is usually 108 beads of roughly the same size and material as each other though smaller versions, often factors of 108 such as 54 or 27, exist. A distinctive 109th "guru bead", not used for counting, is very common. Mala beads have traditionally been made of a variety of materials such as wood, stone, seeds, bone and precious metals—with various religions often favouring certain materials—and strung with natural fibres such as cotton, silk, or animal hair. Mala can nowadays be found which are made from synthetic materials (such as plastic or glass beads, and nylon cords whether braided string or monofilament).</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
 
 
             <br><br>

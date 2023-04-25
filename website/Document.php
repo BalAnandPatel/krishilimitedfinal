@@ -65,7 +65,7 @@ include "include/headerr.php"
                             </a>
                         </li>
 
-                        <li class="breadcrumb-item active" aria-current="page">MoU</li>
+                        <li class="breadcrumb-item active" aria-current="page">Documents</li>
                     </ol>
                 </nav>
             </div>
@@ -77,7 +77,7 @@ include "include/headerr.php"
 
 
         <div class="footer_content">
-            <h4 class="font_size pb-2">MoU</h4>
+            <h4 class="font_size pb-2">Documents</h4>
         </div>
 
         <div class="container">
@@ -116,21 +116,21 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with ITC</h3>                                        
-                                        <a href="/Documents/ITC sign MoU.pdf" target="_blank">Click here (6.6 MB) 
+                                        <h3 class="font_size">Pan</h3>                                        
+                                        <a href="assets/pdf/PAN.pdf" target="_blank">Click here
                                         <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                            <p style="font-size:14px">Published On 14-09-2021</p>
+                                            <p style="font-size:14px">Published On 25-04-2023</p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with Agribazaar</h3>
-                                        <a href="/Documents/MOU AGRIBAZAAR.pdf" target="_blank">
-                                            Click here (3.5 MB)
+                                        <h3 class="font_size">MOA</h3>
+                                        <a href="assets/pdf/MOA.pdf" target="_blank">
+                                            Click here
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
@@ -141,9 +141,9 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with Amazon</h3>
-                                        <a href="/Documents/Signed MoU with Amazon_0.pdf" target="_blank">
-                                            Click here (4.1 MB)
+                                        <h3 class="font_size">DIN ALLOTMENT LETTER</h3>
+                                        <a href="assets/pdf/DIN ALLOTMENT LETTER.pdf" target="_blank">
+                                            Click here
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
@@ -154,9 +154,9 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with CISCO</h3>
-                                        <a href="/Documents/CISCO sign MoU.pdf" target="_blank">
-                                            Click here (7.5 MB)
+                                        <h3 class="font_size">SPICeINC9_INC0001219829</h3>
+                                        <a href="assets/pdf/SPICeINC9_INC0001219829.pdf" target="_blank">
+                                            Click here
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
@@ -167,9 +167,9 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with ESRI</h3>
-                                        <a href="/Documents/Signed MoU with ESRI.pdf" target="_blank">
-                                            Click here (6.0 MB)
+                                        <h3 class="font_size">SPICeAoA_INC0001219829</h3>
+                                        <a href="assets/pdf/SPICeAoA_INC0001219829.pdf" target="_blank">
+                                            Click here
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
@@ -180,9 +180,9 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with JIO</h3>
-                                        <a href="/Documents/JIO sign MoU.pdf" target="_blank">
-                                            Click here (5.1 MB)
+                                        <h3 class="font_size">AGILEPRO_INC0001219829</h3>
+                                        <a href="assets/pdf/AGILEPRO_INC0001219829.pdf" target="_blank">
+                                            Click here
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
@@ -193,8 +193,8 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with Microsoft</h3>
-                                        <a href="/Documents/Microsoft MoU.pdf" target="_blank">
+                                        <h3 class="font_size">CERTIFICATE OF INCORPORATION</h3>
+                                        <a href="assets/pdf/CERTIFICATE OF INCORPORATION (2).pdf" target="_blank">
                                             Click here (9.6 MB)
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
@@ -206,8 +206,8 @@ include "include/headerr.php"
                                 <div class="col-md-4 col-xl-4">
                                     <div class="single-mission font_size">
                                         <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with NeML</h3>
-                                        <a href="/Documents/NeML sign MoU.pdf" target="_blank">
+                                        <h3 class="font_size">ACCOUNT DETAIL</h3>
+                                        <a href="assets/pdf/ACCOUNT DETAIL.pdf" target="_blank">
                                             Click here (8.3 MB)
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
