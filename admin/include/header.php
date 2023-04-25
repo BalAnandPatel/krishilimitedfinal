@@ -204,7 +204,36 @@
             </ul>
           </li>
           
-          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+            <i class="fa fa-upload"></i>
+              <p>
+                Media & Gallery
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              
+              <li class="nav-item">
+                <a href="upload_gallery_image.php" class="nav-link">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  <p>Add Gallery images</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#notification_list.php" class="nav-link">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  <p>View Gallery</p>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="exam_list.php" class="nav-link">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  <p>Rejected Donation</p>
+                </a>
+              </li> -->
+            </ul>
+          </li>
         
         
         </ul>

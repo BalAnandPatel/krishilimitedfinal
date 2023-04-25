@@ -13,7 +13,7 @@ if(isset($_POST["exam_name"])){
  $exam_date_end=date("d-m-Y", strtotime($_POST["exam_date_end"]));
  $admit_card_date=date("d-m-Y", strtotime($_POST["admit_card_date"]));
  $result_date=date("d-m-Y", strtotime($_POST["result_date"]));
- $date=date('d-m-y h:i:s');
+ $created_on=date("d-m-y h:i:s");
  $url=$URL. "exam/insert_exam.php";
  $read_exam_url=$URL. "exam/read_only_examname.php";
  $read_exam_data = array("exam_name"=>$exam_name);
@@ -31,7 +31,7 @@ if(isset($_POST["exam_name"])){
 $data = array("exam_name"=>$exam_name,"amount"=>$amount, "eligibility"=>$eligibility, 
 "total_post"=>$total_post, "type"=>$type, "age"=>$age, "exam_date_start"=>$exam_date_start,
 "admit_card_date"=>$admit_card_date, "result_date"=>$result_date, "status"=>"1", "created_by"=>"Admin",
-"exam_date_end"=>$exam_date_end, "created_on"=>$date);
+"exam_date_end"=>$exam_date_end, "created_on"=>$created_on);
 
 //print_r($data);
 $postdata = json_encode($data);
@@ -47,7 +47,7 @@ $result=url_encode_Decode($url,$postdata);
   }else{
  $msg="Exam name can not be same.";
  $_SESSION["exam_post_faild"]=$msg;
-header('location:../insert_exam.php');
+ header('location:../insert_exam.php');
   }
 
  }
