@@ -1,7 +1,6 @@
 <?php
-
-  include "../constant.php";
-
+include "../constant.php";
+ if(isset($_POST['exam_name'])){
   $exam_name = $_POST['exam_name'];
   $id = $_POST['id'];
 
@@ -18,6 +17,9 @@
   //print_r($response);
   $result = json_decode($response);
   //print_r($result);
+ }else{
+ header('location:exam_list.php'); 
+ }
   ?>
 
 <!DOCTYPE html>
@@ -75,7 +77,7 @@
                 <span class="fas fa-boxes"></span>
               </div>
               <input type="hidden" name="id" value="<?php echo $value1->id; ?>">
-              <input type="text" class="form-control" name="exam_name" value="<?php echo $value1->exam_name; ?>" autocomplete="off"  data-toggle="tooltip">         
+              <input type="text" class="form-control" name="exam_name" value="<?php echo $value1->exam_name; ?>" autocomplete="off"  data-toggle="tooltip" readonly>         
           
           </div>
            <small id="emailHelp" class="form-text text-muted">Post Name can not be same.</small>

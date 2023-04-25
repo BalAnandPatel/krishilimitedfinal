@@ -120,7 +120,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <p class="card-text"><i class="fa fa-hand-point-right mr-2"></i>
                 Please read the Information Bulletin of <?php // echo $value1->exam_name; ?> <?php // echo date("M Y",strtotime($value1->exam_date_start)); ?> carefully before you start filling the Online Application  Form.</p>
                 <p class="card-text"><i class="fa fa-hand-point-right mr-2"></i>
-                Candidates can apply for <?php // echo $value1->exam_name; ?> <?php // echo date("M Y",strtotime($value1->exam_date_start)); ?> ‘ON-LINE’ through website https://ssegr.org.in
+                Candidates can apply for <?php // echo $value1->exam_name; ?> <?php // echo date("M Y",strtotime($value1->exam_date_start)); ?> ‘ON-LINE’ through website http://krishilimited.com
                 </p>
                 <p class="card-text"><i class="fa fa-hand-point-right mr-2"></i>
                   The candidate should supply all details while filling the Online Form. Candidates are required to take a print out of the computer generated Confirmation Page with Registration Number after successful submission of data.
