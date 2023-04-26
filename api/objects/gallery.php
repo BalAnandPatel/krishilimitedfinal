@@ -37,7 +37,7 @@ class Galley{
         return false;
           
     }
-    function read_notice_maxId(){
+    function read_gallery_maxId(){
         $query="Select max(id) as id from " . $this->table_name ."";
         $stmt = $this->conn->prepare($query); 
         $stmt->execute();
