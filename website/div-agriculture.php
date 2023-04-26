@@ -251,6 +251,105 @@ include 'include/headerr.php';
                 </h2>
             </div> -->
 
+            <br><br>
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 style="color: white;">Fish Farming</h1>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <br />
+                        <div class="row">
+                        <div class="col-lg-3"><img src="assets/images/sector/papaya.jpg" style="width: 100%;" alt="cooperation" /></div>
+                            <div class="col-lg-9" style="text-align:justify">
+                                <div class="row">
+                                    <div class="adminlist-group">
+                                        <ul>
+                                            <p>Papaya also known as “Carica papaya” is a tropical fruit having commercial importance because of its high nutritive and medicinal value. Papaya cultivation had its origin in South Mexico and Costa Rica.</p>
+                                            <p>Papaya is a popular fruit famous for its high nutritive and medicinal values. It comes early in bearing than any other fruit crop, produces fruits in less than a year and the production of fruits is quite high per unit area. Papaya is cultivated more or less on a commercial scale in the foothills and plain valleys of all states of the north eastern region. As per statistics available 3,670 hectares yield 47,280 tonnes of papaya annually. It is the fourth important crop of this region. Among the hill states, Mizoram has the largest area under this crop, followed by Tripura and Manipur, While in production Manipur contributes the maximum, followed by Tripura and Mizoram. Papaya is a native crop of Mexico, and was introduced in India in the 16th century. Now it has become popular all over India and is the fifth most commercially important fruit of the country.</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <br><br>
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 style="color: white;">Flower Farming</h1>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-9" style="text-align:justify">
+                                <div class="row">
+                                    <div class="adminlist-group">
+                                        <ul>
+                                            <p>Floriculture crops include beddings plants, houseplants, flowering garden and pot plants, cut cultivated greens, and cut flowers. As distinguished from nursery crops, floriculture crops are generally herbaceous. Bedding and garden plants consist of young flowering plants (annuals and perennials) and vegetable plants.</p>
+                                            <p>They are grown in cell packs (in flats or trays), in pots, or in hanging baskets, usually inside a controlled environment, and sold largely for gardens and landscaping. Pelargonium ("geraniums"), Impatiens ("busy lizzies"), and Petunia are the best-selling bedding plants. The many cultivars of Chrysanthemum are the major perennial garden plant in the United States.</p>
+                                            <p>Flowering plants are largely sold in pots for indoor use. The major flowering plants are poinsettias, orchids, florist chrysanthemums, and finished florist azaleas. Foliage plants are also sold in pots and hanging baskets for indoor and patio use, including larger specimens for office, hotel, and restaurant interiors.</p>
+                                            <p>Cut flowers are usually sold in bunches or as bouquets with cut foliage. The production of cut flowers is specifically known as the cut flower industry. Farming flowers and foliage employs special aspects of floriculture, such as spacing, training and pruning plants for optimal flower harvest; and post-harvest treatment such as chemical treatments, storage, preservation and packaging. In Australia and the United States some species are harvested from the wild for the cut flower market.</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3"><img src="assets/images/sector/flower.jpg" style="width: 100%;" alt="cooperation" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br><br>
+
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 style="color: white;">Aushadhi Farming</h1>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <br />
+                        <div class="row">
+                        <div class="col-lg-3"><img src="assets/images/sector/aushadhi.jpg" style="width: 100%;" alt="cooperation" /></div>
+                            <div class="col-lg-9" style="text-align:justify">
+                                <div class="row">
+                                    <div class="adminlist-group">
+                                        <ul>
+                                            <p>Floriculture crops include beddings plants, houseplants, flowering garden and pot plants, cut cultivated greens, and cut flowers. As distinguished from nursery crops, floriculture crops are generally herbaceous. Bedding and garden plants consist of young flowering plants (annuals and perennials) and vegetable plants.</p>
+                                            <p>They are grown in cell packs (in flats or trays), in pots, or in hanging baskets, usually inside a controlled environment, and sold largely for gardens and landscaping. Pelargonium ("geraniums"), Impatiens ("busy lizzies"), and Petunia are the best-selling bedding plants. The many cultivars of Chrysanthemum are the major perennial garden plant in the United States.</p>
+                                            <p>Flowering plants are largely sold in pots for indoor use. The major flowering plants are poinsettias, orchids, florist chrysanthemums, and finished florist azaleas. Foliage plants are also sold in pots and hanging baskets for indoor and patio use, including larger specimens for office, hotel, and restaurant interiors.</p>
+                                            <p>Cut flowers are usually sold in bunches or as bouquets with cut foliage. The production of cut flowers is specifically known as the cut flower industry. Farming flowers and foliage employs special aspects of floriculture, such as spacing, training and pruning plants for optimal flower harvest; and post-harvest treatment such as chemical treatments, storage, preservation and packaging. In Australia and the United States some species are harvested from the wild for the cut flower market.</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
 
             <br><br>

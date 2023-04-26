@@ -108,22 +108,22 @@ include 'include/headerr.php';
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
                         <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Farming</h3>
-                        <a href="div-contractfarming.php">Click here</a>
+                        <h3 class="font_size">Beekeeping</h3>
+                        <a href="div-bee.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
                         <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Credit</h3>
-                        <a href="/en/Credit">Click here</a>
+                        <h3 class="font_size">Egg Hechari</h3>
+                        <a href="div-egghechari.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
                         <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Crops</h3>
-                        <a href="/en/CropsDiv">Click here</a>
+                        <h3 class="font_size">Medical</h3>
+                        <a href="div-medical.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">

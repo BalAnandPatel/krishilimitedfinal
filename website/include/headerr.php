@@ -320,7 +320,7 @@ include "../constant.php";
                         <!--About Us Start-->
 
                         <li class="nav-item  custom-nav-item expanded_opn1 haschild expanded_opnion hs-has-sub-menu">
-                            <a id="pagesMegaMenu" class="nav-link font_size custom-nav-link main-link-toggle " href="javascript:void(0);"
+                            <a id="pagesMegaMenu" class="nav-link font_size custom-nav-link main-link-toggle " href="about.php"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="About Us">
                                 About Us
