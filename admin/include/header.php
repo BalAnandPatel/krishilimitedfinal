@@ -206,8 +206,8 @@
           
           <li class="nav-item">
             <a href="#" class="nav-link">
-            <i class="fa fa-upload"></i>
-              <p>
+            <i class="nav-icon fa fa-upload"></i>
+              <p> 
                 Media & Gallery
                 <i class="right fas fa-angle-left"></i>
               </p>
@@ -221,9 +221,9 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#notification_list.php" class="nav-link">
+                <a href="gallery_record.php" class="nav-link">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>View Gallery</p>
+                  <p>Gallery Records</p>
                 </a>
               </li>
               <!-- <li class="nav-item">

@@ -32,11 +32,11 @@ include "include/header.php";
           if(isset($_SESSION["gallerySuccessMsg"])){
           $success_msg = $_SESSION["gallerySuccessMsg"];
           echo '<div class="alert alert-success rounded-0" role="alert">'.$success_msg.'</div>';
-          unset($success_msg);
+          unset($_SESSION["gallerySuccessMsg"]);
           } else if(isset($_SESSION["galleryErrors"])){
           $error_msg = $_SESSION["galleryErrors"];
           echo '<div class="alert alert-danger rounded-0" role="alert">'.$error_msg.'</div>';
-          unset($error_msg);
+          unset($_SESSION["galleryErrors"]);
           }
         
 

@@ -7,7 +7,7 @@ $URL="http://localhost/Krishilimited/krishilimitedfinal/api/src/";
 $EXAM_NAME="UPPCL EXAMINATION";
 
 $ADMIN_IMG_PATH="http://localhost/Krishilimited/krishilimitedfinal/user/img/";
-
+$GALLERY_IMG_PATH="http://localhost/Krishilimited/krishilimitedfinal/admin/image/gallery/";
     
  $HOME="website/index.php"; 
 

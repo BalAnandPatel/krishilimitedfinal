@@ -1,7 +1,19 @@
 <?php 
 include 'include/headerr.php'; 
 ?>
-  
+<?php
+$url = $URL."gallery/read_galley.php";
+$data = array();
+//print_r($data);
+$postdata = json_encode($data);
+$client = curl_init($url);
+curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
+curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
+$response = curl_exec($client);
+//print_r($response);
+$result = json_decode($response);
+//print_r($result);
+?>  
   <!DOCTYPE html>
 <html>
 
@@ -123,29 +135,16 @@ include 'include/headerr.php';
                 <div class="container">
 
                     <div class="row photos">
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_0184.jfif" data-lightbox="photos" data-alt="YogaDay1"><img class="img-fluid" src="assets/images/resources/shri-kailash-choudhary.jpg" alt="YogaDay1"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/images/resources/sushri-shobha-karandlaje.jpg" target="_blank" data-lightbox="photos" data-alt="AgMinisterConf1"><img class="img-fluid" src="assets/images/resources/sushri-shobha-karandlaje.jpg" alt="AgMinisterConf1"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_0201.jfif" data-lightbox="photos" data-alt="YogaDay2"><img class="img-fluid" src="assets/images/resources/shri-narendra-singh-tomar.jpg" alt="YogaDay2"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 04.jpg" data-lightbox="photos" data-alt="AgMinisterConf2"><img class="img-fluid" src="/Gallery/HAM 04.jpg" alt="AgMinisterConf2"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_0280.jfif" data-lightbox="photos" data-alt="YogaDay3"><img class="img-fluid" src="/Gallery/DSC_0280.jfif" alt="YogaDay3"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 08.jpg" data-lightbox="photos" data-alt="AgMinisterConf3"><img class="img-fluid" src="/Gallery/HAM 08.jpg" alt="AgMinisterConf3"></a></div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_0287.jfif" data-lightbox="photos" data-alt="YogaDay4"><img class="img-fluid" src="/Gallery/DSC_0287.jfif" alt="YogaDay4"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 01.jpg" data-lightbox="photos" data-alt="AgMinisterConf4"><img class="img-fluid" src="/Gallery/HAM 01.jpg" alt="AgMinisterConf4"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_7875_0.jfif" data-lightbox="photos" data-alt="KisanDiwas"><img class="img-fluid" src="/Gallery/DSC_7875_0.jfif" alt="KisanDiwas"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 03.jpg" data-lightbox="photos" data-alt="AgMinisterConf5"><img class="img-fluid" src="/Gallery/HAM 03.jpg" alt="AgMinisterConf5"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_0280.jfif" data-lightbox="photos" data-alt="YogaDay5"><img class="img-fluid" src="/Gallery/DSC_0280.jfif" alt="YogaDay5"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 05.jpg" data-lightbox="photos" data-alt="AgMinisterConf6"><img class="img-fluid" src="/Gallery/HAM 05.jpg" alt="AgMinisterConf6"></a></div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_0191.jfif" data-lightbox="photos" data-alt="YogaDay6"><img class="img-fluid" src="/Gallery/DSC_0191.jfif" alt="YogaDay6"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM, MoSs 01.jpg" data-lightbox="photos" data-alt="NeuSmartVillage"><img class="img-fluid" src="/Gallery/HAM, MoSs 01.jpg" alt="NeuSmartVillage"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_7906.jfif" data-lightbox="photos" data-alt="OfficeProgram"><img class="img-fluid" src="/Gallery/DSC_7906.jfif" alt="OfficeProgram"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 09.jpg" data-lightbox="photos" data-alt="AgMinisterConf7"><img class="img-fluid" src="/Gallery/HAM 09.jpg" alt="AgMinisterConf7"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_7909.jfif" data-lightbox="photos" data-alt="OfficeProgram1"><img class="img-fluid" src="/Gallery/DSC_7909.jfif" alt="OfficeProgram1"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM 10.jpg" data-lightbox="photos" data-alt="AgMinisterConf8"><img class="img-fluid" src="/Gallery/HAM 10.jpg" alt="AgMinisterConf8"></a></div>
-
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/DSC_7911.jfif" data-lightbox="photos" data-alt="KisanDiwas1"><img class="img-fluid" src="/Gallery/DSC_7911.jfif" alt="KisanDiwas1"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="/Gallery/HAM, MoSs 10.jpg" data-lightbox="photos" data-alt="ConsultativeCommMem"><img class="img-fluid" src="/Gallery/HAM, MoSs 10.jpg" alt="ConsultativeCommMem"></a></div>
+                    <?php 
+                       
+                       $counter=0;  
+                       foreach($result as $key => $value){
+                       foreach($value as $key1 => $value1)
+                      {
+                      $image = $GALLERY_IMG_PATH."gallery_img".$value1->id.".png";
+                    ?>
+                        <div class="col-sm-6 col-md-4 col-lg-3 pt-3 item"><a href="#" data-lightbox="photos" data-alt="YogaDay1"><img class="img-fluid img-thumbnail" src="<?php echo $image; ?>" alt="gallery image"></a></div>
+                     <?php } } ?>
                     </div>
                 </div>
             </div>
@@ -154,7 +153,7 @@ include 'include/headerr.php';
 
             <ul>
 
-                <li class="breadcrumb-item font_size active" aria-current="page">Publish Date :16-10-2022</li>
+                <!-- <li class="breadcrumb-item font_size active" aria-current="page">Publish Date :16-10-2022</li>  -->
 
             </ul>
         </div>

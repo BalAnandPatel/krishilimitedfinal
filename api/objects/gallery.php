@@ -44,9 +44,9 @@ class Galley{
         return $stmt;
     }
 
-    function read_notification(){
+    function read_gallery(){
         $query="Select 
-        id, n_title, created_by, created_on
+        id, created_on, created_by
         
         from " .$this->table_name;
         $stmt = $this->conn->prepare($query); 
