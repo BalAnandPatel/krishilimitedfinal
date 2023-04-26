@@ -81,7 +81,7 @@ $result = json_decode($response);
                   <tr>
                     <td class="col-md-1"><?php echo ++$counter; ?> </td>
                     <td><?php echo $value1->n_title; ?></td>
-                    <td class="w-25"><a href="image/<?php echo $value1->id;?>/pdf/<?php echo $value1->id;?>.pdf" target="_blank"><button class="btn btn-secondary btn-sm text-white rounded-0">View PDF</button></a></td>
+                    <td class="w-25"><a href="image/notification_pdf/<?php echo $value1->id;?>/pdf/<?php echo $value1->id;?>.pdf" target="_blank"><button class="btn btn-secondary btn-sm text-white rounded-0">View PDF</button></a></td>
                     <td class="col-md-1">
                       <form action="action/notification_delete_post.php" method="post">
                       <input type="hidden" name="id" value="<?php echo $value1->id; ?>">

@@ -317,7 +317,7 @@ $result = json_decode($response);
                  foreach($result as $key => $value){
                  foreach($value as $key1 => $value1)
                 {
-              $pdf_path = "../admin/image/".$value1->id."/pdf/".$value1->id.".pdf";
+              $pdf_path = "../admin/image/notification_pdf/".$value1->id."/pdf/".$value1->id.".pdf";
             ?>
  <li class="list-group-item d-flex"><p class="p-0 m-0 flex-grow-1 text-danger"><u><?php echo $value1->n_title; ?></u></p> 
  <a href="<?php echo $pdf_path; ?>" target="_blank"><button class="btn btn-danger btn-sm rounded-0">View PDF</button></a>

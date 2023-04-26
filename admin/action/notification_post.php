@@ -35,8 +35,8 @@ if($result_notification->message=="Successfull"){
 
 /*--- update the images in img folder inside user folder ---*/
 
-    $target_dir = "../image/";
-    $path="../image/".$id."/pdf/";
+    $target_dir = "../image/notification_pdf/";
+    $path="../image/notification_pdf/".$id."/pdf/";
     if (!is_dir($path)){
     mkdir($path, 0777, true);
     //echo "directory created";
