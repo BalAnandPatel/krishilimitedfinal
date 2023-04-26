@@ -312,9 +312,7 @@ include "../constant.php";
                     <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="index.php">Home</a>
                         </li>
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="rrecruitment.php">Recruitment</a>
-                        </li>
+                        
                         <!---Home end --->
 
                         <!--About Us Start-->
@@ -784,11 +782,11 @@ include "../constant.php";
                         </li>
                         <!---Digital end --->
                         <!--Dashbord start-->
-                        <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn7 expanded_opnion">
+                        <!-- <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn7 expanded_opnion">
                             <a id="pagesMegaMenu7" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
                                aria-label="Dashboard">
                                 Dashboard
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
+                                <span class="d_icon"><i class="fas fa-angle-down"></i></span>
                             </a>
 
 
@@ -833,11 +831,15 @@ include "../constant.php";
                                     </ul>
                                 </li>
 
-                            </ul>
+                            </ul> -->
 
                         </li>
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link redirectconfirmation" href="https://amd-india.net" target="_blank">Indo-Ger AMD</a>
+                        </li>
+
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="rrecruitment.php">Recruitment</a>
                         </li>
 
                         <!---Contact start --->
