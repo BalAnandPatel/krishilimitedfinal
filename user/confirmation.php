@@ -1,8 +1,7 @@
 <?php
-session_start();
+include "../constant.php";
 //error_reporting(0);
 
-include "../constant.php";
 //$id=$_GET["id"];
 $url = $URL ."registration/read_profile_by_id.php";
 $transaction_id=$_SESSION['transaction_id'];

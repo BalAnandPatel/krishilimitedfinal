@@ -1,5 +1,4 @@
 <?php
-session_start();
 include '../constant.php';
 
 if($_SESSION["ID"]!=""){

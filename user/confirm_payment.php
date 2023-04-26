@@ -1,20 +1,18 @@
 <?php
-session_start();
-
 include '../constant.php';
 
-$id=$_SESSION['user_id'];
-$full_name=$_SESSION['full_name'];
-// $full_name = "mrityunjay";
-// $id='69';
-$registration_no=$_SESSION['registration_no'];
-// $registration_no='4038938846';
-$exam_name=$_SESSION['exam_name'];
-// $exam_name="UPTET";
-$transaction_id=$_SESSION['transaction_id'];
-// $transaction_id = "pay_Kpl1kJznmjhMeb";
-$amount=$_SESSION['amount'];
-// $amount='1';
+// $id=$_SESSION['user_id'];
+$id='69';
+// $full_name=$_SESSION['full_name'];
+$full_name = "MRITYUNJAY SINGH";
+// $registration_no=$_SESSION['registration_no'];
+$registration_no='1334141737';
+// $exam_name=$_SESSION['exam_name'];
+$exam_name="UPPCS";
+// $transaction_id=$_SESSION['transaction_id'];
+$transaction_id = "pay_LiOsKSkH0F8qUB";
+// $amount=$_SESSION['amount'];
+$amount='100';
 
 $url = $URL . "payment/confirm_payment.php";
 

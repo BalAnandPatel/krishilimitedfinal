@@ -88,7 +88,7 @@ else
 
 echo $html;
 echo '<script type="text/javascript">
-window.location = "http://ssegr.org.in/user/confirm_payment.php"
+window.location = "https://krishilimited.com/user/confirm_payment.php"
 </script>';
 
 

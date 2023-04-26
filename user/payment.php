@@ -1,11 +1,17 @@
 <?php
 include '../constant.php';
 
-$exam_name=$_POST["exam_name"];
-$mobile=$_POST["mobile"];
-$registration_no=$_POST["registration_no"];
-$full_name=$_POST["full_name"];
-$id=$_POST["id"];
+// $exam_name=$_POST["exam_name"];
+$exam_name="UPPCS";
+// $mobile=$_POST["mobile"];
+$mobile='123456789';
+$registration_no='2787135741';
+// $registration_no=$_POST["registration_no"];
+$full_name="MRITYUNJAY SINGH";
+// $full_name=$_POST["full_name"];
+// $id='68'; //id on server
+$id='69';
+// $id=$_POST["id"];
 
 $img="img/".$id."/profile"."/".$id.".png";
 $img_thumb="img/".$id."/profile"."/".$id."_thumb".".png";
@@ -18,10 +24,14 @@ $postdata1 = json_encode($data);
 $results=giplCurl($url,$postdata1);
 //print_r($results);
 
-$_SESSION['exam_name'] = $_POST["exam_name"];
-$_SESSION['registration_no'] = $_POST["registration_no"];
-$_SESSION['user_id'] = $_POST["id"];
-$_SESSION['full_name'] = $_POST["full_name"]; 
+// $_SESSION['exam_name'] = $exam_name;
+$_SESSION['exam_name'] = $exam_name;
+// $_SESSION['registration_no'] = $_POST["registration_no"];
+$_SESSION['registration_no'] = $registration_no;
+// $_SESSION['user_id'] = $_POST["id"];
+$_SESSION['user_id'] = $id;
+// $_SESSION['full_name'] = $_POST["full_name"]; 
+$_SESSION['full_name'] = $full_name; 
 $_SESSION['amount'] = $results->records[0]->amount;
 
 // if(isset($_POST["id"]) && isset($_POST["registration_no"])){
@@ -158,22 +168,19 @@ After successful payment, the student can download the registration receipt.
               
           <input type="hidden" name="id" value="<?php echo $id ?>" >
            <!--<input type="text" class="form-control" name="transaction_id"  placeholder="Transaction Id" autocomplete="off"  required>-->
-           <input type="hidden"  name="amount" value="<?php echo $results->records[0]->amount ?>" autocomplete="off"  required>
-
-  <input type="hidden" name="name" value="<?php echo $full_name ?>" readonly>
-    <input type="hidden" name="email" value="giplanand@gmail.com" readonly>
-                <input type="hidden" name="exam_name" value="<?php echo $exam_name ?>" readonly>
+           <input type="hidden"  name="amount" value="<?php echo $results->records[0]->amount; ?>" autocomplete="off"  required>
+           <input type="hidden" name="name" value="<?php echo $full_name; ?>" readonly>
+           <input type="hidden" name="email" value="giplanand@gmail.com" readonly>
+           <input type="hidden" name="exam_name" value="<?php echo $exam_name; ?>" readonly>
             
           </div>
           <div class="col-sm-4">
           
           <!-- <div class="col-4"  style="margin: 0px 281px 0px;"> -->
-            <input type="hidden" name="id" value="<?php echo $id ?>" >
-
-            <input type="hidden" name="registration_no" value="<?php echo $registration_no ?>" readonly>
-
-                <input type="hidden" name="exam_name" value="<?php echo $exam_name ?>" readonly>
-            <button type="submit"  class="btn btn-success btn-block">Confirm & Pay</button>
+          <input type="hidden" name="id" value="<?php echo $id; ?>" >
+          <input type="hidden" name="registration_no" value="<?php echo $registration_no ?>" readonly>
+          <input type="hidden" name="exam_name" value="<?php echo $exam_name ?>" readonly>
+          <button type="submit"  class="btn btn-success btn-block">Confirm & Pay</button>
             
           
           </div>
