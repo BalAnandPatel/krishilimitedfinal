@@ -359,7 +359,7 @@ include "../constant.php";
                         <!---Division end --->
                         <!---Act & Rules start --->
                         <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="/en/Acts">Act &amp; Rules</a>
+                            <a class="nav-link font_size custom-nav-link" href="act_n_rule.php">Act &amp; Rules</a>
                         </li>
                         <!---Act & Rules end --->
                         <!---Documents start --->
@@ -641,7 +641,7 @@ include "../constant.php";
                         <!---Recruitment end --->
                         <!--Media start-->
                         <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn5 expanded_opnion">
-                            <a id="pagesMegaMenu5" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
+                            <a id="pagesMegaMenu5" class="nav-link font_size custom-nav-link main-link-toggle" href="gallery.php"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="Media">
                                 Media

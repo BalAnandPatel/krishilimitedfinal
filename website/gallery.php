@@ -131,6 +131,9 @@ $result = json_decode($response);
                 <h4 class="font_size pb-2">Photo Gallery</h4>
             </div>
 
+            <p>Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide Following Services and Work mention below.There are some Division which are following please click to link and visit and get the complete information about project. There some memory of orgnigation which are capture by media and People.</p>
+            <br>
+
             <div class="photo-gallery">
                 <div class="container">
 

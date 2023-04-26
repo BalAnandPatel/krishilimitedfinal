@@ -92,11 +92,10 @@ include "include/headerr.php"
                         
                         <!--</p>-->
                             <p class="font_size">
-                                Government of India is inviting major technology/agritech players in the country for collaborating in creating proof of concepts (PoCs) for demonstrating use case scenarios on the Farmers Database. An MoU entered
-                                into Microsoft in this regard is uploaded for reference. For more details, contact: Digital Agriculture Division, DA & FW, Krishi Bhawan, New Delhi.
-                                
+                            Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. That is Public Limited Company    
+                            which is provide the service that leadal Document is Attached.
                             </p>
-                            <ul class="organisation_list px-2 mb-5">
+                            <!-- <ul class="organisation_list px-2 mb-5">
                                 <li class="font_size">
                                     <a href="/Documents/inviting%20proposals%20from%20leading%20IT%20companies%20(2).pdf" target="_blank" style="color:blue">
 
@@ -110,7 +109,8 @@ include "include/headerr.php"
                                     </a>
                                     Publish Date: 29-03-2022
                                 </li>
-                            </ul>                    </div>
+                            </ul>-->
+                           </div> 
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-4 col-xl-4">

@@ -404,8 +404,10 @@ $result = json_decode($response);
                 <center>
 
                 <div>
-                <div id="backbtn"><</div>
+                <img src="assets/images/resources/previous.jfif" id="backbtn" style="width: 5%;">
+                <div>
                     <!--Services One Single Start-->
+
                     <div class="gallery">
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
                         <div class="services-one__single">
@@ -446,83 +448,9 @@ $result = json_decode($response);
                     <!--Services One Single End-->
 
 
-                    <!--Services One Single Start-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms">
-                        <div class="services-one__single">
-                            <div class="services-one__img-box">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services.jpg" height="196px" alt="">
-                                </div>
-                                <div class="services-one__icon">
-                                     <span class="icon-tractor"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="service_small_scale.php">Small Scale Industries</a></h3>
-                                <p class="services-one__text" style="text-align:justify;">Small Scale Industry is also called cottage industry this is a field that gives maximum Jobs to the people. Small Scale industry has a very important contribution in strengthening the economy of our India Country. At present...</p>
-                            </div>
-                        </div>
                     </div>
-                    <!--Services One Single End-->
-
-                    <!--Services One Single Start-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms">
-                        <div class="services-one__single">
-                            <div class="services-one__img-box">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services.jpg" height="196px" alt="">
-                                </div>
-                                <div class="services-one__icon">
-                                     <span class="icon-tractor"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="service_small_scale.php">Small Scale Industries</a></h3>
-                                <p class="services-one__text" style="text-align:justify;">Small Scale Industry is also called cottage industry this is a field that gives maximum Jobs to the people. Small Scale industry has a very important contribution in strengthening the economy of our India Country. At present...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services One Single End-->
-
-                    <!--Services One Single Start-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms">
-                        <div class="services-one__single">
-                            <div class="services-one__img-box">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services.jpg" height="196px" alt="">
-                                </div>
-                                <div class="services-one__icon">
-                                     <span class="icon-tractor"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="service_small_scale.php">Small Scale Industries</a></h3>
-                                <p class="services-one__text" style="text-align:justify;">Small Scale Industry is also called cottage industry this is a field that gives maximum Jobs to the people. Small Scale industry has a very important contribution in strengthening the economy of our India Country. At present...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services One Single End-->
-
-                    <!--Services One Single Start-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms">
-                        <div class="services-one__single">
-                            <div class="services-one__img-box">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services.jpg" height="196px" alt="">
-                                </div>
-                                <div class="services-one__icon">
-                                     <span class="icon-tractor"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="service_small_scale.php">Small Scale Industries</a></h3>
-                                <p class="services-one__text" style="text-align:justify;">Small Scale Industry is also called cottage industry this is a field that gives maximum Jobs to the people. Small Scale industry has a very important contribution in strengthening the economy of our India Country. At present...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services One Single End-->
-                    </div>
-                    <div id="nextbtn">></div>
+                    <img src="assets/images/resources/next.jfif" id="nextbtn" style="width: 5%;">  
+                    </div>      
                     </div>
 
                     
@@ -567,31 +495,28 @@ $result = json_decode($response);
 
         <style>
             .gallery{
-                width: 80%;
+                width: 60%;
                 display: flex;
                 overflow-x: scroll;
             }
+            .gallery-wrap div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .gallery div{
                 display: grid;
-                width: 70%;
                 grid-template-columns:  auto;
                 flex: none;
-                margin: 10px;
+                width: 100%;
             }
             .gallery::-webkit-scrollbar{
                 display: none;
             }
-            .gallery-wrap{
-                display: inline-flex;
-                width: 100%;
-            }
             #backbtn, #nextbtn {
-                width: 50px;
                 cursor: pointer;
-                margin: 10px;
-                padding: 10px;
-                background-color: green;
                 border-radius: 50%;
+                border: 5px solid #fff;
             }
         </style>
 
