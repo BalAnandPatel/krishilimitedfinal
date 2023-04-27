@@ -63,6 +63,30 @@ include 'include/headerr.php';
             <h4 class="font_size pb-2">Agriculture</h4>
         </div>
 
+        <p>Organic forming by the company which is a method of agriculture. which is based on the use of synthetic fertilizers and pesticides and which uses Crop rotation Green manure compost etc to maintain the fertility of land.</p>
+        <p>Do not use of chemical, fertilizers, insecticides, weedicides and growth control manufactured in factories to obtain long term. and stable yield in such farming organic fertilizers are used, which control the pollution of both soil and environment.</p>
+        <p>Increasing population is a serious problem all over the world with the Increasing population, the use of various chemical fertilizer, toxic pesticides to obtain food production by human for the supply of food.</p>
+        <p>The use of chemical fertilizer, toxic pesticide affects the cycle of exchange between natural Organic and Inorganic Substances in the ecosystem. Due to which the fertility of the land deteriorates as well. as the environment is polluted and human health declines</p>
+        <p>In ancient times, forming was done friendly to human health and to the natural environment.</p>
+        <p>Due to which the cycle of exchange between organic and Inorganic substances was going on Continuously. As result of which water, air, land and environment were not polluted.</p>
+        <p>Agriculture and animal husbandry combined was highly profitable. Agriculture is the mainstay of rural economy in India, and main source of the income of the former.</p>
+        <p>In view of the increasing population since the time of green revolution it is necessary to increase Production in terms of Income</p>
+        <p>For higher production, more amount of chemical fertilizer and pesticides how to be use in forming.</p>
+        <p>Due to which the marginal formers are incurring exessive cast in the week. Also getting polluted, Also the food items are becoming poisonous</p>
+        <p>To deal with all the above problems of this type, form the last years, the scheme of forming on the principle of sustainable forming has been made by SHYAMAVSVSS KRISHI LIMITED (OPC) Pvt Ltd.</p>
+        <p>In which organic farming will be operated by the company's agricultural experts and experienced employees engaged in Organic farming</p>
+        <p>The company will be encouraged to adopt organic forming, posters, tableaux, banners, literature, solo drama, puppet performances for the promotion of Organic forming at tehsil level in each district of the state</p>
+        <p>The work of public awareness among the formers will be done by the employees.</p>
+        <p>Human health is closely related to organic forming by Cultivating this method, the body remains comparatively more healthy and comes organic forming does not spoil and comes organic forming also gives more yield than chemical farming.</p>
+        
+        <h5>Benefits of Organic forming:</h5>
+        
+        <p>The fertility of land increases.</p>
+        <p>The irrigation internal is increases. </p>
+        <p>Reduced dependence on chemical fertilizers leads to cost reduction. </p>
+
+        <br>
+
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">

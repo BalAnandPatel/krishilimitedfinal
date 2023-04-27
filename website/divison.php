@@ -110,21 +110,21 @@ include 'include/headerr.php';
                 
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
+                        <img src="assets/images/resources/beekeeping1.jpg"  style="border-radius: 50%; width: 30%;">
                         <h3 class="font_size">Beekeeping</h3>
                         <a href="div-bee.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
+                    <img src="assets/images/resources/egghechari.jfif"  style="border-radius: 50%; width: 20%;">
                         <h3 class="font_size">Egg Hechari</h3>
                         <a href="div-egghechari.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
+                    <img src="assets/images/resources/medical.jfif"  style="border-radius: 50%; width: 30%;">
                         <h3 class="font_size">Medical</h3>
                         <a href="div-medical.php">Click here</a>
                     </div>
