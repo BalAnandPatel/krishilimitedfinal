@@ -43,7 +43,7 @@ return $result = json_decode($response);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION PRIVATE LIMITED</title>
+  <title>SHYAMAVSVSS KRISHI LIMITED</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -82,8 +82,8 @@ return $result = json_decode($response);
             
       <div class="container-fluid">
    
-      <p> Dear <b><?php echo $full_name  ?></b>, Thank you for the payment for examination : <b><?php echo $exam_name ?></b>. Your Registration Number is :<b> <?php echo $registration_no; ?></b></p>
-<p>Your payment is successfull Amount for examination :<b> <?php echo $exam_name ?></b> is<b> &#8377;<?php echo $result_payment->records[0]->amount; ?></b>
+      <p> Dear <b><?php echo $full_name;  ?></b>, Thank you for the payment for examination : <b><?php echo $exam_name; ?></b>. Your Registration Number is :<b> <?php echo $registration_no; ?></b></p>
+<p>Your payment is successfull Amount for examination :<b> <?php echo $exam_name; ?></b> is<b> &#8377;<?php echo $result_payment->records[0]->amount; ?></b>
 and your Transaction Id </b> is<b> &#8377;<?php echo $result_payment->records[0]->transaction_id; ?></b> </p>
 
 <p>Date & Time:<strong class="ml-2"><?php echo date('d-m-Y h:i:s',strtotime($date)); ?></strong></p>

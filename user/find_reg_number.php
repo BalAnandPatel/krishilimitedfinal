@@ -12,6 +12,11 @@ $data=array("full_name"=>$full_name,"mobile"=>$mobile);
 $postdata1 = json_encode($data);
 $results=giplCurl($url,$postdata1);
 //print_r($results);
+if($results->message=="No record found"){
+$msg = "record not matchd";
+header('location:../website/rrecruitment.php');
+exit();  
+}  
 
 function giplCurl($api,$postdata){
      $url = $api; 
@@ -29,7 +34,7 @@ function giplCurl($api,$postdata){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION PRIVATE LIMITED</title>
+  <title>SHYAMAVSVSS KRISHI LIMITED</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -56,7 +61,7 @@ function giplCurl($api,$postdata){
       <!-- <p class="login-box-msg"><a href="index.php"><b class="login-box-msg">Alreadr Register? Please Login.</b></a></p> -->
       
       <h2 class="login-box-msg"><b><u>Get Your Registration Number</u></b></h2>
-      <a href="../website/recruitment.php">
+      <a href="../website/rrecruitment.php">
       <button class="btn btn-primary btn-sm" id="button"><i class="fa fa-arrow-left mr-2"></i>Back</button></a>
       <button class="btn btn-primary btn-sm" id="printpagebutton" onclick="printpage()"><i class="fa fa-print mr-2"></i>Print</button>
    
