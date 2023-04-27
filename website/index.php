@@ -404,13 +404,31 @@ $result = json_decode($response);
                 <center>
 
                 <div>
-                <img src="assets/images/resources/previous.jfif" id="backbtn" style="width: 5%;">
-                <div>
-                    <!--Services One Single Start-->
-
+                  <div>
                     <div class="gallery">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
+                                       
+                    <!--Services One Single Start-->
+                    <div class="container mySlides">
                         <div class="services-one__single">
+                            <div class="services-one__img-box">
+                                <div class="services-one__img">
+                                    <img src="assets/images/services/services.jpg" height="196px" alt="">
+                                </div>
+                                <div class="services-one__icon">
+                                    <span class="icon-vegetables"></span>
+                                </div>
+                            </div>
+                            <div class="services-one__content">
+                                <h3 class="services-one__title"><a href="service_education.php"> Small Scale Industries</a></h3>
+                                <p class="services-one__text" style="text-align:justify;">Small Scale Industry is also called cottage industry this is a field that gives maximum Jobs to the people. Small Scale industry has a very important contribution in strengthening the economy of our India Country. At present...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services One Single End-->
+
+                    <!--Services One Single Start-->
+                    <div class="container mySlides">
+                    <div class="services-one__single">
                             <div class="services-one__img-box">
                                 <div class="services-one__img">
                                     <img src="assets/images/services/services-one-1.jpg" alt="">
@@ -427,9 +445,8 @@ $result = json_decode($response);
                     </div>
                     <!--Services One Single End-->
 
-
                     <!--Services One Single Start-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms">
+                    <div class="container mySlides">
                         <div class="services-one__single">
                             <div class="services-one__img-box">
                                 <div class="services-one__img">
@@ -446,19 +463,90 @@ $result = json_decode($response);
                         </div>
                     </div>
                     <!--Services One Single End-->
+                    
 
+                    
 
                     </div>
-                    <img src="assets/images/resources/next.jfif" id="nextbtn" style="width: 5%;">  
                     </div>      
                     </div>
 
-                    
+                    <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
                     </center>
                 </div>
             </div>
         </section>
         <!--Services One End-->
+
+
+
+<style>
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
 
 
         <!--Unbeatable One Start-->
@@ -497,6 +585,7 @@ $result = json_decode($response);
             .gallery{
                 width: 60%;
                 display: flex;
+                justify-content: center;
                 overflow-x: scroll;
             }
             .gallery-wrap div{
@@ -516,31 +605,33 @@ $result = json_decode($response);
             #backbtn, #nextbtn {
                 cursor: pointer;
                 border-radius: 50%;
-                border: 5px solid #fff;
+                border: 5px solid #1f6306;
+                margin: 4px;
             }
         </style>
 
-        <script>
-            let scrollContainer = document.querySelector(".gallery");
-            let backbtn = document.getElementById("backbtn");
-            let nextbtn = document.getElementById("nextbtn");
 
-            scrollContainer.addEventListener("wheel", (evt) =>{
-                evt.preventDefault();
-                scrollContainer.scrollLeft += evt.deltaY;
-                scrollContainer.style.scrollBehavior = "auto";
-            });
+<script>
+let slideIndex = 0;
+showSlides();
 
-            nextbtn.addEventListener("click", ()=>{
-                scrollContainer.style.scrollBehavior ="smooth";
-                scrollContainer.scrollLeft += 450;
-            });
-
-            backbtn.addEventListener("click", ()=>{
-                scrollContainer.style.scrollBehavior ="smooth";
-                scrollContainer.scrollLeft -= 450;
-            });
-        </script>
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
 
 
 

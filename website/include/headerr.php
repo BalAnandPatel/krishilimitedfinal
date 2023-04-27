@@ -217,7 +217,7 @@ include "../constant.php";
                 <div class="col-md-5 col-lg-4 mb-2 logo-content">
     <a href="index.php">
         <div class="logo-division">
-            <img src="assets/images/minister/agriculture-logo-dark.png" alt="agriculture government of india" class="agriculture-logo" />
+            <img src="assets/images/logo/logo.png" alt="agriculture government of india" class="agriculture-logo" />
 
             <div>
                 <ul>
