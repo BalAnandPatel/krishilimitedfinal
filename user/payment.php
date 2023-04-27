@@ -1,17 +1,17 @@
 <?php
 include '../constant.php';
 
-// $exam_name=$_POST["exam_name"];
-$exam_name="UPPCS";
-// $mobile=$_POST["mobile"];
-$mobile='123456789';
-$registration_no='2787135741';
-// $registration_no=$_POST["registration_no"];
-$full_name="MRITYUNJAY SINGH";
-// $full_name=$_POST["full_name"];
+$exam_name=$_POST["exam_name"];
+// $exam_name="UPPCS";
+$mobile=$_POST["mobile"];
+// $mobile='123456789';
+// $registration_no='1354965371';
+$registration_no=$_POST["registration_no"];
+// $full_name="MRITYUNJAY SINGH";
+$full_name=$_POST["full_name"];
 // $id='68'; //id on server
-$id='69';
-// $id=$_POST["id"];
+// $id='70';
+$id=$_POST["id"];
 
 $img="img/".$id."/profile"."/".$id.".png";
 $img_thumb="img/".$id."/profile"."/".$id."_thumb".".png";
@@ -24,13 +24,9 @@ $postdata1 = json_encode($data);
 $results=giplCurl($url,$postdata1);
 //print_r($results);
 
-// $_SESSION['exam_name'] = $exam_name;
 $_SESSION['exam_name'] = $exam_name;
-// $_SESSION['registration_no'] = $_POST["registration_no"];
 $_SESSION['registration_no'] = $registration_no;
-// $_SESSION['user_id'] = $_POST["id"];
 $_SESSION['user_id'] = $id;
-// $_SESSION['full_name'] = $_POST["full_name"]; 
 $_SESSION['full_name'] = $full_name; 
 $_SESSION['amount'] = $results->records[0]->amount;
 

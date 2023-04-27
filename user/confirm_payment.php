@@ -1,30 +1,30 @@
 <?php
 include '../constant.php';
 
-// $id=$_SESSION['user_id'];
-$id='69';
-// $full_name=$_SESSION['full_name'];
-$full_name = "MRITYUNJAY SINGH";
-// $registration_no=$_SESSION['registration_no'];
-$registration_no='1334141737';
-// $exam_name=$_SESSION['exam_name'];
-$exam_name="UPPCS";
-// $transaction_id=$_SESSION['transaction_id'];
-$transaction_id = "pay_LiOsKSkH0F8qUB";
-// $amount=$_SESSION['amount'];
-$amount='100';
+$id=$_SESSION['user_id'];
+// $id='70';
+$full_name=$_SESSION['full_name'];
+// $full_name = "MRITYUNJAY SINGH";
+$registration_no=$_SESSION['registration_no'];
+// $registration_no='1334141737';
+$exam_name=$_SESSION['exam_name'];
+// $exam_name="UPPCS";
+$transaction_id=$_SESSION['transaction_id'];
+// $transaction_id = "pay_LilZYcc1IDUOnM";
+$amount=$_SESSION['amount'];
+// $amount='100';
 
 $url = $URL . "payment/confirm_payment.php";
 
-$data = array( "user_id"=>$id,"amount"=>$amount,"transaction_id"=>$transaction_id);
+$data = array("user_id"=>$id, "amount"=>$amount, "transaction_id"=>$transaction_id);
 
-    //print_r($data);
+//print_r($data);
      $postdata = json_encode($data);
 
 $result_payment=url_encode_Decode($url,$postdata);
 //print_r($result_payment);
 
-$date = date('d-m-Y');
+$date = $result_payment->records[0]->created_on;
  
 function url_encode_Decode($url,$postdata){
     $client = curl_init($url);
@@ -86,7 +86,7 @@ return $result = json_decode($response);
 <p>Your payment is successfull Amount for examination :<b> <?php echo $exam_name ?></b> is<b> &#8377;<?php echo $result_payment->records[0]->amount; ?></b>
 and your Transaction Id </b> is<b> &#8377;<?php echo $result_payment->records[0]->transaction_id; ?></b> </p>
 
-<p>Date:<strong class="ml-2"><?php echo $date; ?></strong></p>
+<p>Date & Time:<strong class="ml-2"><?php echo date('d-m-Y h:i:s',strtotime($date)); ?></strong></p>
 
 
 

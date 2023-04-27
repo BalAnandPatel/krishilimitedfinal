@@ -1,5 +1,5 @@
 <?php
-session_start();
+include '../../constant.php';
 
 require('config.php');
 
@@ -43,7 +43,6 @@ if ($success === true)
     $html = "<p>Your payment was successful</p>
              <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
              
- include '../../constant.php';
  
   $_SESSION['transaction_id']=$_POST['razorpay_payment_id'];
   $user_id = $_SESSION['user_id'];
@@ -55,7 +54,7 @@ if ($success === true)
  $request_id = $_SESSION['razorpay_order_id'];
  $created_by = $_SESSION['full_name'];
  //$created_by = "anand";
- $created_on=date('d-m-y h:i:s');
+ $created_on=date('Y-m-d h:i:s');
  
  $url=$URL. "payment/payment_entry.php";
   
@@ -86,11 +85,13 @@ else
              <p>{$error}</p>";
 }
 
-echo $html;
+// echo $html;
+// echo '<script type="text/javascript">
+// window.location = "https://krishilimited.com/user/confirm_payment.php"
+// </script>';
 echo '<script type="text/javascript">
-window.location = "https://krishilimited.com/user/confirm_payment.php"
+window.location = "http://localhost/krishilimited/krishilimitedfinal/user/confirm_payment.php"
 </script>';
 
-
-//header('location:ssegr.org.in/user/confirm_payment.php');
+//header('http://localhost/krishilimited/krishilimitedfinal/user/confirm_payment.php');
 ?>
