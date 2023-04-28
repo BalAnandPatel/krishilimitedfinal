@@ -26,7 +26,7 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-1-1.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-1.jpg);"></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -46,7 +46,7 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-2-4.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-9.jpg);"></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -66,7 +66,7 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-2-5.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-3-5.jpg);"></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
