@@ -109,9 +109,9 @@ include 'include/headerr.php';
                 
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Farming</h3>
-                        <a href="div-contractfarming.php">Click here</a>
+                    <img src="assets/images/resources/education.jpg" style="border-radius: 50%; width: 30%;">
+                        <h3 class="font_size">Education</h3>
+                        <a href="ser-education.php">Click here</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">

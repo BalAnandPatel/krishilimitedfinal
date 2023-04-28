@@ -594,10 +594,10 @@ include "../constant.php";
                         <!--Schemes start-->
 
                         <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn4 expanded_opnion">
-                            <a id="pagesMegaMenu4" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
+                            <a id="pagesMegaMenu4" class="nav-link font_size custom-nav-link main-link-toggle" href="news.php"
                                aria-haspopup="true" aria-expanded="false"
                                aria-label="Schemes">
-                                Schemes
+                                E-News
                                 <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
                             </a>
 
@@ -770,9 +770,9 @@ include "../constant.php";
                         
                         <!---DFI end --->
                         <!---Jal Shakti Abhiyan start --->
-                        <li class="nav-item custom-nav-item">
+                        <!-- <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="/en/Jal">Jal Shakti Abhiyan</a>
-                        </li>
+                        </li> -->
                         <!---Jal Shakti Abhiyan end --->
                         
                         <!---Digital start --->
@@ -834,9 +834,9 @@ include "../constant.php";
                             </ul> -->
 
                         </li>
-                        <li class="nav-item custom-nav-item">
+                        <!-- <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link redirectconfirmation" href="https://amd-india.net" target="_blank">Indo-Ger AMD</a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="rrecruitment.php">Recruitment</a>

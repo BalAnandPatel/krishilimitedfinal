@@ -84,6 +84,125 @@ include 'include/headerr.php';
                         </div>
                     </div>
 
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-1.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <h2 class="main-slider__title">Animal Husbandry.</h2>
+                                        <div class="main-slider__btn-box">
+                                            <a href="div-animalhusbandry.php" class="thm-btn main-slider__btn">Discover More <i
+                                                    class="icon-right-arrow"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-2.png);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <h2 class="main-slider__title">Beekeeping.</h2>
+                                        <div class="main-slider__btn-box">
+                                            <a href="div-bee.php" class="thm-btn main-slider__btn">Discover More <i
+                                                    class="icon-right-arrow"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-3.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <h2 class="main-slider__title">Poultry Farming.</h2>
+                                        <div class="main-slider__btn-box">
+                                            <a href="div-animalhusbandry.php" class="thm-btn main-slider__btn">Discover More <i
+                                                    class="icon-right-arrow"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-4.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <h2 class="main-slider__title">Veterinary Medical Care.</h2>
+                                        <div class="main-slider__btn-box">
+                                            <a href="div-medical.php" class="thm-btn main-slider__btn">Discover More <i
+                                                    class="icon-right-arrow"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-5.jpg);"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <h2 class="main-slider__title">Vermicomposting.</h2>
+                                        <div class="main-slider__btn-box">
+                                            <a href="div-agriculture.php" class="thm-btn main-slider__btn">Discover More <i
+                                                    class="icon-right-arrow"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-6.jpg);"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <h2 class="main-slider__title">Guinea Pig.</h2>
+                                        <div class="main-slider__btn-box">
+                                            <a href="div-animalhusbandry.php" class="thm-btn main-slider__btn">Discover More <i
+                                                    class="icon-right-arrow"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
 
                 </div>
 
@@ -404,7 +523,7 @@ $result = json_decode($response);
 
                 <div>
                   <div>
-                    <div class="gallery">
+                    <div class="gallery col-sm-12 col-lg-6 col-md-12">
                                        
                     <!--Services One Single Start-->
                     <div class="container mySlides">
@@ -582,7 +701,7 @@ $result = json_decode($response);
 
         <style>
             .gallery{
-                width: 60%;
+                /* width: 60%; */
                 display: flex;
                 justify-content: center;
                 overflow-x: scroll;
