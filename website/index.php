@@ -35,7 +35,7 @@ include 'include/headerr.php';
                                         <p class="main-slider__sub-title">We are Producing Natural Products</p>
                                         <h2 class="main-slider__title">Agriculture.</h2>
                                         <div class="main-slider__btn-box">
-                                            <a href="discover_more_ag.php" class="thm-btn main-slider__btn">Discover More <i
+                                            <a href="div-agriculture.php" class="thm-btn main-slider__btn">Discover More <i
                                                     class="icon-right-arrow"></i> </a>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@ include 'include/headerr.php';
                                         <p class="main-slider__sub-title">We are Provide Education for Student</p>
                                         <h2 class="main-slider__title">Education.</h2>
                                         <div class="main-slider__btn-box">
-                                            <a href="discover_more_education.php" class="thm-btn main-slider__btn">Discover More <i
+                                            <a href="#" class="thm-btn main-slider__btn">Discover More <i
                                                     class="icon-right-arrow"></i> </a>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ include 'include/headerr.php';
                                         <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
                                         <h2 class="main-slider__title">Small Scale Industries.</h2>
                                         <div class="main-slider__btn-box">
-                                            <a href="discover_more_ss.php" class="thm-btn main-slider__btn">Discover More <i
+                                            <a href="div-ssindustry.php" class="thm-btn main-slider__btn">Discover More <i
                                                     class="icon-right-arrow"></i> </a>
                                         </div>
                                     </div>
@@ -208,7 +208,6 @@ include 'include/headerr.php';
 
                                 <audio controls>
                                     <source src="assets/images/resources/audio_agri.mpeg" type="audio/mpeg" />
-                                    Your browser does not support the audio element.
                                 </audio>
                             </div>
                         </div>
@@ -350,11 +349,11 @@ $result = json_decode($response);
                                    <!--  <div class="about-one__ceo-img">
                                          <img src="assets/images/resources/about-one-ceo-mg.jpg" alt="Ceo img"> 
                                     </div> -->
-                                    <div class="about-one__ceo-content">
-                                        <!-- <h4 class="about-one__ceo-name">Mike Hardson</h4> -->
+                                    <!-- <div class="about-one__ceo-content">
+                                        <h4 class="about-one__ceo-name">Mike Hardson</h4>
                                         <img src="assets/images/resources/sign.png" width="250px" height="80px" alt="">
                                         <p class="about-one__ceo-title">CEO of Agrion</p>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             

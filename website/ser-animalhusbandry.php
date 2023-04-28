@@ -63,6 +63,32 @@ include 'include/headerr.php';
             <h4 class="font_size pb-2">Animal Husbandry</h4>
         </div>
 
+        <p>Animal husbandry is the branch of agriculture concerned with animals that are raised for meat, fibre, milk, or other products. It includes day-to-day care, selective breeding, and the raising of livestock. Husbandry has a long history, starting with the Neolithic Revolution when animals were first domesticated, from around 13,000 BC onwards, predating farming of the first crops. By the time of early civilisations such as ancient Egypt, cattle, sheep, goats, and pigs were being raised on farms.</p>
+        <p>Major changes took place in the Columbian exchange, when Old World livestock were brought to the New World, and then in the British Agricultural Revolution of the 18th century, when livestock breeds like the Dishley Longhorn cattle and Lincoln Longwool sheep were rapidly improved by agriculturalists, such as Robert Bakewell, to yield more meat, milk, and wool. A wide range of other species, such as horse, water buffalo, llama, rabbit, and guinea pig, are used as livestock in some parts of the world. Insect farming, as well as aquaculture of fish, molluscs, and crustaceans, is widespread. Modern animal husbandry relies on production systems adapted to the type of land available. Subsistence farming is being superseded by intensive animal farming in the more developed parts of the world, where, for example, beef cattle are kept in high density feedlots, and thousands of chickens may be raised in broiler houses or batteries. On poorer soil, such as in uplands, animals are often kept more extensively and may be allowed to roam widely, foraging for themselves.</p>
+        <p>Most livestock are herbivores, except for pigs and chickens which are omnivores. Ruminants like cattle and sheep are adapted to feed on grass; they can forage outdoors or may be fed entirely or in part on rations richer in energy and protein, such as pelleted cereals. Pigs and poultry cannot digest the cellulose in forage and require other high-protein foods.</p>
+
+        <li>In the Animals husbandry we Produce the Pet Animals.</li>
+        <li>We provide Cow and Bufalo for production of milk and agriculture and collect the milk from every farmer door to door.</li>
+        <li>We Give the Goat and Pig Farming Training to Farmer.</li>
+        <li>We Produce the animal food by self with the help of small scale industries.</li>
+        <li>In the animal husbandry we collect the cow and buffalo Dung for Vermicompost.</li>
+        <li>We collect the Milk for Food Production.</li>
+
+        <br>
+        <h3>Poultry & Duck Farming</h3>
+        <p>Poultry farming is the practice of raising fowl for egg production and chicken meat. 2. Fowls are used for producing eggs and broilers are used for producing meat. LEARN WITH VIDEOS. Animal Husbandry - Poultry farming.</p>
+
+        <li>Poultry farming is the Base of Producing the Egg.</li>
+        <li>With the help of this type of farming we college the egg from large scale. because this work is done by farmers.</li>
+        <li>The Project of Poultry Framing we give ducks to customers and suggest just keep caring and wait the ready to produce the egg.</li>
+        <li>when the duck start egg the we give the share of farmer time to time</li>
+        <li>for The Guaranty our no duck is under the farmer.</li>
+
+
+
+                
+        <br>
+
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">

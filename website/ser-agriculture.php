@@ -63,6 +63,17 @@ include 'include/headerr.php';
             <h4 class="font_size pb-2">Agriculture</h4>
         </div>
 
+
+        <p><b>Agriculture Services </b>-In The agriculture services we provide agriculture support for all the farmers. There are some Agriculture project will be start by Company which are need number of Employee which is run successfully.</p>
+
+        <li>We start the Papaya Farming in all over up. With the papaya Farming we make the strong in financial sector to all farmer.</li>
+        <li>We start the Organic Farming over all UP by which we control the Cancer, Sugar and other dangerous design.</li> 
+        <li>We Tea Farming in Assam as Contract Basis which is provide best quality Tea and low price.</li>
+        <li>We Start Mushroom Farming with the help of farmers. with this farming we can teach the  about technical farming.</li>
+        <li>In Agriculture we start the Technical Training for all types of Farmer. Agriculture Training, Animal Husbandry Training, Fishing Training .</li>
+        <li>We Create the Farmhouse for agriculture and other activities.</li>   
+        
+        <br>
         <p>Organic forming by the company which is a method of agriculture. which is based on the use of synthetic fertilizers and pesticides and which uses Crop rotation Green manure compost etc to maintain the fertility of land.</p>
         <p>Do not use of chemical, fertilizers, insecticides, weedicides and growth control manufactured in factories to obtain long term. and stable yield in such farming organic fertilizers are used, which control the pollution of both soil and environment.</p>
         <p>Increasing population is a serious problem all over the world with the Increasing population, the use of various chemical fertilizer, toxic pesticides to obtain food production by human for the supply of food.</p>
@@ -79,11 +90,18 @@ include 'include/headerr.php';
         <p>The work of public awareness among the formers will be done by the employees.</p>
         <p>Human health is closely related to organic forming by Cultivating this method, the body remains comparatively more healthy and comes organic forming does not spoil and comes organic forming also gives more yield than chemical farming.</p>
         
-        <h5>Benefits of Organic forming:</h5>
+        <h4>Benefits of Organic forming:</h4>
         
-        <p>The fertility of land increases.</p>
-        <p>The irrigation internal is increases. </p>
-        <p>Reduced dependence on chemical fertilizers leads to cost reduction. </p>
+        <li>The fertility of land increases.</li>
+        <li>The irrigation internal is increases. </li>
+        <li>Reduced dependence on chemical fertilizers leads to cost reduction. </li>
+        <li>The productivity of crops increases.</li> 
+        <li>The increases in the demand of organic products in the market increases the income of the formers. </li>
+        <li>The use of organic manure improved the quality of the land. </li>
+        <li>The water holding capacity of the land increaser. There is less evaporation of water from land.</li>
+        <li>There is an increase in the water level of the soil, food grains and a reduction in the population caused by The water in the ground. </li>
+        <li>The use of waste to make manure reduces dispaces. </li>
+        <li>Decreasing the lost of crop production and increase in income decliving of organic fertilizes to complete with the international market.</li>
 
         <br>
 
@@ -107,7 +125,7 @@ include 'include/headerr.php';
                                             <p>
                                             Contract farming is an arrangement where the production and supply of agriculture products are done under a contract between farmers, suppliers and producers. This arrangement can act as a catalyst for modernizing agricultural practices in India because the industries dependent on agriculture products requires adequate and timely inputs for optimum agricultural produce. In addition, the National Agricultural Policy of the Indian Government is also promoting private participation to meet the increasing need.
                                             </p>
-                                            <h2>Advantages of Contract Farming</h2>
+                                            <h4>Advantages of Contract Farming</h4>
                                             <p>
                                             The present aspects of Indian agriculture have several areas where contract farming can be beneficial, especially in medical plant farming. Therefore, both farmers and agriculture-based firms can get numerous benefits by implementing contract farming. Some of these benefits are discussed below:
                                                 Producer/Farmer
@@ -116,7 +134,7 @@ include 'include/headerr.php';
                                             <li>Opening up of new markets which were inaccessible to small farmers. Also, farmers get financial support and technical guidance for better quality production.</li>
                                             <li>Ensures consistent adequate supply of quality agricultural produce at the right time and at a lesser cost.</li>
 
-                                            <h2>List of Contract Farming Companies in India</h2>
+                                            <h4>List of Contract Farming Companies in India</h4>
                                             <ul>
                                             <li>Dabur contract farming</li>
                                             <li>Patanjali Contract farming</li>

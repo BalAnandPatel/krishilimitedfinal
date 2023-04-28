@@ -63,6 +63,24 @@ include 'include/headerr.php';
             <h4 class="font_size pb-2">Small Scale Industry</h4>
         </div>
 
+
+        <h4>MSME(Ministry of Micro, Small & Medium Enterprises)</h4>
+        <p>The MSME is connected with startup india. There the company starts a different type of project which is  run the help or rural employee. This sector is very helpful for those people who are unemployed.</p>
+        <p>The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India. The Minister of Micro, Small and Medium Enterprises is Narayan Rane.</p>
+        <p>The Ministry of Small Scale Industries and Agro and Rural Industries was created in October 1999. In September 2001, the ministry was split into the Ministry of Small Scale Industries and the Ministry of Agro and Rural Industries. The President of India amended the Government of India (Allocation of Business) Rules, 1961, under the notification dated 9 May 2007. Pursuant to this amendment, they were merged into a single ministry.</p>
+        <p>The ministry was tasked with the promotion of micro and small enterprises. The Small Industries Development Organisation was under the control of the ministry, as was the National Small Industries Corporation Limited public sector undertaking.</p>
+         
+        <li>We start the sewing work as per piece base.</li>
+        <li>We start the Artificial Moti Mala work in all over UP.</li>
+        <li>We Start the Artificial Jewelry as home base work.</li>
+        <li>We start the Fiber plate and Pattal Work as home base.</li>
+        <li>We start the spice making work in rural basis.</li>
+        <li>We start the Book Binding work for rural base woman.</li>
+        <li>We start the Ayurvedic product for medical department.</li>
+
+        
+        <br>
+
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
