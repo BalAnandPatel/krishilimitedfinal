@@ -1,7 +1,6 @@
 <?php
-//This page is used by admin to view the login details of created agents.
 include '../constant.php';
-
+error_reporting(0);
 $full_name=strtoupper($_POST["full_name"]);
 $mobile=$_POST["mobile"];
 
@@ -13,7 +12,7 @@ $postdata1 = json_encode($data);
 $results=giplCurl($url,$postdata1);
 //print_r($results);
 if($results->message=="No record found"){
-$msg = "record not matchd";
+$_SESSION['find_reg_error'] = "Record not matchd.";
 header('location:../website/rrecruitment.php');
 exit();  
 }  
