@@ -113,7 +113,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
   <div class="row">
           <div class="col-sm-12 col-md-6">
           <div class="form-group">
-  <label for="input">Date of Birth </label>
+  <label for="input">Date of Birth (dd-mm-yyyy)</label>
 
           <div class="input-group-append">
               <div class="input-group-text">

@@ -12,7 +12,7 @@ $postdata1 = json_encode($data);
 $results = giplCurl($url, $postdata1);
 //print_r($results);
 if ($results->message == "No print record found.") {
-  $_SESSION['find_reg_error'] = "Record not matchd.";
+  $_SESSION['find_reg_error'] = "Record not matched.";
   header('location:../website/rrecruitment.php');
   exit();
 }
@@ -76,7 +76,7 @@ function giplCurl($api, $postdata)
                 <input type="hidden" name="transaction_date" value="
       <?php $date = $value1->created_on;
             echo date('d-m-Y', strtotime($date)); ?>">
-                <a href="#"><button type="submit"  class="btn btn-success btn-sm" id="finalbutton"><i class="fa fa-arrow-right mr-2"></i>Get Final Print</button></a>
+                <a href="#"><button type="submit" class="btn btn-success btn-sm" id="finalbutton"><i class="fa fa-arrow-right mr-2"></i>Get Final Print</button></a>
               </form>
             </div>
         <?php }

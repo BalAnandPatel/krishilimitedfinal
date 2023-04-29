@@ -6,7 +6,7 @@ include "../constant.php";
 $url = $URL . "registration/read_profile_by_id.php";
 $transaction_id = $_SESSION['transaction_id'];
 // $transaction_id="pay_LilZYcc1IDUOnM";
-$id = $_SESSION['user_id'];
+$id = $_SESSION['user_id'];  
 // $id='70';
 $data = array("id" => $id);
 $postdata1 = json_encode($data);

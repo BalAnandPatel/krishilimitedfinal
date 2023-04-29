@@ -16,7 +16,7 @@ $results = giplCurl($url, $postdata1);
 
 if ($results->message=="payment not verified") {
   // echo "Request failed";
-  $_SESSION['find_reg_error'] = "Record not matchd.";
+  $_SESSION['find_reg_error'] = "Record not matched.";
   header('location:../website/rrecruitment.php');
   exit();
 } else {

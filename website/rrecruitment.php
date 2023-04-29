@@ -251,7 +251,7 @@ $result = json_decode($response);
                         <tr>
                             <th style="width:auto;">Sr. No</th>
                             <th style="width:auto;">Post Name</th>
-                            <th style="width:auto;">Totle Post</th>
+                            <th style="width:auto;">Total Post</th>
                             <th style="width:auto;">Start Date</th>
                             <th style="width:auto;">End Date</th>
                             <th style="width:auto;">Publish Date</th>

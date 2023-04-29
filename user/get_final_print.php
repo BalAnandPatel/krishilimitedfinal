@@ -94,7 +94,10 @@ if (($result_payment->records[0]->status == 1) && ($result_payment->records[0]->
         <!-- /.col -->
         <div class="col-sm-6 invoice-col text-center pt-3">
           <address>
-            <strong><big><?php echo $result->records[0]->exam_name; ?></big></strong>
+            <strong><big>SHYAMAVSVSS KRISHI LIMITED</big></strong>
+            <br>
+            <strong>CIN-U01100UP2022PLC170775</strong>
+            <p><strong><big>( <?php echo $result->records[0]->exam_name; ?> <?php echo date('Y',strtotime($result->records[0]->created_on)); ?> )</big></strong></p>
             <p>Confirmation Page</p>
             <div class="btn-group" id="options">
               <button class="btn btn-primary btn-sm" id="printpagebutton" type="button" onclick="printpage()">Print</button>

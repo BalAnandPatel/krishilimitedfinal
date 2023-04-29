@@ -76,4 +76,3 @@ else{
         array("message" => "No print record found.")
     );
 }
-?>

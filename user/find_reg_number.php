@@ -12,7 +12,7 @@ $postdata1 = json_encode($data);
 $results=giplCurl($url,$postdata1);
 //print_r($results);
 if($results->message=="No record found"){
-$_SESSION['find_reg_error'] = "Record not matchd.";
+$_SESSION['find_reg_error'] = "Record not matched.";
 header('location:../website/rrecruitment.php');
 exit();  
 }  
