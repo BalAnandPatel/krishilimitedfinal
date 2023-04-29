@@ -95,22 +95,8 @@ include "include/headerr.php"
                             Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. That is Public Limited Company    
                             which is provide the service that leadal Document is Attached.
                             </p>
-                            <!-- <ul class="organisation_list px-2 mb-5">
-                                <li class="font_size">
-                                    <a href="/Documents/inviting%20proposals%20from%20leading%20IT%20companies%20(2).pdf" target="_blank" style="color:blue">
-
-                                        <i class="fas fa-angle-double-right"></i> Inviting of proposals from leading IT companies Agriculture Companies FPOs Start-ups Research Bodies for collaborating with this (41.6 KB) <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
-                                    </a>
-                                    Publish Date: 09-06-2021
-                                </li>
-                                <li class="font_size">
-                                    <a href="/Documents/MOU Evaluation Committee.pdf" style="color:blue" target="_blank">
-                                        <i class="fas fa-angle-double-right"></i>Committee for Evaluation of MoU (99.3 KB) <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
-                                    </a>
-                                    Publish Date: 29-03-2022
-                                </li>
-                            </ul>-->
                            </div> 
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-4 col-xl-4">
@@ -121,7 +107,7 @@ include "include/headerr.php"
                                         <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                            <p style="font-size:14px">Published On 25-04-2023</p>
+                                            <!-- <p style="font-size:14px">Published On 25-04-2023</p> -->
                                     </div>
                                 </div>
 
@@ -134,7 +120,7 @@ include "include/headerr.php"
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 01-06-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 01-06-2021</p> -->
                                     </div>
                                 </div>
 
@@ -147,7 +133,7 @@ include "include/headerr.php"
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 01-06-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 01-06-2021</p> -->
                                     </div>
                                 </div>
 
@@ -160,7 +146,7 @@ include "include/headerr.php"
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 14-09-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 14-09-2021</p> -->
                                     </div>
                                 </div>
 
@@ -173,7 +159,7 @@ include "include/headerr.php"
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 01-06-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 01-06-2021</p> -->
                                     </div>
                                 </div>
 
@@ -186,7 +172,7 @@ include "include/headerr.php"
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 14-09-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 14-09-2021</p> -->
                                     </div>
                                 </div>
 
@@ -195,11 +181,11 @@ include "include/headerr.php"
                                         <i class="fas fa-file-alt"></i>
                                         <h3 class="font_size">CERTIFICATE OF INCORPORATION</h3>
                                         <a href="assets/pdf/CERTIFICATE OF INCORPORATION (2).pdf" target="_blank">
-                                            Click here (9.6 MB)
+                                            Click here 
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 13-04-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 13-04-2021</p> -->
                                     </div>
                                 </div>
 
@@ -208,11 +194,11 @@ include "include/headerr.php"
                                         <i class="fas fa-file-alt"></i>
                                         <h3 class="font_size">ACCOUNT DETAIL</h3>
                                         <a href="assets/pdf/ACCOUNT DETAIL.pdf" target="_blank">
-                                            Click here (8.3 MB)
+                                            Click here 
                                             <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
                                         </a>
                                         <br />
-                                        <p style="font-size:14px">Published On 14-09-2021</p>
+                                        <!-- <p style="font-size:14px">Published On 14-09-2021</p> -->
                                     </div>
                                 </div>
                                 

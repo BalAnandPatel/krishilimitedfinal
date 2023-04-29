@@ -85,7 +85,7 @@
                         <div class="col-xl-12 col-lg-8 mb-5">
                             <div class="project-details__content-left">
                                 
-                            <p>Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. The Some Act and Rule of Company is following. Please read.</p>
+                            <p>Shyamavsvss Krishi Limited is a public incorporated company. It is classified as Non-govt company and is registered at Registrar of Companies. Some Act and Rule of Company is following. Please read.</p>
                             <br>    
                             <p class="project-details__text-1">
 
@@ -94,9 +94,9 @@
                                 <br>
                                 
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                To carry on businesses manufacturers, producers,processors, importers, exporters, traders, buyers, sellers, retailers, wholesalers,
-                                suppliers, mainpower, packers, movers,stockiest, agents, sub-agents, merchants,distributors, consignors, real-estate, brokers
-                                or otherwisedealinfarm,dairy, agricultural and garden produce of every description.To purchase and acquire,sell and dispose of,dealin,
+                                To carry on businesses manufacturers, producers, processors, importers, exporters, traders, buyers, sellers, retailers, wholesellers, 
+                                suppliers, mainpower, packers, movers, stockiest, agents, sub-agents, merchants, distributors, consignors, real-estate, brokers
+                                or otherwise deal in farm, dairy, agricultural and garden produce of every description. To purchase and acquire,sell and dispose of,dealin,
                                 import, export, breedand fatten cattle, sheep,horses,pigs, poultry,game and livestock of every description,animalfeedstuffs,animal
                                 semen, chemicals, vitamins, hormones and other substances related tobreeding or treatmentoflivestock and poultry and other
                                 commodities, goods or things connected therewithor related thereto

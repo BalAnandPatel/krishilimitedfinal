@@ -81,7 +81,7 @@ include 'include/headerr.php';
 
         <div class="container">
 
-            <p>Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide Following Services and Work mentioned below.There are some Division which are following please click the link to visit and get the complete information about project.</p>
+            <p>Shyamavsvss Krishi Limited is a public incorporated company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide following services and work mentioned below.There are some division which are following please click the link to visit and get the complete information about project.</p>
             <br>
 
 
@@ -133,11 +133,11 @@ include 'include/headerr.php';
             </div>
             <br />
             <br />
-            <ul>
+            <!-- <ul>
 
                 <li class="breadcrumb-item font_size active" aria-current="page">Publish Date : 01-05-2023</li>
 
-            </ul>
+            </ul> -->
         </div>
 
     </div>
