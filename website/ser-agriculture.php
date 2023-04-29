@@ -64,18 +64,18 @@ include 'include/headerr.php';
         </div>
 
 
-        <p><b>Agriculture Services </b>-In The agriculture services we provide agriculture support for all the farmers. There are some Agriculture project will be start by Company which are need number of Employee which is run successfully.</p>
+        <p><b>Agriculture Services </b>-In The agriculture services we provide agriculture support for all the farmers. There are some Agriculture project started by company which need number of employees to run successfully.</p>
 
-        <li>We start the Papaya Farming in all over up. With the papaya Farming we make the strong in financial sector to all farmer.</li>
-        <li>We start the Organic Farming over all UP by which we control the Cancer, Sugar and other dangerous design.</li> 
-        <li>We Tea Farming in Assam as Contract Basis which is provide best quality Tea and low price.</li>
-        <li>We Start Mushroom Farming with the help of farmers. with this farming we can teach the  about technical farming.</li>
+        <li>We start the Papaya Farming in all over UP. With the Papaya Farming we make all the farmer strong in financial sector.</li>
+        <li>We start the Organic Farming all over UP by which we control the Cancer, Sugar and other dangerous disease.</li> 
+        <li>We start the Tea Farming in Assam as Contract Basis which provide best quality Tea at low price.</li>
+        <li>We start the Mushroom Farming with the help of farmers. With this farming we can teach farmers about technical farming.</li>
         <li>In Agriculture we start the Technical Training for all types of Farmer. Agriculture Training, Animal Husbandry Training, Fishing Training .</li>
-        <li>We Create the Farmhouse for agriculture and other activities.</li>   
+        <li>We create the Farmhouse for agriculture and other activities.</li>   
         
         <br>
-        <p>Organic forming by the company which is a method of agriculture. which is based on the use of synthetic fertilizers and pesticides and which uses Crop rotation Green manure compost etc to maintain the fertility of land.</p>
-        <p>Do not use of chemical, fertilizers, insecticides, weedicides and growth control manufactured in factories to obtain long term. and stable yield in such farming organic fertilizers are used, which control the pollution of both soil and environment.</p>
+        <p>Organic Farming by the company which is a method of agriculture which is based on the use of synthetic fertilizers and pesticides uses Crop rotation. Green manure, compost, etc. to maintain the fertility of land.</p>
+        <p>Do not use of chemicals, fertilizers, insecticides, weedicides and growth control manufactured in factories to obtain long term. and stable yield in such farming organic fertilizers are used, which control the pollution of both soil and environment.</p>
         <p>Increasing population is a serious problem all over the world with the Increasing population, the use of various chemical fertilizer, toxic pesticides to obtain food production by human for the supply of food.</p>
         <p>The use of chemical fertilizer, toxic pesticide affects the cycle of exchange between natural Organic and Inorganic Substances in the ecosystem. Due to which the fertility of the land deteriorates as well. as the environment is polluted and human health declines</p>
         <p>In ancient times, forming was done friendly to human health and to the natural environment.</p>

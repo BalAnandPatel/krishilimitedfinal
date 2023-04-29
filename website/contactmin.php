@@ -122,9 +122,9 @@ include 'include/headerr.php';
         <div class="col-12 col-sm-12 col-md-12">
             <div class="footer_content">
                 <h4 class="font_size pb-2">Who&#39;s who</h4>
-                <p>Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companie. There are some Contact directory of Department of Organization </p>
+                <p>Shyamavsvss Krishi Limited is a public incorporated company. It is classified as Non-govt company and is registered at Registrar of Companies. There are some contact directory of Department of Organization </p>
                 
-                <div class="view-filters">
+                <!-- <div class="view-filters">
                     <form action="/en/who" method="get" id="views-exposed-form-whos-who-page-3" accept-charset="UTF-8">
                         <div>
                             <div class="views-exposed-form">
@@ -146,7 +146,7 @@ include 'include/headerr.php';
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">

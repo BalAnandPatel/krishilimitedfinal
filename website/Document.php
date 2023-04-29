@@ -92,8 +92,8 @@ include "include/headerr.php"
                         
                         <!--</p>-->
                             <p class="font_size">
-                            Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. That is Public Limited Company    
-                            which is provide the service that leadal Document is Attached.
+                            Shyamavsvss Krishi Limited is a public incorporated company. It is classified as Non-govt company and is registered at Registrar of Companies. That is Public Limited Company    
+                            which provide the service that leagal document is attached.
                             </p>
                            </div> 
 
