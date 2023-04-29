@@ -81,7 +81,7 @@ include 'include/headerr.php';
 
         <div class="container">
 
-            <p>Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide Following Services and Work mention below.There are some Devision which are following please click to link and visit and get the complete information about project.</p>
+            <p>Shyamavsvss Krishi Limited is a Public incorporated Company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide Following Services and Work mentioned below.There are some Division which are following please click the link to visit and get the complete information about project.</p>
             <br>
 
 
@@ -129,168 +129,13 @@ include 'include/headerr.php';
                         <a href="div-medical.php">Click here</a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Drought Management</h3>
-                        <a href="/en/Drought">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Economic Administration</h3>
-                        <a href="/en/Economic">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Extension</h3>
-                        <a href="/en/Extenson">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">General Coordination</h3>
-                        <a href="/en/GeneralCoord">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Official Language</h3>
-                        <a href="/en/OfficialLang">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Horticulture</h3>
-                        <a href="/en/Hirticulture">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Digital Agriculture Division</h3>
-                        <a href="/en/DigiAgriDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Integrated Nutrient Management</h3>
-                        <a href="/en/IntegratedDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">International Cooperation</h3>
-                        <a href="/en/InternationalCoop">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Mechanization and Technology</h3>
-                        <a href="/en/MechanizationDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Natural Resource Management</h3>
-                        <a href="/en/NaturalResource">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Oilseeds</h3>
-                        <a href="/en/Oilseeds">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Plan Coordination</h3>
-                        <a href="/en/PlanCoord">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Plant Protection</h3>
-                        <a href="/en/PlantProtectDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Policy</h3>
-                        <a href="/en/PolicyDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Rainfed Farming System</h3>
-                        <a href="/en/RainfedDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Rashtriya Krishi Vikas Yojana</h3>
-                        <a href="/en/RashtriyaDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Seeds</h3>
-                        <a href="/en/SeedsDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Vigilance</h3>
-                        <a href="/en/VigilanceDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Farmers Welfare Division</h3>
-                        <a href="/en/FarmersWelDiv">Click here</a>
-                    </div>
-                </div>
                 
-
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">O &amp; M/PG &amp; RTI</h3>
-                        <a href="/en/OMPGRTIDiv">Click here</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="single-mission font_size">
-                        <i class="fas fa-file-alt"></i>
-                        <h3 class="font_size">Agriculture Trade Policy, Promotion and Logistics Development Division</h3>
-                        <a href="/en/AgricultureTrade">Click here</a>
-                    </div>
-                </div>
             </div>
             <br />
             <br />
             <ul>
 
-                <li class="breadcrumb-item font_size active" aria-current="page">Publish Date :16-10-2022</li>
+                <li class="breadcrumb-item font_size active" aria-current="page">Publish Date : 01-05-2023</li>
 
             </ul>
         </div>

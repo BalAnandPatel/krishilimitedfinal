@@ -153,11 +153,11 @@ include "../constant.php";
                 <ul class="social-icon">
                     <li class="nav-item">
                         <ul class="navbar-nav_">
-                            <li class="nav-item font_size" redirectconfirmation><a href="https://www.facebook.com/agriGoI/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/facebook.png" alt="facebook"></a></li>
+                            <li class="nav-item font_size" redirectconfirmation><a href="#https://www.facebook.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/facebook.png" alt="facebook"></a></li>
 
-                            <li class="nav-item font_size redirectconfirmation"><a href="https://www.youtube.com/@AgriGoI" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/youtube.png" alt="youtube"></a></li>
-                            <li class="nav-item font_size redirectconfirmation"><a href="https://twitter.com/agrigoi" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/twitter.png" alt="twitter"></a></li>
-                            <li class="nav-item font_size redirectconfirmation"><a href="https://www.instagram.com/agrigoi/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/insta.png" alt="insta"></a></li>
+                            <li class="nav-item font_size redirectconfirmation"><a href="#https://www.youtube.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/youtube.png" alt="youtube"></a></li>
+                            <li class="nav-item font_size redirectconfirmation"><a href="#https://twitter.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/twitter.png" alt="twitter"></a></li>
+                            <li class="nav-item font_size redirectconfirmation"><a href="#https://www.instagram.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/insta.png" alt="insta"></a></li>
                             <li>
                                 <div class="gcse-search"></div>
                             </li>
@@ -170,15 +170,15 @@ include "../constant.php";
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link font_size active " aria-current="page" href="/"><img src="assets/images/social/home-icon.png" alt="home" class="homeIcon">Home</a>
+                            <a class="nav-link font_size active " aria-current="page" href="index.php"><img src="assets/images/social/home-icon.png" alt="home" class="homeIcon">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font_size " href="#skiptomain">Skip to Main Content</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             
-                            <a class="nav-link font_size redirectconfirmation" target="_blank" href="https://agridashboard.dac.gov.in/">Dashboard</a>
-                        </li>
+                            <a class="nav-link font_size redirectconfirmation" target="_blank" href="#https://agridashboard.dac.gov.in/">Dashboard</a>
+                        </li> -->
 
                         <li class="nav-item">
                             <ul class="navbar-nav_">
@@ -190,7 +190,7 @@ include "../constant.php";
 
 
                         <li class="nav-item">
-                            <a class="nav-link font_size " href="/en/screenreaderaccess">Screen Reader Access</a>
+                            <a class="nav-link font_size " href="#">Screen Reader Access</a>
                         </li>
 
                         <li class="languageTxt nav-item">

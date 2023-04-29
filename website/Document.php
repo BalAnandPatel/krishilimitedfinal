@@ -215,32 +215,7 @@ include "include/headerr.php"
                                         <p style="font-size:14px">Published On 14-09-2021</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-xl-4">
-                                    <div class="single-mission font_size">
-                                        <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with Ninjacart</h3>
-                                        <a href="/Documents/Ninjacart sign MoU.pdf" target="_blank">
-                                            Click here (5.0 MB)
-                                            <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
-                                        </a>
-                                        <br />
-                                        <p style="font-size:14px">Published On 14-09-2021</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-xl-4">
-                                    <div class="single-mission font_size">
-                                        <i class="fas fa-file-alt"></i>
-                                        <h3 class="font_size">Signed MoU with Patanjali</h3>
-                                        <a href="/Documents/Signed MoU with Patanjali.pdf" target="_blank">
-                                            Click here (5.3 MB)
-                                            <img src="assets/images/social/pdf.png" width='16' height='16' alt='pdf' border='0' />
-                                        </a>
-                                        <br />
-                                        <p style="font-size:14px">Published On 01-06-2021</p>
-                                    </div>
-                                </div>
-
+                                
                             </div>
                         </div>
 

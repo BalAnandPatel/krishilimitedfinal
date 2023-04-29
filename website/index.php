@@ -12,7 +12,7 @@ include 'include/headerr.php';
                 "effect": "fade",
                 "pagination": {
                 "el": "#main-slider-pagination",
-                "type": "bullets",
+                "type": "",
                 "clickable": true
                 },
                 "navigation": {
@@ -52,7 +52,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Education for Student</p>
+                                        <p class="main-slider__sub-title">We are Providing Education for Student</p>
                                         <h2 class="main-slider__title">Education.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="#" class="thm-btn main-slider__btn">Discover More <i
@@ -72,7 +72,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <p class="main-slider__sub-title">We are Providing Small Scale Industries Services</p>
                                         <h2 class="main-slider__title">Small Scale Industries.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="div-ssindustry.php" class="thm-btn main-slider__btn">Discover More <i
@@ -92,7 +92,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <p class="main-slider__sub-title">We are Providing Animal Husbandry Services</p>
                                         <h2 class="main-slider__title">Animal Husbandry.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="div-animalhusbandry.php" class="thm-btn main-slider__btn">Discover More <i
@@ -112,7 +112,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <p class="main-slider__sub-title">We are Providing Beekeeping Services</p>
                                         <h2 class="main-slider__title">Beekeeping.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="div-bee.php" class="thm-btn main-slider__btn">Discover More <i
@@ -132,7 +132,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <p class="main-slider__sub-title">We are Providing Poultry Farming Services</p>
                                         <h2 class="main-slider__title">Poultry Farming.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="div-animalhusbandry.php" class="thm-btn main-slider__btn">Discover More <i
@@ -152,7 +152,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <p class="main-slider__sub-title">We are Providing Veterinary Medical Care Services</p>
                                         <h2 class="main-slider__title">Veterinary Medical Care.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="div-medical.php" class="thm-btn main-slider__btn">Discover More <i
@@ -172,7 +172,7 @@ include 'include/headerr.php';
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
+                                        <p class="main-slider__sub-title">We are Providing Vermicomposting Services</p>
                                         <h2 class="main-slider__title">Vermicomposting.</h2>
                                         <div class="main-slider__btn-box">
                                             <a href="div-agriculture.php" class="thm-btn main-slider__btn">Discover More <i
@@ -183,26 +183,6 @@ include 'include/headerr.php';
                             </div>
                         </div>
                     </div>
-
-                    <!-- <div class="swiper-slide">
-                        <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-4-6.jpg);"></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider__content">
-                                        <p class="main-slider__sub-title">We are Provide Small Scale Industries Services</p>
-                                        <h2 class="main-slider__title">Guinea Pig.</h2>
-                                        <div class="main-slider__btn-box">
-                                            <a href="div-animalhusbandry.php" class="thm-btn main-slider__btn">Discover More <i
-                                                    class="icon-right-arrow"></i> </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
 
                 </div>
 
@@ -342,19 +322,11 @@ include 'include/headerr.php';
                                         Central Sector Schemes in their respective fields.
                                     </p>                            </div>
 
-                            <!-- <div class="svg-wrapper">
-                                <a href="/en/About" class="font_size link_btn_all">
-                                    <div class="link-text"><p>More</p></div>
-                                </a>
-                            </div> -->
-
                             <div class="about-one__btn-box">
                                     <a href="about.php" class="thm-btn about-one__btn" style="text-decoration: none;">More<i
                                             class="icon-right-arrow"></i> </a>
                                     </div>
 
-
-                            <!-- <a href="#" class="readmore_ font_size">Read More</a> -->
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="row">
@@ -365,24 +337,16 @@ include 'include/headerr.php';
                                         </h4>
                                     </div>
 
-
-                                    <!-- <div class="svg-wrapper">
-                                        <a href="/en/Recent" class="font_size link_btn_all">
-                                            <div class="link-text"><p>More</p></div>
-                                        </a>
-                                    </div> -->
-
                                     <div class="about-one__btn-box">
                                     <a href="about.php" class="thm-btn about-one__btn" style="text-decoration: none;">More<i
                                             class="icon-right-arrow"></i> </a>
                                     </div>
 
-                                    <!-- <a href="#" class="readmore_ font_size">Read More</a> -->
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-7 col-lg-7 text-center">
                                     <div class="article-image">
                                         
-                                        <img src="assets/images/backgrounds/agriculture1.png" alt="agriculture-img" style="width:70%;"/>
+                                        <img src="assets/images/backgrounds/agriculture1.png" alt="agriculture-img" style="width:100%;"/>
                                     </div>
                                 </div>
                             </div>
@@ -401,7 +365,7 @@ include 'include/headerr.php';
         <!--About One Start-->
         <section class="about-one">
             <div class="about-one-shape-1 float-bob-x">
-                <img src="assets/images/shapes/about-one-shape-1.png" alt="">
+                <img src="assets/images/shapes/about-one-shape-1.png" style="width:100%;">
             </div>
             <div class="container">
                 <div class="row mb-3">
