@@ -69,7 +69,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
     <h1 align="center" class="register-logo">
     <a href="#"><b>REGISTRATION</b></a>
   </h1>
-
+  <h1 class="text-center"><a href="../website/rrecruitment.php"><button class="btn btn-primary">Back</button></a></h1>
   <br>
 
     <div class="row align-items-start card">

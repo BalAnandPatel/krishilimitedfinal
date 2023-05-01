@@ -75,7 +75,7 @@ include 'include/headerr.php';
                         
                         <br />
                         <div class="row">
-                            <div class="col-lg-3"><img src="assets/images/sector/ContractFarming.jpg" style="width: 100%;" alt="cooperation" /></div>
+                            <div class="col-lg-3"><img src="assets/images/sector/contractfarming.jpg" style="width: 100%;" alt="cooperation" /></div>
                             <div class="col-lg-9" style="text-align:justify">
                                 <div class="row">
                                     <div class="adminlist-group">
@@ -235,10 +235,10 @@ include 'include/headerr.php';
                                             <li>Provision of extension grants to accredited ESPs</li>
                                             <li>Provision of grants for policy research on extension</li>
                                         </ul>
-                                    </div>
+                                    </div>  
                                 </div>
                             </div>
-                            <div class="col-lg-3"><img src="assets/images/sector/agri-training.jpg" style="width: 100%;" alt="cooperation" /></div>
+                            <div class="col-lg-3"><img src="assets/images/sector/agri-training.JPG" style="width: 100%;" alt="cooperation" /></div>
                         </div>
                     </div>
                 </div>
