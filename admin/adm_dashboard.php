@@ -118,7 +118,7 @@ $total_vacncy = $result_vacancy_count->records[0]->exam_count;
           <div class="small-box bg-info">
             <div class="inner">
 
-              <h2><?php echo $total_vacncy;  ?></h2>
+              <h3><?php echo $total_vacncy;  ?></h3>
               <p>Number of vacancies</p>
             </div>
             <div class="icon">
