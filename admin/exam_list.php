@@ -65,6 +65,7 @@
                     <th>Type</th>
                     <th>Amount</th>
                     <th>Age</th>
+                    <th>Total Post</th>
                     <th>Status</th>
                     <th>Start Date</th>
                     <th>End Date</th>
@@ -90,6 +91,7 @@
                     <td><?php echo $value1->type?></td>
                     <td><?php echo $value1->amount ?></td>
                     <td><?php echo $value1->age; ?></td>
+                    <td><?php echo $value1->total_post; ?></td>
                     <td><?php if($value1->status==0) echo "PENDING"; elseif($value1->status==1) echo "ACTIVE"; elseif($value1->status==2) echo "DISABLEDA"; ?></td>
 
 
