@@ -17,7 +17,7 @@ $database = new Database();
 $db = $database->getConnection();
   
 // initialize object
-$$vacancy_count = new Dashboard($db);
+$vacancy_count = new Dashboard($db);
   
 $data = json_decode(file_get_contents("php://input"));
 // print_r($data);
@@ -42,7 +42,7 @@ if($num>0){
   
         $vacancy_count_item=array(
 
-         "$vacancy_count" => $vacancy_count,
+         "exam_count" => $exam_count,
      
         );
   

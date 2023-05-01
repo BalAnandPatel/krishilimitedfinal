@@ -13,7 +13,7 @@ function giplCurl($url, $postdata)
 
 
 $url_read_total_reg = $URL . "dashboard/total_reg_count.php";
-$url_read_total_vacancy = $URL . "dashboard/total_reg_count.php";
+$url_read_total_vacancy = $URL . "dashboard/total_vacancy_count.php";
 
 
 $data_pending = array("status" => '0');
@@ -39,7 +39,7 @@ $rejected_registration = $result_rejected_reg->records[0]->reg_count;
 
 $result_vacancy_count = giplCurl($url_read_total_vacancy, $postdata_approved);
 //print_r($result_vacancy_count);
-$total_vacncy = $result_vacancy_count->records[0]->reg_count;
+$total_vacncy = $result_vacancy_count->records[0]->exam_count;
 
 ?>
 <!-- Content Wrapper. Contains page content -->
