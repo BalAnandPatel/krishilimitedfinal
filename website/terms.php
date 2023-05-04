@@ -97,6 +97,10 @@
         </section>
         <!--Project Details End-->
 
-       
+    <div class="alert-con alert-primary" role="alert">
+    <center>
+    For any query, please contact - 7307145971
+    </center>
+    </div>       
 
 <?php include "include/footerr.php"; ?>

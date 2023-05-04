@@ -1880,6 +1880,12 @@ ul {
         color: #311E04 !important;
         background: #f8f8f8;
     }
+    .alert-con {
+        position: relative;
+        padding: 1rem 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
 /*========DA&FW Organisation==========*/
 .heading {
     font-size: 22px;

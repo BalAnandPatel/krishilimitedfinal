@@ -174,6 +174,10 @@ As of now, SHYAMAVSVSS KRISHI LIMITED. doesn't deliver items internationally.</p
         </section>
         <!--Project Details End-->
 
-       
+    <div class="alert-con alert-primary" role="alert">
+    <center>
+    For any query, please contact - 7307145971
+    </center>
+    </div>
 
 <?php include "include/footerr.php"; ?>

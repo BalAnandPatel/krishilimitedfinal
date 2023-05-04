@@ -168,23 +168,25 @@ include 'include/headerr.php';
                                                 <th class="font_size"> <label for="Name">Name</label></th>
                                                 <th class="font_size"><label for="Designation">Designation</label>
                                                 <th class="font_size"><label for="Email">Email</label></th>
-                                                <th class="font_size"><label for="Office">Office</label></th>
-                                                <th class="font_size"><label for="Fax">Fax</label></th>
-                                                <th class="font_size"><label for="EPABX">EPABX</label></th>
-                                                <th style="min-width:100px" class="font_size"><label for="Room_No">Room No</label></th>
-                                                <th class="font_size"><label for="Residence">Residence</label></th>
+                                                <th style="min-width:100px" class="font_size"><label for="Mob">Mobile No.</label></th>
+                                                <th class="font_size"><label for="Website">Website</label></th>
+                                                <th class="font_size"><label for="Residence">Address</label></th>
+                                                <!-- <th class="font_size"><label for="Office">Office</label></th> -->
+                                                <!-- <th class="font_size"><label for="EPABX">EPABX</label></th> -->
+                                                <!-- <th style="min-width:100px" class="font_size"><label for="Room_No">Room No</label></th> -->
                                                 
                                             </tr>
 
                                             <tr>
-                                                <td class="font_size">Shri Narendra Singh Tomar</td>
-                                                <td class="font_size">Honorable Minister of Agriculture &amp; Farmers Welfare</td>
-                                                <td class="font_size">agrimin[dot]india[at]gmail[dot]com</td>
-                                                <td class="font_size">23383370, 23782691</td>
-                                                <td class="font_size">23384129 (Fax)</td>
-                                                <td class="font_size"></td>
-                                                <td class="font_size">120</td>
-                                                <td class="font_size">23794697, 23794698, 23794696 (Fax)</td>
+                                                <td class="font_size">Shri Vikash Nishad</td>
+                                                <td class="font_size">Director</td>
+                                                <td class="font_size">vikasnishad7863@gmail.com krishilimitedindia@gmail.com</td>
+                                                <td class="font_size">7307145971</td>
+                                                <td class="font_size"><a href="http://krishilimited.com/">krishilimited.com</a></td>
+                                                <td class="font_size">C/O DASRATH PAUL, OM NAGAR COLONY ARATEE NO. 86/320, SARNATH VARANASI Varanasi UP 221007 IN .</td>
+                                                <!-- <td class="font_size"></td> -->
+                                                <!-- <td class="font_size"></td> -->
+                                                <!-- <td class="font_size"></td> -->
                                             </tr>
                                             </table>
                                             
@@ -205,6 +207,12 @@ include 'include/headerr.php';
             </div>
         </div>
     </div>
+</div>
+
+<div class="alert-con alert-primary" role="alert">
+    <center>
+    For any query, please contact - 7307145971
+    </center>
 </div>
 
 
