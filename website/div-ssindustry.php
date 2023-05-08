@@ -150,47 +150,6 @@ include 'include/headerr.php';
 
             <br>
             <br>
-
-
-            <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h1 style="color: white;">Masala Udyog</h1>
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        
-                        <br />
-                        <div class="row">
-                            <div class="col-lg-3"><img src="assets/images/sector/spices.jpg" style="width: 100%;" alt="cooperation" /></div>
-                            <div class="col-lg-9" style="text-align:justify">
-                                <div class="row">
-                                    <div class="adminlist-group">
-                                        <ul>
-                                            <p>
-                                            Masala (from Hindi/Urdu masalah, based on Arabic masalih) is a term from the Indian subcontinent for a spice mix. A masala can be either a combination of dried (and usually dry-roasted) spices, or a paste (such as vindaloo masala) made from a mixture of spices and other ingredients—often garlic, ginger, onions, chilli paste and tomato. Masalas are used extensively in Indian cuisine to add spice and flavour, most familiarly to Western cuisine in chicken tikka masala and chicken curry, or in masala chai. Other South Asian cuisines including Bangladeshi, Nepali, Pakistani and Sri Lankan, Southeast Asian cuisine such as Burmese and the Caribbean regularly use spice mixes.
-                                            </p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Portal of Agriculture Census
-                    </button>
-                </h2>
-            </div> -->
-
-            <br><br>
-
-
             
             <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -229,46 +188,8 @@ include 'include/headerr.php';
                 </h2>
             </div> -->
 
-
             <br>
             <br>
-
-
-            <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h1 style="color: white;">Fish Food Making</h1>
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        
-                        <br />
-                        <div class="row">
-                            <div class="col-lg-3"><img src="assets/images/sector/fishfood.jpg" style="width: 100%;" alt="cooperation" /></div>
-                            <div class="col-lg-9" style="text-align:justify">
-                                <div class="row">
-                                    <div class="adminlist-group">
-                                        <ul>
-                                            <p>
-                                            Aquarium fish feed is plant or animal material intended for consumption by pet fish kept in aquariums or ponds. Fish foods normally contain macronutrients, trace elements and vitamins necessary to keep captive fish in good health. Approximately 80% of fishkeeping hobbyists feed their fish exclusively prepared foods that most commonly are produced in flake, pellet or tablet form. Pelleted forms, some of which sink rapidly, are often used for larger fish or bottom feeding species such as loaches or catfish.[citation needed] Some fish foods also contain additives such as sex hormones or beta carotene to artificially enhance the color of ornamental fish.
-                                            </p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            
-
-            <br>
-            <br>
-
 
             <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -299,7 +220,7 @@ include 'include/headerr.php';
             </div>
 
             
-            
+            <br><br>
 
             <div class="accordion" id="accordionExample">
             <div class="accordion-item">
