@@ -316,11 +316,12 @@ include 'include/headerr.php';
                     <div class="row padding_80px row_sm">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="footer_content">
-                                <h4 class="font_size pb-2">DA &amp; FW ORGANISATION</h4>
+                                <h4 class="font_size pb-2">About Shyamavsvss Krishi Limited</h4>
                                     <p class="font_size">
-                                        The DA & FW is organized into 28 Divisions and has five attached offices and twenty-one subordinate offices which are spread across the country for coordination with state level agencies and implementation of
-                                        Central Sector Schemes in their respective fields.
-                                    </p>                            </div>
+									Shyamavsvss Krishi Limited is a Public Limited Company which is having a expertise in Agriculture Farming, Fish Farming, Duck Farming, Geni Pig Farming, Goat Farming, Pig Farming, Seap Farming, Fish Hatchery, Duck Hatchery, Egg Hatchery of Birds, Rural work etc. The Company provide offer to farmer for the contract base agriculture which provide more profit than self farming.</p>
+                                   <p>									
+									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently statart the fishing pound in servel rural area for the Fish Farming.
+									</div>
 
                             <div class="about-one__btn-box">
                                     <a href="about.php" class="thm-btn about-one__btn" style="text-decoration: none;">More<i
@@ -328,30 +329,7 @@ include 'include/headerr.php';
                                     </div>
 
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <div class="row">
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                                    <div class="footer_content rt_in">
-                                        <h4 class="font_size pb-2">
-                                            Recent Initiatives
-                                        </h4>
-                                    </div>
-
-                                    <div class="about-one__btn-box">
-                                    <a href="about.php" class="thm-btn about-one__btn" style="text-decoration: none;">More<i
-                                            class="icon-right-arrow"></i> </a>
-                                    </div>
-
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-7 col-lg-7 text-center">
-                                    <div class="article-image">
-                                        
-                                        <img src="assets/images/backgrounds/agriculture1.png" alt="agriculture-img" style="width:100%;"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        
                 </div>
             </div>
         </div>

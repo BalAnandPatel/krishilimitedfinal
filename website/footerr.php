@@ -1,6 +1,6 @@
-<!-- <br><br> -->
+<br><br>
 
-<!-- <section class="content footer_logo">
+<section class="content footer_logo">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 
 
@@ -78,24 +78,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="department_content font_size">
-                        Website Content Owned & Managed by Department of Agriculture & Farmers Welfare | MoA & FW | Government of India, India
-                        <!--| Last Updated: <span id="spnLastupdate">--><!--</span>-->
-                        <br />
-                        Designed and Developed by <a href="https://www.glintel.com/">Glintel Technologies</a>
-                        <br /> Last Updated On: 14 Apr 2023<br />
-
-                        <!-- Visitors: -->
-                        <span id="span_visitor">
-                            <a href='https://www.free-counters.org/'>Free-Counters.org</a>
-                            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=8813338c0a87f5d4a997c0ca13e98a6098d59a7c'></script>
-                            <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1028105/t/7"></script>
-                        </span>
-
-                    </h4>
+                        <h4 class="department_content font_size">
+                            Website Content Given & Managed by Shyamavsvss Krishi Limited 
+                            <!--| Last Updated: <span id="spnLastupdate">--><!--</span>-->
+                            <br />
+                            Designed and Developed by <a href="https://www.glintel.com/">Glintel Technologies</a>
+                            Visitors: <span id="span_visitor"></span> 
+                            
+                        </h4>
 
 
-
+                    
                 </div>
             </div>
         </div>
@@ -104,46 +97,45 @@
 
 </footer>
 <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendors/jarallax/jarallax.min.js"></script>
-<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-<script src="assets/vendors/nouislider/nouislider.min.js"></script>
-<script src="assets/vendors/odometer/odometer.min.js"></script>
-<script src="assets/vendors/swiper/swiper.min.js"></script>
-<script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
-<script src="assets/vendors/wnumb/wNumb.min.js"></script>
-<script src="assets/vendors/wow/wow.js"></script>
-<script src="assets/vendors/isotope/isotope.js"></script>
-<script src="assets/vendors/countdown/countdown.min.js"></script>
-<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
-<script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-<script src="assets/vendors/vegas/vegas.min.js"></script>
-<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-<script src="assets/vendors/timepicker/timePicker.js"></script>
-<script src="assets/vendors/circleType/jquery.circleType.js"></script>
-<script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
 
 
 
 
-<!-- template js -->
-<script src="assets/js/agrion.js"></script>
+    <!-- template js -->
+    <script src="assets/js/agrion.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-
-        window.setTimeout(function() {
-            $(".alert").fadeTo(1000, 0).slideUp(1000, function() {
-                $(this).remove();
-            });
-        }, 5000);
-
+$(document).ready(function () {
+ 
+window.setTimeout(function() {
+    $(".alert").fadeTo(1000, 0).slideUp(1000, function(){
+        $(this).remove(); 
     });
+}, 5000);
+ 
+});
 </script>
 </body>
-
 </html>
