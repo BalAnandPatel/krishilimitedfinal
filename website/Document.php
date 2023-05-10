@@ -23,7 +23,7 @@ include "include/headerr.php"
 
                     <div class="swiper-slide">
 
-                        <img src="assets/images/banner/breadcrumb-banner-1.jpg" alt="breadcrumb-banner" style="width:100%">
+                        <img src="assets/images/banner/breadcrumb-2.png" alt="breadcrumb-banner" style="width:100%">
                         
 
                     </div>
