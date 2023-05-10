@@ -4,21 +4,77 @@
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
 
+
+        <section class="content">
+
+    <div class="banner_slider banner_slider_one">
+
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <img alt="banner" src="assets/images/banner/breadcrumb-2.png" style="width:100%">
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="ab_msec">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12">
+                <nav class="breadcrumb1" aria-label="breadcrumb">
+                    <ol class="breadcrumb font_size">
+                        <li class="breadcrumb-item">
+                            <a href="index.php">
+                                <img alt="Home" src="assets/images/social/home-icon2.png" class="homeIcon">Home
+                            </a>
+                        </li>
+
+
+                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="footer_content">
+            <h4 class="font_size pb-2">About Us</h4>
+        </div>
+
+
         <!--Page Header Start-->
-        <section class="page-header">
+        <!-- <section class="page-header">
             <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
             </div>
             <div class="container">
                 <div class="page-header__inner">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="#">&nbsp; &nbsp; &nbsp; &nbsp; Home</a></li>
+                        <li><a href="index.php">&nbsp; &nbsp; &nbsp; &nbsp; Home</a></li>
                         <li><span>/</span></li>
                         <li>About</li>
                     </ul>
                     <h2>About us</h2>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Page Header End-->
         <!--About Three Start-->
         <section class="about-three">
@@ -51,7 +107,7 @@
                         <div class="about-three__right">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Get to know about us</span>
-                                <h2 class="section-title__title">About SHYAMAVSVSS KRISHI LIMITED</h2>
+                                <h2 class="font_size pb-2">About Shyamavsvss Krishi Limited</h2>
                                 <div class="section-title__icon">
                                     <img src="assets/images/icon/section-title-icon-1.png" alt="">
                                 </div>
@@ -75,5 +131,7 @@
             </div>
         </section>
         <!--About Three End-->
+
+        </section>
 
 <?php include "include/footerr.php" ?>

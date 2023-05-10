@@ -26,8 +26,10 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-2-1.jpg);"></div>
-                        <!-- /.image-layer -->
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-1.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div>
+                        </div>
+                            <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -46,7 +48,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-2-9.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-9.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -66,7 +69,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-3-5.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-3-5.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -86,7 +90,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-4-1.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-1.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -106,7 +111,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-4-2.png);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-2.png);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -126,7 +132,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-4-3.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-3.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -146,7 +153,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-4-4.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-4.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -166,7 +174,8 @@ include 'include/headerr.php';
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-4-5.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-4-5.jpg);">
+                            <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
                         <!-- /.image-layer -->
                         <div class="container">
                             <div class="row">
@@ -320,7 +329,7 @@ include 'include/headerr.php';
                                     <p class="font_size">
 									Shyamavsvss Krishi Limited is a Public Limited Company which is having a expertise in Agriculture Farming, Fish Farming, Duck Farming, Geni Pig Farming, Goat Farming, Pig Farming, Seap Farming, Fish Hatchery, Duck Hatchery, Egg Hatchery of Birds, Rural work etc. The Company provide offer to farmer for the contract base agriculture which provide more profit than self farming.</p>
                                    <p>									
-									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently statart the fishing pound in servel rural area for the Fish Farming.
+									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently starting the fishing pond in several rural area for the Fish Farming.
 									</div>
 
                             <div class="about-one__btn-box">
@@ -393,7 +402,7 @@ $result = json_decode($response);
                         <div class="about-one__left">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Get to know about us</span>
-                                <h2 class="section-title__title">About SHYAMAVSVSS KRISHI LIMITED</h2>
+                                <h2 class="font_size pb-2">About Shyamavsvss Krishi Limited</h2>
                                 <div class="section-title__icon">
                                     <img src="assets/images/icon/section-title-icon-1.png" alt="">
                                 </div>
@@ -429,6 +438,7 @@ $result = json_decode($response);
                                 </div>
                                 <div class="about-one__img-two">
                                     <img src="assets/images/resources/about-4.jpg" style="width:350px; height:332px;" alt="">
+                                    <div class="about-one__logo"><img src="assets/images/logo/logo.png"></div>
                                 </div>
                                 <div class="about-one__video-link">
                                     <a href="#" class="video-popup">

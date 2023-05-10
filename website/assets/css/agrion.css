@@ -2263,6 +2263,12 @@ ul {
   text-align: center;
 }
 
+.main-slider__img{
+  width: 8%;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
 .main-slider__sub-title {
   position: relative;
   display: inline-block;
@@ -3067,6 +3073,17 @@ ul {
 .about-one__img-two img {
   width: auto;
   border-radius: var(--agrion-bdr-radius);
+  position: relative;
+}
+
+.about-one__logo{
+  position: absolute;
+  width: 10%;
+}
+.about-one__logo img{
+  width: 100%;
+  margin-top: -650px;
+  left: 900%;
 }
 
 .about-one__video-link {
