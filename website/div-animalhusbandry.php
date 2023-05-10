@@ -264,48 +264,6 @@ include 'include/headerr.php';
             <br><br>
 
 
-            <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h1 style="color: white;">Fish Farming</h1>
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        
-                        <br />
-                        <div class="row">
-                            <div class="col-lg-3"><img src="assets/images/sector/Guinea-pig-farm.jpg" style="width: 100%;" alt="cooperation" /></div>
-                            <div class="col-lg-9" style="text-align:justify">
-                                <div class="row">
-                                    <div class="adminlist-group">
-                                        <ul>
-                                            <p>The guinea pig or domestic guinea pig (Cavia porcellus), also known as the cavy or domestic cavy (/ˈkeɪvi/), is a species of rodent belonging to the genus Cavia in the family Caviidae. Breeders tend to use the word cavy to describe the animal, while in scientific and laboratory contexts, it is far more commonly referred to by the common name guinea pig. Despite their common name, guinea pigs are not native to Guinea, nor are they closely related biologically to pigs, and the origin of the name is still unclear. They originated in the Andes of South America. Studies based on biochemistry and hybridization suggest they are domesticated animals that do not exist naturally in the wild, descendants of a closely related cavy species such as C. tschudii. They were originally domesticated as livestock for a source of meat, and are still consumed in some parts of the world.</p>
-                                            <p>In Western society, the guinea pig has enjoyed widespread popularity as a pet since its introduction to Europe and North America by European traders in the 16th century. Their docile nature, friendly responsiveness to handling and feeding, and the relative ease of caring for them have continued to make guinea pigs a popular choice of household pet. Organizations devoted to the competitive breeding of guinea pigs have been formed worldwide. Many specialized breeds, with varying coat colors and textures, are selected by breeders.</p>
-                                            <p>Livestock breeds of the guinea pig play an important role in folk culture for many indigenous Andean peoples, especially as a food source. The animals are also used in folk medicine and in community religious ceremonies. They are raised for their meat and are a culinary staple in the Andes Mountains, where they are known as cuy. In the 1960s a modern breeding program was started in Peru that resulted in large breeds known as cuy mejorados (improved cuy). Marketers tried to increase consumption of the animal outside South America.</p>
-                                            <p>Biological experimentation on domestic guinea pigs has been carried out since the 17th century. The animals were used so frequently as model organisms in the 19th and 20th centuries that the epithet guinea pig came into use to describe a human test subject. Since that time, they have been largely replaced by other rodents, such as mice and rats. However, they are still used in research, primarily as models to study such human medical conditions as juvenile diabetes, tuberculosis, scurvy (like humans, they require dietary intake of vitamin C), and pregnancy complications</p>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Portal of Agriculture Census
-                    </button>
-                </h2>
-            </div> -->
-
-            <br><br>
-
-
-
-
             <ul>
 
                 <li class="breadcrumb-item font_size active" aria-current="page">Publish Date :12-12-2022</li>

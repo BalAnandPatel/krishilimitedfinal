@@ -485,6 +485,10 @@ include "../constant.php";
                             <a class="nav-link font_size custom-nav-link" href="service.php">Services</a>
                             </li>
 
+                            <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="product.php">Our Products</a>
+                            </li>
+
                             <ul id="pagesSubMenu3" class="hs-sub-menu main-sub-menu animated expanded_opn" aria-labelledby="pagesMegaMenu3" style="width: 250px;">
 
 

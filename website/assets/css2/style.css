@@ -2505,6 +2505,12 @@ stroke: #4d5d08;
         font-weight: 700;
     }
 
+    .single-missions img {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+
 .table-responsive {
     font-size: 14px;
 }
