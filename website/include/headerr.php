@@ -89,8 +89,8 @@ include "../constant.php";
 
                             <div>
                                 <ul>
-                                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड विभाग</li>
-                                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE</li>
+                                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
+                                    <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
                                     <li class="department_heading-tow" lang="en">
                                         <h6 class="logo-text logo-text-one">
                                             <span>भारत सरकार द्वारा पंजीकृत</span>
@@ -221,8 +221,8 @@ include "../constant.php";
 
             <div>
                 <ul>
-                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड विभाग</li>
-                    <li class="department_heading" lang="en">DEPARTMENT OF AGRICULTURE</li>
+                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
+                    <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
                     <li class="department_heading-tow" lang="en">
                         <h6 class="logo-text logo-text-one">
                         <span>भारत सरकार द्वारा पंजीकृत</span>
@@ -241,39 +241,39 @@ include "../constant.php";
     </a>
 </div>
 <div class="col-md-6 col-lg-7 mt-2">
-    <div class="row header-icon">
+    <!-- <div class="row header-icon">
         <div class="col-2">
             <a class="sw-logo" href="#" title="Swachh Bharat, External link">
-                <img src="assets/images/minister/150-years-of-celebrating-the-mahatma.png" alt="150 years of celebrating the mahatma" />
+                <img src="#assets/images/minister/150-years-of-celebrating-the-mahatma.png" alt="LOGO IMG1" />
             </a>
         </div>
         <div class="col-2">
             <a class="sw-logo redirectconfirmation" target="_blank" href="https://swachhbharat.mygov.in/" title="Swachh Bharat, External link">
-                <img src="assets/images/minister/swachh-bharat-swachh-vidyalaya.png" alt="swachh bharat swachh vidyalaya" />
+                <img src="#assets/images/minister/swachh-bharat-swachh-vidyalaya.png" alt="LOGO IMG2" />
             </a>
 
         </div>
         <div class="col-2">
             <a class="sw-logo redirectconfirmation" target="_blank" href="https://ejalshakti.gov.in/JSA/JSA/Home.aspx" title="Jal Shakti Abhiyan, External link">
-                <img src="assets/images/minister/jal-shakti-abhiyan-sanchay-jal-behtar-kal.png" alt="jal shakti abhiyan sanchay jal behtar kal" />
+                <img src="#assets/images/minister/jal-shakti-abhiyan-sanchay-jal-behtar-kal.png" alt="LOGO IMG3" />
             </a>
         </div>
         <div class="col-2 ">
             <a class="sw-logo redirectconfirmation" target="_blank" href="https://amritmahotsav.nic.in/" title="Azadi Ka Amrit Mahotsav, External link">
-                <img src="assets/images/minister/azadi-ka-amrit-mahotsav.png" alt="Azadi Ka Amrit Mahotsav" />
+                <img src="#assets/images/minister/azadi-ka-amrit-mahotsav.png" alt="LOGO IMG4" />
             </a>
         </div>
         <div class="col-2 ">
             <a class="sw-logo redirectconfirmation" href="https://www.g20.org/en" target="_blank">
-                <img src="assets/images/minister/logo_G20.jpg" alt="G-20" />
+                <img src="#assets/images/minister/logo_G20.jpg" alt="LOGO IMG5" />
             </a>
         </div>
         <div class="col-2 ">
             <a class="sw-logo redirectconfirmation" href="http://agriwelfare.gov.in//awg-g20/" target="_blank">
-                <img src="assets/images/minister/AWG-g20.jpg" alt="G-20" />
+                <img src="#assets/images/minister/AWG-g20.jpg" alt="LOGO IMG6" />
             </a>
         </div>        
-    </div>
+    </div> -->
 </div>
 <!-- <div class="col-md-2 col-lg-1 mt-2">
     <div class="row">

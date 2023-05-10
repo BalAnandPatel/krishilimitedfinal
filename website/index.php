@@ -257,7 +257,7 @@ include 'include/headerr.php';
                         <div class="col-12 col-md-12">
 
                             <div class="minister-box">
-                                <a class="link_ redirectconfirmation"  href="https://loksabha.nic.in/Members/MemberHomePage.aspx?mpsno=4507" target="_blank" class="link_" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
+                                <a class="link_ redirectconfirmation"  href="index.php"  class="link_" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
                                  
                                     <img src="assets/images/resources/shri-narendra-singh-tomar.jpg" alt="shri-narendra-singh-tomar" />
                                         <h4 class="section_content_two_heading">Shri Narendra Singh Tomar</h4>
@@ -269,11 +269,11 @@ include 'include/headerr.php';
                             </div>
 
                         </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <!-- <div class="col-6 col-sm-6 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="minister-box minister-box_ ">
-                                    <a  href="https://loksabha.nic.in/Members/MemberHomePage.aspx?mpsno=4616"
-                                       target="_blank" class="link_ redirectconfirmation" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
+                                    <a  href="index.php"
+                                        class="link_ redirectconfirmation" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
                                        
                                         <img src="assets/images/resources/sushri-shobha-karandlaje.jpg" alt="sushri-shobha-karandlaje" />
                                             <h4 class="section_content_two_heading font_size">
@@ -287,8 +287,8 @@ include 'include/headerr.php';
                         <div class="col-6 col-sm-6 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="minister-box minister-box_">
-                                    <a href="https://loksabha.nic.in/Members/MemberHomePage.aspx?mpsno=5207"
-                                       target="_blank" class="link_ redirectconfirmation" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
+                                    <a href="index.php"
+                                       class="link_ redirectconfirmation" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
                                         
                                         <img src="assets/images/resources/shri-kailash-choudhary.jpg" alt="shri-kailash-choudhary" />
                                             <h4 class="section_content_two_heading font_size">
@@ -298,8 +298,8 @@ include 'include/headerr.php';
                                             <p class="font_size">Hon'ble Minister of State</p>                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        </div> -->
+                        <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-12">
 
                             <div class="audio_box">
 
@@ -309,7 +309,7 @@ include 'include/headerr.php';
                                     <source src="assets/images/resources/audio_agri.mpeg" type="audio/mpeg" />
                                 </audio>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-8 col-lg-8 dst_sm">
