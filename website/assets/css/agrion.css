@@ -96,7 +96,7 @@ h5,
 h6 {
   color: var(--agrion-black);
   margin: 0;
-  font-family: var(--agrion-font-two);
+  /* font-family: var(--agrion-font-two); */
 }
 
 p {
