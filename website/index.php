@@ -330,6 +330,7 @@ include 'include/headerr.php';
 									Shyamavsvss Krishi Limited is a Public Limited Company which is having a expertise in Agriculture Farming, Fish Farming, Duck Farming, Geni Pig Farming, Goat Farming, Pig Farming, Seap Farming, Fish Hatchery, Duck Hatchery, Egg Hatchery of Birds, Rural work etc. The Company provide offer to farmer for the contract base agriculture which provide more profit than self farming.</p>
                                    <p>									
 									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently starting the fishing pond in several rural area for the Fish Farming.
+            </p>
 									</div>
 
                             <div class="about-one__btn-box">
@@ -402,14 +403,14 @@ $result = json_decode($response);
                         <div class="about-one__left">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Get to know about us</span>
-                                <h2 class="font_size pb-2">About Shyamavsvss Krishi Limited</h2>
-                                <div class="section-title__icon">
-                                    <img src="assets/images/icon/section-title-icon-1.png" alt="">
-                                </div>
+                                <h2 class="font_size pb-2">How We Work </h2>
+                               
                             </div>
-                            <p class="about-three__text-1">
-                            <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                            THE MOTIVE OF SHYAMAVSVSS KRISHI LIMITED IS TO REFORMS THE EDUCATION, AGRICULTURE AND UNEMPLOYMENT FACTOR IN UTTAR PRADESH...</p>
+                            <p class="font_size">
+									Shyamavsvss Krishi Limited start the network of work. Shyamavsvss Krishi limited start project as village and block wise then we create the block level office and distric level office by which we collect the product from rural level worker and supply to country level.</p>
+                                   <p>									
+									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently starting the fishing pond in several rural area for the Fish Farming.
+            </p>
                             <div class="about-one__btn-and-ceo mt-5">
                                 <div class="about-one__btn-box">
                                     <a href="about.php" class="thm-btn about-one__btn">About More<i
