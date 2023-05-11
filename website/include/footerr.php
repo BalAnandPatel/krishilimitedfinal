@@ -78,21 +78,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="department_content font_size">
-                        Website Content Owned & Managed by Department of Agriculture & Farmers Welfare | MoA & FW | Government of India, India
+                    <h6 class="department_content font_size">
+                        Website Content Owned & Managed by Shyamavsvss Krishi Limited.
                         <!--| Last Updated: <span id="spnLastupdate">--><!--</span>-->
                         <br />
-                        Designed and Developed by <a href="https://www.glintel.com/">Glintel Technologies</a>
-                        <br /> Last Updated On: 14 Apr 2023<br />
+                        <!-- Designed and Developed by <a href="https://www.glintel.com/">Glintel Technologies</a> -->
 
                         <!-- Visitors: -->
-                        <span id="span_visitor">
-                            <a href='https://www.free-counters.org/'>Free-Counters.org</a>
-                            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=8813338c0a87f5d4a997c0ca13e98a6098d59a7c'></script>
-                            <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1028105/t/7"></script>
+                        <span id="span_visitor" style="display: flex;justify-content: center;"><br>Visiter Counter: &nbsp;
+                        <a href='http://www.freevisitorcounters.com'>at Freevisitorcounters.com</a> 
+                        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=44af2b7ca65c7ab709c69636f6003796f46cfbc8'></script>
+                        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1028477/t/3"></script>
                         </span>
 
-                    </h4>
+                    </h6>
 
 
 

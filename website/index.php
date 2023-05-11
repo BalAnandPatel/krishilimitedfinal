@@ -265,15 +265,15 @@ include 'include/headerr.php';
                     <div class="row minister-section">
                         <div class="col-12 col-md-12">
 
-                            <div class="minister-box">
+                            <div class="">
                                 <a class="link_ redirectconfirmation"  href="index.php"  class="link_" style="display:flex;flex-direction: column;align-items: center;justify-content: center;">
                                  
-                                    <img src="assets/images/resources/shri-narendra-singh-tomar.jpg" alt="shri-narendra-singh-tomar" />
-                                        <h4 class="section_content_two_heading">Shri Narendra Singh Tomar</h4>
-                                        <p class="font_size text-center">
+                                    <img src="assets/images/logo/logo.png" alt="SHYAMAVSVSS KRISHI LIMITED" style="width: 50%;" />
+                                        <h4 class="section_content_two_heading">SHYAMAVSVSS KRISHI LIMITED</h4>
+                                        <!-- <p class="font_size text-center">
                                             Hon’ble Minister of Agriculture & <br />
                                             Farmers Welfare
-                                        </p>
+                                        </p> -->
                                 </a>
                             </div>
 
@@ -403,8 +403,10 @@ $result = json_decode($response);
                         <div class="about-one__left">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">Get to know about us</span>
-                                <h2 class="font_size pb-2">How We Work </h2>
-                               
+                                <h2 class="font_size">About Shyamavsvss Krishi Limited</h2>
+                                <div class="section-title__icon">
+                                    <img src="assets/images/icon/section-title-icon-1.png" alt="">
+                                </div>
                             </div>
                             <p class="font_size">
 									Shyamavsvss Krishi Limited start the network of work. Shyamavsvss Krishi limited start project as village and block wise then we create the block level office and distric level office by which we collect the product from rural level worker and supply to country level.</p>
