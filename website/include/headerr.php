@@ -93,12 +93,12 @@ include "../constant.php";
                                     <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
                                     <li class="department_heading-tow" lang="en">
                                         <h6 class="logo-text logo-text-one">
-                                            <span>भारत सरकार द्वारा पंजीकृत</span>
-                                            <span>GOVERNMENT OF INDIA</span>
+                                            <span>भारत सरकार द्वारा <br> पंजीकृत</span>
+                                            <span>REGISTERED BY GOVERNMENT OF INDIA</span>
                                         </h6>
                                         <h6 class="logo-text logo-text-two">
                                             <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
-                                            <span>MINISTRY OF AGRICULTURE &amp; FARMERS WELFARE</span>
+                                            <span>ALWAYS READY TO HELP FARMERS</span>
                                         </h6>
                                     </li>
                                 </ul>
@@ -224,15 +224,14 @@ include "../constant.php";
                     <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
                     <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
                     <li class="department_heading-tow" lang="en">
-                        <h6 class="logo-text logo-text-one">
-                        <span>भारत सरकार द्वारा पंजीकृत</span>
-                        <span>GOVERNMENT OF INDIA</span>
-                        </h6>
-                        <h6 class="logo-text logo-text-two">
-                            <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
-                            <span>MINISTRY OF AGRICULTURE &amp; FARMERS WELFARE</span>
-                        </h6>
-
+                            <h6 class="logo-text logo-text-one">
+                                <span>भारत सरकार द्वारा <br> पंजीकृत</span>
+                                <span>REGISTERED BY GOVERNMENT OF INDIA</span>
+                            </h6>
+                            <h6 class="logo-text logo-text-two">
+                                <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
+                                <span>ALWAYS READY TO HELP FARMERS</span>
+                            </h6>
                     </li>
                 </ul>
                 <!-- <h4><span class="krishi_heading"></span><br><span class="department_heading"></span><br></h4> -->
