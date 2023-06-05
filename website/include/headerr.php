@@ -196,7 +196,7 @@ include "../constant.php";
                         <li class="languageTxt nav-item">
                             Choose Language-
 
-<form action="/" method="post"><select class="language_top" id="ddlCulture" name="ddlCulture" onchange="this.form.submit();"><option value="en">English</option>
+<form action="" method="post"><select class="language_top" id="ddlCulture" name="ddlCulture" onchange="this.form.submit();"><option value="en">English</option>
 <option value="hi">Hindi</option>
 </select></form>                        </li>
                     </ul>
@@ -234,7 +234,6 @@ include "../constant.php";
                             </h6>
                     </li>
                 </ul>
-                <!-- <h4><span class="krishi_heading"></span><br><span class="department_heading"></span><br></h4> -->
             </div>
         </div>
     </a>
@@ -316,549 +315,72 @@ include "../constant.php";
 
                         <!--About Us Start-->
 
-                        <li class="nav-item  custom-nav-item expanded_opn1 haschild expanded_opnion hs-has-sub-menu">
-                            <a id="pagesMegaMenu" class="nav-link font_size custom-nav-link main-link-toggle " href="about.php"
-                               aria-haspopup="true" aria-expanded="false"
-                               aria-label="About Us">
-                                About Us
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
-                            </a>
-
-                            <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu animated sub_menu_open pagesSubMenudoc" style="width: 270px;" aria-labelledby="pagesMegaMenu">
-                                <li class="nav-item submenu-item">
-                                    <a aria-haspopup="true" class="nav-link font_size sub-menu-nav-link" href="/en/About">Organization Setup</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Ministers">Honorable Ministers</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/who">Who&#39;s who</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a href="/en/Dept" class="nav-link font_size sub-menu-nav-link">Department At A Glance</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a href="/en/org_history" target="_blank" class="nav-link font_size sub-menu-nav-link">History</a>
-                                    
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/OBC_Liaison_Officer">Liaison Officer</a>
-                                    
-                                </li>
-
-                            </ul>
-
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="about.php">About Us</a>
                         </li>
                         <!--About Us end-->
+
                         <!---Division start --->
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="divison.php">Division</a>
                         </li>
                         <!---Division end --->
+
                         <!---Act & Rules start --->
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="act_n_rule.php">Act &amp; Rules</a>
                         </li>
                         <!---Act & Rules end --->
+
                         <!---Documents start --->
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="Document.php">Documents</a>
                         </li>
-                       <!-- Documents Start
-                        <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn2 expanded_opn20 haschild expanded_opnion">
-                            <a id="pagesMegaMenu1" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
-                               aria-haspopup="true" aria-expanded="true"
-                               aria-label="Documents">
-                                Documents
-                                <span class="d_icon"><i class="fas fa-angle-down"></i></span> 
-                            </a>
+                       <!-- Documents End --->
 
-                            <ul id="pagesSubMenu2" class="hs-sub-menu main-sub-menu animated expanded_opn20 pagesSubMenudoc" style="width: 300px;" aria-labelledby="pagesMegaMenu1">
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Mou">MoU</a>
-                                </li>
-                                <li class="hs-has-sub-menu expanded_opn2_1">
-                                    <a id="navLinkPagesPricing" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);"
-                                       aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing">Budget, Finance &amp; Accounts</a>
-
-                                    <ul id="navSubmenuPagesPricing" class="hs-sub-menu main-sub-menu animated expanded_opn20 Submenu_opn2_1" style="width: 220px;" aria-labelledby="navLinkPagesPricing">
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/outBudget">Outcome Budget</a></li>
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Demand">Demand of Grants</a></li>
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Directory_of_PAOs_CDDOs_and_NCDDOs" target="_blank">Directory of PAO/CDDOs/NCDDOs</a></li>
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Acc">Accounts at a Glance</a></li>
-                                    </ul>
-                                </li>
-                                <li class="hs-has-sub-menu expanded_opn2_2">
-                                    <a id="navLinkPagesPricing1" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing1">Reports &amp; Publications</a>
-
-                                    <ul id="navSubmenuPagesPricing1" class="hs-sub-menu main-sub-menu animated expanded_opn20 Submenu_opn2_2" style="width: 220px;" aria-labelledby="navLinkPagesPricing1">
-                                        
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Annual">Annual Reports</a></li>
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Other">Others</a></li>
-
-
-
-                                    </ul>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" target="_blank" href="/en/Citizen_Charter">Citizen Charter</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/DownloadForms">Download Forms</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Result">Results Framework Document (RFD)</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Presentation">Presentations</a>
-                                </li>
-                                <li class="hs-has-sub-menu expanded_opn2_3">
-                                    <a id="navLinkPagesPricing2" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void();" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing2">Circulars / Notifications</a>
-
-                                    <ul id="navSubmenuPagesPricing2" class="hs-sub-menu main-sub-menu animated expanded_opn20 Submenu_opn2_3" style="width: 220px;" aria-labelledby="navLinkPagesPricing2">
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/CirFarmWelfare">Farmers Welfare Division</a></li>
-                                        <li><a class="nav-link font_size sub-menu-nav-link" href="/en/PlantProtect">Plant Protection</a></li>
-                                        
-                                    </ul>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/DocAgriContPlan">Agriculture Contingency Plan</a>
-                                </li>
-                                
-                                
-
-                                
-
-                                
-
-
-
-
-
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Handbook_of_Work_Allocation" target="_blank">Handbook of Work Allocation 2018</a>
-                                </li>
-                                <li class="hs-has-sub-menu expanded_opn2_4">
-                                    <a id="navLinkPagesPricing4" class="nav-link font_size sub-menu-nav-link sub-link-toggle"
-                                       href="#" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing4">Crop Weather Watch Group</a>
-                                    <ul id="navSubmenuPagesPricing4" class="hs-sub-menu main-sub-menu animated expanded_opn20 Submenu_opn2_4" aria-labelledby="navLinkPagesPricing4" style="width: 200px;">
-
-
-                                        <li class="hs-has-sub-menu expanded_opn2_4_1">
-                                            <a id="navLinkPagesPricing5" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing5">CWWG Data</a>
-
-                                            <ul id="navSubmenuPagesPricing5" class="hs-sub-menu main-sub-menu animated expanded_opn20 Submenu_opn2_4_1" style="width: 220px;" aria-labelledby="navLinkPagesPricing5">
-                                                <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Reservoir">Reservoir</a></li>
-                                                <li><a class="nav-link font_size sub-menu-nav-link" href="/en/Rain">Rainfall</a></li>
-                                                <li><a class="nav-link font_size sub-menu-nav-link" href="/en/CropSituation">Crop Situation</a></li>
-                                            </ul>
-                                        </li>
-                                        
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/weather-watch">CWWG Minutes</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/docarchive">Archive</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                
-                            </ul>
-
-                        </li> -->
-                        <!--Documents end -->
-                        <!--Statistics start-->
-
-
-                        <!-- <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn3 expanded_opn expanded_opnion">
-                            <a id="pagesMegaMenu3" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);"
-                               aria-haspopup="true" aria-expanded="false"
-                               aria-label="Statistics">
-                                Service
-                                <span class="d_icon"><i class="fas fa-angle-down"></i></span>
-                            </a> -->
-                            <li class="nav-item custom-nav-item">
+                        <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="service.php">Services</a>
-                            </li>
-
-                            <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="product.php">Our Products</a>
-                            </li>
-
-                            <ul id="pagesSubMenu3" class="hs-sub-menu main-sub-menu animated expanded_opn" aria-labelledby="pagesMegaMenu3" style="width: 250px;">
-
-
-                                <li class="hs-has-sub-menu expanded_opn3_1 ">
-                                    <a id="navLinkPagesPricing6" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing6">
-                                        Agriculture
-                                    </a>
-
-                                    <ul id="navSubmenuPagesPricing6" class="hs-sub-menu main-sub-menu animated Submenu_opn3_1  expanded_opn" aria-labelledby="navLinkPagesPricing6" style="width: 200px;">
-
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/First_Advance_Estimates_of_Production_of_Food_grains" target="_blank">First Advance Estimates of Production of Food Grains for 2020-21</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/First_Advance_Estimate" target="_blank">First Advance Estimate for 2019-20 (Kharif Only)</a>
-                                        </li>
-
-                                        <li>
-                                            
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Advance_Estimates_Of_APY" title="The pdf file open in new window" target="_blank">Advance estimates of APY (English)</a>
-                                        </li>
-                                        <li>
-                                            
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Advance_Estimates_Of_APY_Hi" title="The pdf file open in new window" target="_blank">Advance estimates of APY (Hindi)</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Agricultural_Statistics_at_a_Glance" title="Agricultural Statistics at a  Glance 2016, External link that should open in a new window" target="_blank">Agricultural Statistics at a  Glance 2018</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://eands.dacnet.nic.in/MSP.htm" title="Minimum Support Price (MSP), External link that should open in a new window" target="_blank">Minimum Support Price (MSP)</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/third_Advance_Estimate_of_APY" target="_blank">3rd Advance Estimate of APY (English)</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/third_Advance_Estimate_of_APY_Hi" target="_blank">3rd Advance Estimate of APY (Hindi)</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/second_Advance_Estimate_of_Production_of_Food_Grains" target="_blank">2nd Advance Estimate of Production of Food Grains 2018-19(English)</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/second_Advance_Estimate_of_Production_of_Food_Grains_Hi" target="_blank">2nd Advance Estimate of Production of Food Grains 2018-19(Hindi)</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/forth_Advance_Estimate_of_APY" target="_blank">4th Advance Estimate of APY (English)</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                <li class="hs-has-sub-menu expanded_opn3_2">
-                                    <a id="navLinkPagesPricing7" class="nav-link font_size sub-menu-nav-link sub-link-toggle"
-                                       href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing7">Horticulture</a>
-                                    <ul id="navSubmenuPagesPricing7" class="hs-sub-menu main-sub-menu animated submenu_opn3_2 expanded_opn" aria-labelledby="navLinkPagesPricing7" style="width: 200px;">
-                                        <li class="hs-has-sub-menu expanded_opn3_2_1 ">
-                                            <a id="navLinkPagesPricing8" class="nav-link font_size sub-menu-nav-link sub-link-toggle"
-                                               href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing8">Estimates</a>
-                                            <ul id="navSubmenuPagesPricing8" class="hs-sub-menu main-sub-menu animated submenu_opn3_2_1 expanded_opn" aria-labelledby="navLinkPagesPricing8" style="width: 200px;">
-                                                <li>
-
-                                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/StatHortEst">State Level</a>
-                                                </li>
-                                                
-                                                
-                                            </ul>
-                                        </li>
-
-                                        <li>
-
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/PublicationReports">Publication</a>
-                                        </li>
-
-
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Horticulturereports">Reports</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="http://midh.gov.in/nhmapplication/midhmap/default.aspx" target="_blank">Map</a>
-                                        </li>
-
-
-                                        
-                                    </ul>
-                                </li>
-
-
-
-
-
-                                
-
-
-
-
-
-                                
-
-
-                            </ul>
-
                         </li>
-
-
-
-                        <!--Statistics end-->
-                        <!--Schemes start-->
-
-                        <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn4 expanded_opnion">
-                            <a id="pagesMegaMenu4" class="nav-link font_size custom-nav-link main-link-toggle" href="news.php"
-                               aria-haspopup="true" aria-expanded="false"
-                               aria-label="Schemes">
-                                E-News
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
-                            </a>
-
-
-                            <ul id="pagesSubMenu4" class="hs-sub-menu main-sub-menu animated" aria-labelledby="pagesMegaMenu4" style="width: 250px;">
-
-
-                                <li class="hs-has-sub-menu expanded_opn4_1">
-                                    <a id="navLinkPagesPricing9" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);"
-                                       aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing12">Program &amp; Schemes</a>
-
-                                    <ul id="navSubmenuPagesPricing12" class="hs-sub-menu main-sub-menu animated Submenu_opn4_1" aria-labelledby="navLinkPagesPricing9" style="width: 200px;">
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/FarmWelfare">
-                                                Farmer Welfare Schemes
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Major">Ministry Major Schemes</a>
-                                        </li>
-                                        
-                                    </ul>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Guide">Guidelines</a>
-                                </li>
-                                
-
-                            </ul>
-
-                        </li>
-
-
-
-                        <!--Schemes end-->
-                        <!---Recruitment start --->
-                        <!--<li class="nav-item custom-nav-item">-->
-                        
-                        <!--<a class="nav-link font_size custom-nav-link" href="/en/recruitmentDetail">Recruitments</a>
-                        </li>-->
-                        <!---Recruitment end --->
-                        <!--Media start-->
-                        <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn5 expanded_opnion">
-                            <a id="pagesMegaMenu5" class="nav-link font_size custom-nav-link main-link-toggle" href="gallery.php"
-                               aria-haspopup="true" aria-expanded="false"
-                               aria-label="Media">
-                                Media
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
-                            </a>
-
-
-                            <ul id="pagesSubMenu5" class="hs-sub-menu main-sub-menu animated" aria-labelledby="pagesMegaMenu5" style="width: 250px;">
-                                
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/SwachhtaMessage" target="_blank">Swachhta Message </a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Magazine">e-Magazines</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/whatsNew">What’s New</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Gallery">Photo Gallery</a>
-                                </li>
-
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Recent">Recent Initiatives</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Conf">Conferences</a>
-                                </li>
-                                
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Tender">Tenders</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/recruitmentDetail">Recruitments</a>
-                                </li>
-
-
-
-                            </ul>
-
-                        </li>
-
-                        <!--Media end-->
-
-                        <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn6 expanded_opnion">
-                            <a id="pagesMegaMenu6" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
-                               aria-label="Related Links">
-                                Related Links
-                                <!-- <span class="d_icon"><i class="fas fa-angle-down"></i></span> -->
-                            </a>
-                            <ul id="pagesSubMenu6" class="hs-sub-menu main-sub-menu animated" aria-labelledby="pagesMegaMenu6" style="width: 250px;">
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link" href="/en/Dare">Department of Agricultural Research and Education (DARE)</a>
-                                </li>
-                                
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://www.fao.org/home/en" target="_blank">FAO</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://www.icrisat.org/" target="_blank">ICRISAT</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://farmer.gov.in/" target="_blank">Farmers Portal</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://mausam.imd.gov.in/" target="_blank">IMD</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://mkisan.gov.in/" target="_blank">Mkisan</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://asci-india.com/" target="_blank">Agriculture Skill Council of India</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://agridashboard.dac.gov.in/" target="_blank">Agriculture Information Portal</a>
-                                </li>
-                                <li class="hs-has-sub-menu expanded_opn6_1">
-                                    <a id="navLinkPagesPricing10" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing13">Intra Department</a>
-                                    <ul id="navSubmenuPagesPricing13" class="hs-sub-menu main-sub-menu animated Submenu_opn6_1" aria-labelledby="navLinkPagesPricing10" style="width: 200px;">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="http://10.248.215.207/itc/cmpform.aspx" target="_blank">IT Complaint (Internal User)</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="hs-has-sub-menu expanded_opn6_2">
-                                    <a id="navLinkPagesPricing11" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing14">Parliament Q &amp; A</a>
-                                    <ul id="navSubmenuPagesPricing14" class="hs-sub-menu main-sub-menu animated Submenu_opn6_2" aria-labelledby="navLinkPagesPricing11" style="width: 200px;">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Lok">Lok Sabha</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link font_size sub-menu-nav-link" href="/en/Rajya">Rajya Sabha</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://farmer.gov.in/gos/login.aspx">GOS Recommendations Monitoring System</a>
-                                </li>
-                                
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://agriinfra.dac.gov.in/" target="_blank">AIF </a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="http://agriinvest.dac.gov.in/" target="_blank">Agri-Invest</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://dbtdacfw.gov.in/" target="_blank">DBT in Agriculture</a>
-                                </li>
-
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://amd-india.net" target="_blank">Indo-Ger AMD</a>
-                                </li>
-
-
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://eands.dacnet.nic.in/" target="_blank">Directorate of Economics and Statistics</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://cacp.dacnet.nic.in/" target="_blank">Commission for Agricultural Costs and Prices (CACP)</a>
-                                </li>
-
-
-                            </ul>
-                        </li>
-                        <!---DFI start --->
-                        
-                        <!---DFI end --->
-                        <!---Jal Shakti Abhiyan start --->
-                        <!-- <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="/en/Jal">Jal Shakti Abhiyan</a>
-                        </li> -->
-                        <!---Jal Shakti Abhiyan end --->
-                        
-                        <!---Digital start --->
                         
                         <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="/en/Digital">Digital</a>
+                            <a class="nav-link font_size custom-nav-link" href="training.php">Training</a>
                         </li>
-                        <!---Digital end --->
-                        <!--Dashbord start-->
-                        <!-- <li class="nav-item hs-has-sub-menu custom-nav-item expanded_opn7 expanded_opnion">
-                            <a id="pagesMegaMenu7" class="nav-link font_size custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
-                               aria-label="Dashboard">
-                                Dashboard
-                                <span class="d_icon"><i class="fas fa-angle-down"></i></span>
-                            </a>
 
-
-                            <ul id="pagesSubMenu7" class="hs-sub-menu main-sub-menu animated " aria-labelledby="pagesMegaMenu7" style="width: 250px;">
-                                
-
-
-                                <li class="nav-item submenu-item">
-                                    
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://agridashboard.dac.gov.in/" target="_blank">Common</a>
-                                </li>
-
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://app.powerbi.com/view?r=eyJrIjoiN2MxMGY2MTMtNWU4Ni00MzhkLWI3YWQtZjdlMjljZGRmZjk2IiwidCI6IjRkYTc4NmI2LWQzNDQtNDRmYS1iMWYwLWUxYTgxMjY0ZDBhOSJ9" target="_blank">SMAM</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://app.powerbi.com/view?r=eyJrIjoiODM4YjlhMTUtNjgzNy00Njc4LWI0MDktMmNhYmU0ZjA0MmI5IiwidCI6IjRkYTc4NmI2LWQzNDQtNDRmYS1iMWYwLWUxYTgxMjY0ZDBhOSJ9" target="_blank">Monitoring System</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://app.powerbi.com/view?r=eyJrIjoiZGM2ODNiZTMtYjkyYS00YWExLWE1MDUtMzZhN2E5ODAwY2U3IiwidCI6IjRkYTc4NmI2LWQzNDQtNDRmYS1iMWYwLWUxYTgxMjY0ZDBhOSJ9" target="_blank">KCC Calls</a>
-                                </li>
-                                <li class="nav-item submenu-item">
-                                    <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://app.powerbi.com/view?r=eyJrIjoiZGE5OTBjMmQtMjczNy00ZTAxLWJjYWYtNzc3NWYwMTJjMTFjIiwidCI6IjRkYTc4NmI2LWQzNDQtNDRmYS1iMWYwLWUxYTgxMjY0ZDBhOSJ9" target="_blank">NSC</a>
-                                </li>
-
-                                <li class="hs-has-sub-menu expanded_opn8">
-                                    <a id="navLinkPagesPricing12" class="nav-link font_size sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing15">
-                                        Agmarknet
-                                    </a>
-                                    <ul id="navSubmenuPagesPricing15" class="hs-sub-menu main-sub-menu animated Submenu_opn8" aria-labelledby="navLinkPagesPricing12" style="width: 200px;">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://app.powerbi.com/view?r=eyJrIjoiNGMyOWU1MzMtNDk0Ny00ZWNmLTkyYjEtOWIyYjdhZTQ2YzIxIiwidCI6IjRkYTc4NmI2LWQzNDQtNDRmYS1iMWYwLWUxYTgxMjY0ZDBhOSJ9&pageName=ReportSection" target="_blank">
-                                                Commodity-Wise
-                                            </a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-
-                                            <a class="nav-link font_size sub-menu-nav-link redirectconfirmation" href="https://app.powerbi.com/view?r=eyJrIjoiMzhiNTE2ZjktYjYxMy00NGNmLWFiYWItNmE4N2IwZTNlMDMyIiwidCI6IjRkYTc4NmI2LWQzNDQtNDRmYS1iMWYwLWUxYTgxMjY0ZDBhOSJ9&pageName=ReportSection" target="_blank">
-                                                State-Wise
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                            </ul> -->
-
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="product.php">Our Products</a>
                         </li>
+
                         <!-- <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link redirectconfirmation" href="https://amd-india.net" target="_blank">Indo-Ger AMD</a>
+                            <a class="nav-link font_size custom-nav-link" href="news.php">
+                                E-News
+                            </a>
                         </li> -->
 
+                        <!--Media start-->
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link main-link-toggle" href="gallery.php">
+                                Media
+                            </a>
+                        </li>
+                        <!--Media end-->
+
+                        <!---Recruitment start --->
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="rrecruitment.php">Recruitment</a>
                         </li>
+                        <!---Recruitment end --->
 
                         <!---Contact start --->
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="contactmin.php">Contact Us</a>
                         </li>
-
+                        <!---Contact End --->
                         
                     </ul>
 
                 </div>
-
-
                 <!--main menu end-->
             </nav>
-
         </div>
     </header>
     
