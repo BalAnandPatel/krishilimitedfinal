@@ -413,6 +413,20 @@ $result = json_decode($response);
                                    <p>									
 									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently starting the fishing pond in several rural area for the Fish Farming.
             </p>
+            <p>									
+									The Shyamavsvss Krishi Limited is Company Also provide Training Programm. The aim Of the Training programm to Provide the knowleg of self Employeement.
+                                    We Provide the Following Sector training Program.
+                                    1- Agriculture Farming
+                                    2-Fishing Farming
+                                    3-Sanitary Pad Making
+                                    4-Goat Farming
+                                    5-Varmi Compost Making
+                                    6-Egg Hachery Training.
+                                    
+                                    
+
+            </p>
+
                             <div class="about-one__btn-and-ceo mt-5">
                                 <div class="about-one__btn-box">
                                     <a href="about.php" class="thm-btn about-one__btn">About More<i
