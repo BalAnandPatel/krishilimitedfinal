@@ -370,6 +370,12 @@ include "../constant.php";
                         </li>
                         <!---Recruitment end --->
 
+                        <!---link Farmers --->
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="farmers.php">Link Farmers</a>
+                        </li>
+                        <!---link Farmers --->
+
                         <!---Contact start --->
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="contactmin.php">Contact Us</a>
