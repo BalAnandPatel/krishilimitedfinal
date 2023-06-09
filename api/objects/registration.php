@@ -2,14 +2,58 @@
 class registration{
 
     private $conn;
+    private $farmerregistration = "farmerregistration";
     private $table_name = "registration";
     public $id, $full_name, $father_name, $mother_name, $spouse_name,$marital_status, $status,$result,$admit_card, $password, $gender,$dob , $mobile  , $alternate_mobile , $email, $address1
     , $address2, $address3 , $cor_address  , $district , $state , $pincode , $religion, $category ,$nationality, $h_qualification , $subject, $passing_date
      , $h_percentage, $grade,$languages , $is_read,$is_write,$is_speak, $zone,$post,$postcode,$disability_cat,$disability_type,$ex_serviceman,$exam_name
     , $serving_defence_per,$service_period , $created_by,$created_on,$registration_no,$updated_by,$updated_on,
-    $state_exam1,$state_exam2,$center_exam1,$center_exam2 ;
+    $state_exam1,$state_exam2,$center_exam1,$center_exam2;
+
+    public $farmerName, $farmerMobile, $farmerDistrict, $farmerMsg, $createdOn, $createdBy; 
+
+
     public function __construct($db){
         $this->conn = $db;
+    }
+
+    function farmersRegistration(){
+  
+        // query to insert record
+       $query = "INSERT INTO 
+                    " . $this->farmerregistration . "
+                SET
+                    farmerName=:farmerName,
+                    farmerMobile=:farmerMobile,
+                    farmerDistrict=:farmerDistrict,
+                    farmerMsg=:farmerMsg,
+                    createdOn=:createdOn,
+                    createdBy=:createdBy"; 
+                          
+        // prepare query
+        $stmt = $this->conn->prepare($query);
+        $this->farmerName=htmlspecialchars(strip_tags($this->farmerName));
+        $this->farmerMobile=htmlspecialchars(strip_tags($this->farmerMobile));
+        $this->farmerDistrict=htmlspecialchars(strip_tags($this->farmerDistrict));
+        $this->farmerMsg=htmlspecialchars(strip_tags($this->farmerMsg));
+        $this->createdOn=htmlspecialchars(strip_tags($this->createdOn));
+        $this->createdBy=htmlspecialchars(strip_tags($this->createdBy));
+        
+        //bind values
+        $stmt->bindParam(":farmerName", $this->farmerName);
+        $stmt->bindParam(":farmerMobile", $this->farmerMobile);
+        $stmt->bindParam(":farmerDistrict", $this->farmerDistrict);
+        $stmt->bindParam(":farmerMsg", $this->farmerMsg);
+        $stmt->bindParam(":createdOn", $this->createdOn);
+        $stmt->bindParam(":createdBy", $this->createdBy);
+        
+      
+        // execute query
+        if($stmt->execute()){
+            return true;
+        }
+      
+        return false;     
     }
 
     function insert_registration(){

@@ -409,19 +409,26 @@ $result = json_decode($response);
                                 </div>
                             </div>
                             <p class="font_size">
-									Shyamavsvss Krishi Limited start the network of work. Shyamavsvss Krishi limited start project as village and block wise then we create the block level office and distric level office by which we collect the product from rural level worker and supply to country level.</p>
+                                    Shyamavsvss Krishi Limited Company is a multi sector Comapny wchi deal in The Follwing Sector which can imporve the quality o0.</p>
+                                   <p>									
+
+                            <p class="font_size">
+                                    Shyamavsvss Krishi Limited start the network of work.
+                                     Shyamavsvss Krishi limited start project as village and block wise then we create the block level office and distric level office by which we collect the product from rural level worker and supply to country level.</p>
                                    <p>									
 									The Shyamavsvss Krishi Limited aim to create a big agriculture market in all over india with Brand name of Shyamavsvss Krishi Limited also the aim of Shyamavsvss Krishi Limited is Provide Job work for all types of unemloyed human body. Shyamavsvss Krishi Limited is currently starting the fishing pond in several rural area for the Fish Farming.
             </p>
             <p>									
-									The Shyamavsvss Krishi Limited is Company Also provide Training Programm. The aim Of the Training programm to Provide the knowleg of self Employeement.
+									The Shyamavsvss Krishi Limited is Company Also
+                                     provide Training Programm. The aim Of the Training
+                                     programm to Provide the knowleg of self Employeement.
                                     We Provide the Following Sector training Program.
-                                    1- Agriculture Farming
-                                    2-Fishing Farming
-                                    3-Sanitary Pad Making
-                                    4-Goat Farming
-                                    5-Varmi Compost Making
-                                    6-Egg Hachery Training.
+                                   <br> 1- Agriculture Farming
+                                    <br>2-Fishing Farming
+                                    <br>3-Sanitary Pad Making
+                                    <br>4-Goat Farming
+                                    <br>5-Varmi Compost Making
+                                    <br>6-Egg Hachery Training.
                                     
                                     
 
