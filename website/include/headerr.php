@@ -372,7 +372,7 @@ include "../constant.php";
 
                         <!---link Farmers --->
                         <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="farmers.php">Link Farmers</a>
+                            <a class="nav-link font_size custom-nav-link" href="farmers.php">Farmer Registration</a>
                         </li>
                         <!---link Farmers --->
 

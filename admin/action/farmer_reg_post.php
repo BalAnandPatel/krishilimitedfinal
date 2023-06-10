@@ -21,6 +21,7 @@ $postdata = json_encode($data);
 $result=url_encode_Decode($url,$postdata);
 //print_r($result);
 if($result->message=="Successfull"){
+$_SESSION["farmer_reg_success"]="Registred Successfully";    
 header('location:../../website/farmers.php');    
 }else{
 header('location:../../website/farmers.php');    
