@@ -203,6 +203,18 @@ class registration{
         return false;
           
     }
+
+    //read registerd farmers
+    function readFarmers(){
+        $query="Select id, farmerName, farmerMobile, farmerDistrict, farmerMsg, status, createdOn, createdBy  from " .$this->farmerregistration;
+        $stmt = $this->conn->prepare($query); 
+        // $stmt->bindParam(":email", $this->email);
+        // $stmt->bindParam(":password", $this->password);
+
+        $stmt->execute();
+        return $stmt;
+    }
+
     function read_reg_maxId(){
         $query="Select max(id) as id from " . $this->table_name ."";
         $stmt = $this->conn->prepare($query); 
