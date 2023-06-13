@@ -48,7 +48,7 @@
                                 <h3 class="project-details__title-1">3. Restrictions on usage</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                You will not use, copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display, publicly perform, transmit, broadcast or otherwise exploit the Site, Application, Services, or Collective Content, except as expressly permitted in these Terms. No licenses or rights are granted to you by implication or otherwise under any intellectual property rights owned or controlled by Learning Closet or its licensors, except for the licenses and rights expressly granted in these Terms.</p>
+                                You will not use, copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display, publicly perform, transmit, broadcast or otherwise exploit the Site, Application, Services, or Collective Content, except as expressly permitted in these Terms. No licenses or rights are granted to you by implication or otherwise under any intellectual property rights owned or controlled by SHYAMAVSVSS KRISHI LIMITED, except for the licenses and rights expressly granted in these Terms.</p>
                                 <h3 class="project-details__title-1">4. Privacy</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -57,22 +57,22 @@
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 By using the Website and/or accepting this agreement, You authorize us to send
-                                You (including via email, call and notifications) 
+                                your (including via email, call and notifications) 
                                 information regarding our services, such as: (a) notices about Your use of the Subscription Service and the Website,
                                 including notices of violations of use; (b) updates to the Subscription Service and Website
                                 and new features or products; and (c) promotional information and materials regarding our products and services.</p>
                                 <h3 class="project-details__title-1">6. Termination of Agreement</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                We reserve the rights to suspend or terminate this Agreement without notice if (i) you have materially breached these Terms or our Policies, including the provisions in these Terms, (ii) you have provided inaccurate, fraudulent, outdated or incomplete information during the Account registration, or Listing process or thereafter, (iii) you have violated applicable laws, regulations or third party rights, or (iv) we believe in good faith that such action is reasonably necessary to protect the safety or property of Learning Closet Pvt. Ltd. or third parties, for fraud prevention, risk assessment, security or investigation purposes.</p>
+                                We reserve the rights to suspend or terminate this Agreement without notice if (i) you have materially breached these Terms or our Policies, including the provisions in these Terms, (ii) you have provided inaccurate, fraudulent, outdated or incomplete information during the Account registration, or Listing process or thereafter, (iii) you have violated applicable laws, regulations or third party rights, or (iv) we believe in good faith that such action is reasonably necessary to protect the safety or property of SHYAMAVSVSS KRISHI LIMITED or third parties, for fraud prevention, risk assessment, security or investigation purposes.</p>
                                 <h3 class="project-details__title-1">7. Refund policy</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 Subject to the mandatory condition that the request for refund must be raised within 48 hours of making of the payment and upon our satisfaction on the verification of the concerned records regarding payment, the subscription fees paid by you for any of our paid services may be refunded or adjusted, as the case may be, by us in following cases only:
                                 <br>(A) Where the fees for a single service is paid more than once or double/extra amount paid/deducted for the service.
-                                <br>(B) Where any service/course was mistakenly purchased instead of other, the fees paid shall be adjusted towards the actual service/course you wanted to opt. The excess fees paid if any shall be refunded to you and deficiency if any in the opted service/course fees, shall be recovered from you at the time of allocating you the opted service/course.
-                                <br>(C) Where we could not start your purchased service/course or the batch (in case of classes) is closed by us within 30 days of payment for that service/course made by you.
-                                <br>(D) Where age is a parameter for any service/course and it is discovered after verification of the documents that you are over aged for that service/course. You must provide all the records with your refund request, in support of your claim within the time prescribed above. If we find the records in support of your claim to be correct and your claim falls within the cases mentioned above, we will refund/ adjust your payment within 30 to 60 days from the date of receiving of your refund request with supporting payment records.</p>
+                                <br>(B) Where any service/course was mistakenly purchased instead of other, the fees paid shall be adjusted towards the actual service/product you wanted to opt. The excess fees paid if any shall be refunded to you and deficiency if any in the opted service/product fees, shall be recovered from you at the time of allocating you the opted service/product.
+                                <br>(C) Where we could not deliever your purchased service/product or closed by us within 30 days of payment for that service/product made by you.
+                                <!-- <br>(D) Where age is a parameter for any service/course and it is discovered after verification of the documents that you are over aged for that service/course. You must provide all the records with your refund request, in support of your claim within the time prescribed above. If we find the records in support of your claim to be correct and your claim falls within the cases mentioned above, we will refund/ adjust your payment within 30 to 60 days from the date of receiving of your refund request with supporting payment records.</p> -->
                                 <h3 class="project-details__title-1">8. NO WARRANTY</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -81,11 +81,8 @@
                                 <h3 class="project-details__title-1">9. Representation</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Although due care has been taken and every effort has been made by us to ensure that the information/content offered through our services and courses are correct, but the possibility of errors, omissions and/or discrepancies cannot be ruled out. Therefore, we do not assume and hereby disclaim any liability to any party for any loss, damage, or disruption caused by errors or omissions, whether such errors or omissions result from negligence, accident, or any other cause. Should there be any discrepancy, error or omission noted in the content offered through our services, we will be obliged, if the same is brought to our notice.
+                                Although due care has been taken and every effort has been made by us to ensure that the information/content offered through our services are correct, but the possibility of errors, omissions and/or discrepancies cannot be ruled out. Therefore, we do not assume and hereby disclaim any liability to any party for any loss, damage, or disruption caused by errors or omissions, whether such errors or omissions result from negligence, accident, or any other cause. Should there be any discrepancy, error or omission noted in the content offered through our services, we will be obliged, if the same is brought to our notice.
                                 </p>
-
-
-                                
                            
                             </div>
                         </div>
