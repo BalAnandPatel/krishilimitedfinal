@@ -31,7 +31,7 @@
                                 <h3 class="project-details__title-1">1. Introduction</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Learning Closet Private Limited Known brand as Exampur (together with its subsidiaries, hereinafter "Exampur," "us," "we," or "our" or “the Company”) is committed to security and management of personal data, to function effectively and successfully for the benefit of our stakeholders, customers and for the community. In doing so, it is essential that people’s privacy is protected through the lawful and appropriate means for handling the personal data. Therefore, we have implemented this privacy policy (hereinafter referred to as ‘‘policy’’).
+                                Shyamavsvss Krishi Limited is committed to security and management of personal data, to function effectively and successfully for the benefit of our stakeholders, customers and for the community. In doing so, it is essential that people’s privacy is protected through the lawful and appropriate means for handling the personal data. Therefore, we have implemented this privacy policy (hereinafter referred to as ‘‘policy’’).
                                 <h3 class="project-details__title-1">2. Aim</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -39,21 +39,21 @@
                                 <h3 class="project-details__title-1">3. Purpose and Scope</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                The purpose of this policy is to describe how Exampur collects, uses, and shares information about you through our online interfaces (e.g., websites and mobile applications) owned and controlled by us, including but not limited to https://www.exampur.com/ (hereinafter the "website"). This policy is also designed to provide information on how Exampur ensures data security, conducts data transfers and process requests from data subjects.
-                                <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>This policy control applies to all systems, people and processes that constitute the organization’s information systems, including board members, directors, employees and other third parties who have access to Personal Data available within Exampur.
+                                The purpose of this policy is to describe how we collects, uses, and shares information about you through our online interfaces (e.g., websites and mobile applications) owned and controlled by us, including but not limited to http://krishilimited.com/ (hereinafter the "website"). This policy is also designed to provide information on how SHYAMAVSVSS KRISHI LIMITED ensures data security, conducts data transfers and process requests from data subjects.
+                                <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>This policy control applies to all systems, people and processes that constitute the organization’s information systems, including board members, directors, employees and other third parties who have access to Personal Data available within SHYAMAVSVSS KRISHI LIMITED.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                The company is also committed to ensure that its employees conduct themselves in line with this, and other related, policies. Where third parties process data on behalf of Exampur, the Company endeavours to obtain assurances from such third parties that your Personal Data will be safeguarded consistently.
+                                The company is also committed to ensure that its employees conduct themselves in line with this, and other related, policies. Where third parties process data on behalf of SHYAMAVSVSS KRISHI LIMITED, the Company endeavours to obtain assurances from such third parties that your Personal Data will be safeguarded consistently.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Exampur offers curated and specially designed higher education and industry-relevant certification programs online (“hereinafter individually or collectively referred to as Program”). This Privacy Policy applies to all our services unless specified otherwise.
+                                SHYAMAVSVSS KRISHI LIMITED offers curated and specially designed higher education and industry-relevant certification programs online (“hereinafter individually or collectively referred to as Program”). This Privacy Policy applies to all our services unless specified otherwise.
                                 </p>
                                 <h3 class="project-details__title-1">4. Types of Personal Data collected</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 The Personal Data that we collect about you depends on the context of your interactions with us, the products, services and features that you use, your location, and the applicable laws.
                                 <br>
-                                Personal Data is stored in personnel files or within the electronic records (on servers in India or other countries) of Exampur. The following types of Personal Data may be held by the Company, as appropriate, on relevant individuals:
+                                Personal Data is stored in personnel files or within the electronic records (on servers in India or other countries) of SHYAMAVSVSS KRISHI LIMITED. The following types of Personal Data may be held by the Company, as appropriate, on relevant individuals:
                                 <br>
-                                <b>A. Personal Identification Dat</b>
+                                <b>A. Personal Identification Data</b>
                                 <ul>
                                     <li>First Name, Last name</li>
                                     <li>Job title & Company</li>
@@ -146,17 +146,16 @@
 
                                 <h3 class="project-details__title-1">6. Sources of data collection</h3>
                                 <p class="project-details__text-1">
-                                <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                The data collected by the company is derived directly from the data provided by the user or by use of our sites.Data Collected when You:
+                                The data collected by the company is derived directly from the data provided by the user or by use of our sites. Data Collected when You:
                                 </p>
                                 <ul>
-                                    <li>Register for various seminars, webinars or any other outreach initiatives made available by us or Educational Partner’s offline activities</li>
-                                    <li>Request a quote for the various products and services offered by us</li>
-                                    <li>Place a feedback, complete any customer surveys circulated or interact with our customer services online</li>
-                                    <li>View our services or visit our website pages on the internet</li>
-                                    <li>Browse our website</li>
-                                    <li>When you appear for assignments, exams or any other assessments in relation to online course</li>
-                                    <li>When you avail scholarships, refunds and referrals</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>Register for various seminars, webinars or any other outreach initiatives made available by us.</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>Request a quote for the various products and services offered by us</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>Place a feedback, complete any customer surveys circulated or interact with our customer services online</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>View our services or visit our website pages on the internet</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>Browse our website</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>When you appear for assignments, exams or any other assessments in relation to online course</li>
+                                    <li><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>When you avail refunds and referrals</li>
                                 </ul>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -164,9 +163,9 @@
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 We receive Personal Data such as access or login details, profile picture or any other text / image in relation to your Personal Data which may be available with such third parties.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                We also receive information about your visits to this platform and to other websites using pixel tags.
+                                We also receive information about your visits to this platform.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Third parties from whom we receive your Personal Data include, our service providers, other networks connected to our service, our advertising partners, our marketing and advertising affiliates, our educational partners, scholarship providers, analytics providers, recruiters and such other third-party sources.
+                                Third parties from whom we receive your Personal Data include, our service providers, other networks connected to our service, our advertising partners, our marketing and advertising affiliates, analytics providers, recruiters and such other third-party sources.
                                 </p>
 
                                 <h3 class="project-details__title-1">7. Cookies</h3>
@@ -179,7 +178,7 @@
                                 <h3 class="project-details__title-1">How do we use cookies?</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Exampur uses cookies in a range of ways to improve your experience on our website, including:
+                                SHYAMAVSVSS KRISHI LIMITED uses cookies in a range of ways to improve your experience on our website, including:
                                 </p>
                                 <ul>
                                     <li>To recognize our website user and to enhance user experience when interacting with our website</li>
@@ -205,15 +204,15 @@
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 Most browsers allow you to refuse to accept cookies and to delete cookies. The methods for doing so vary from browser to browser, and from version to version. Disabling some cookies form the website, may have a negative impact and may result in some non-availability of some features.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>If you want to remove previously stored Cookies, you can manually delete the Cookies at any time. However, this will not prevent the Sites from placing further Cookies on your device unless and until you adjust your Internet browser setting as described above.
-                                <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>You can however obtain up-to-date information about blocking and deleting cookies via these links:
+                                <!-- <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>You can however obtain up-to-date information about blocking and deleting cookies via these links: -->
                                 </p>
-                                <ul>
+                                <!-- <ul>
                                     <li>link 1</li>
                                     <li>link 2</li>
                                     <li>link 3</li>
                                     <li>link 4</li>
                                     <li>link 5</li>
-                                </ul>
+                                </ul> -->
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>These opt-out mechanisms rely on cookies to remember your choices. If you delete your cookies, use another computer or device, or change browsers, you will need to repeat this process. In addition, opting out of interest-based ads will not opt you out of all ads, but rather only those ads that are personalized to your interests.</p>
 
@@ -233,7 +232,7 @@
 
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Where third parties process data on behalf of Exampur, we endeavour to obtain assurances from such third parties that your Personal Data will be safeguarded consistently. We understand that it will be accountable for the processing, management and regulation, and storage and retention of all Personal Data held in the form of manual records and on computers.
+                                Where third parties process data on behalf of SHYAMAVSVSS KRISHI LIMITED, we endeavour to obtain assurances from such third parties that your Personal Data will be safeguarded consistently. We understand that it will be accountable for the processing, management and regulation, and storage and retention of all Personal Data held in the form of manual records and on computers.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>All Personal Data obtained and held by the Company will:
                                
                                 </p>
@@ -253,9 +252,9 @@
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  Certain jurisdictions require that we have a lawful basis to justify our processing of your Personal Data.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Where applicable, the lawful basis that Exampur relies upon to justify a particular processing activity may differ from the lawful basis used to justify a different processing activity.
+                                 Where applicable, the lawful basis that SHYAMAVSVSS KRISHI LIMITED relies upon to justify a particular processing activity may differ from the lawful basis used to justify a different processing activity.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Exampur relies on the following lawful basis to process Personal Data, as permitted under applicable law:
+                                 SHYAMAVSVSS KRISHI LIMITED relies on the following lawful basis to process Personal Data, as permitted under applicable law:
                                  </p>
                                  <ul>
                                     <li>Processing necessary for the negotiation, execution, or performance of contracts</li>
@@ -271,11 +270,11 @@
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  We may obtain your consent to collect and use certain types of Personal Data when we are required to do so by law.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Once consent is obtained from the individual to use his or her information for those purposes, Exampur has the individual's implied consent to collect or receive any supplementary information that is necessary to fulfil the same purposes. Express consent will also be obtained if, or when, a new use is identified.
+                                 Once consent is obtained from the individual to use his or her information for those purposes, SHYAMAVSVSS KRISHI LIMITED has the individual's implied consent to collect or receive any supplementary information that is necessary to fulfil the same purposes. Express consent will also be obtained if, or when, a new use is identified.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  Consent may also be implied where a user is given notice and a reasonable opportunity to opt-out of his or her personal information being used for mail-outs, the marketing of new services or products, and the client, customer, member does not opt-out.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Subject to certain exceptions (e.g., the personal information is necessary to provide the service or product, or the withdrawal of consent would frustrate the performance of a legal obligation), individuals can withhold or withdraw their consent for Exampur to use their personal information in certain ways.
+                                 Subject to certain exceptions (e.g., the personal information is necessary to provide the service or product, or the withdrawal of consent would frustrate the performance of a legal obligation), individuals can withhold or withdraw their consent for SHYAMAVSVSS KRISHI LIMITED to use their personal information in certain ways.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  Further, by using this website/ acknowledging this privacy policy / by voluntarily providing us with your Personal Data, you consent to collection, storage, and processing of your Personal Data in accordance with this privacy policy and our Terms of Service.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -286,8 +285,8 @@
                                  <p class="project-details__text-1">We collect your Personal Data for the following purposes</p>
                                  <ul>
                                     <li>To fulfil or meet the reason you provided the information.</li>
-                                    <li>We use your information for managing and processing purposes, including, but not limited to, tracking attendance, progress and completion of a Program. As part of our management and processing of the Program, we will use certain Personal Data to administer exams, projects, and other assessments for the Program. For example, as part of an exam, Exampur may use certain information collected from you in order to verify your identity or to monitor your performance during the exam to confirm that you are abiding by the applicable testing rules or requirements.</li>
-                                    <li>To send you updates about the Programs, other Exampur events, platform maintenance or new services provided by Exampur, among other things, through itself or through third parties, via WhatsApp, email, SMS, phone call or any other medium.</li>
+                                    <li>We use your information for managing and processing purposes, including, but not limited to, tracking attendance, progress and completion of a Program. As part of our management and processing of the Program, we will use certain Personal Data to administer exams, projects, and other assessments for the Program. For example, as part of an exam, SHYAMAVSVSS KRISHI LIMITED may use certain information collected from you in order to verify your identity or to monitor your performance during the exam to confirm that you are abiding by the applicable testing rules or requirements.</li>
+                                    <li>To send you updates about the Programs, other SHYAMAVSVSS KRISHI LIMITED events, platform maintenance or new services provided by SHYAMAVSVSS KRISHI LIMITED, among other things, through itself or through third parties, via WhatsApp, email, SMS, phone call or any other medium.</li>
                                     <li>Provide Chat Room services.</li>
                                     <li>To enhance the quality of our content and product offerings.</li>
                                     <li>Compliance with security and other mandatory policies and building access.</li>
@@ -322,9 +321,9 @@
                                  <h3 class="project-details__title-1">15. Disclosure of Personal Data</h3>
                                  <p class="project-details__text-1">
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Exampur is a global company and may share the personal information collected or provide such access to other companies within the Exampur group.</p>
+                                 SHYAMAVSVSS KRISHI LIMITED is a global company and may share the personal information collected or provide such access to other companies within the SHYAMAVSVSS KRISHI LIMITED group.</p>
                                  <ul>
-                                    <li>Examples of third parties with whom Exampur may share Personal Data includes: With government bodies, including tax and social security authorities, to comply with applicable laws (including employment and tax laws), to obtain licenses or approvals, and upon request during an audit or assessment.</li>
+                                    <li>Examples of third parties with whom SHYAMAVSVSS KRISHI LIMITED may share Personal Data includes: With government bodies, including tax and social security authorities, to comply with applicable laws (including employment and tax laws), to obtain licenses or approvals, and upon request during an audit or assessment.</li>
                                     <li>With suppliers, subcontractors and service providers, to maintain an efficient and commercially viable business, including technology, telecom, internet providers.</li>
                                     <li>With professional advisers, consultants, and employment and recruitment agencies, to conduct background verification and reference checks, administer benefits and payroll, deal with disciplinary and grievance issues and maintain emergency contact details.</li>
                                     <li>With our legal advisors and external auditors for legal advice and to conduct business audits.</li>
@@ -351,7 +350,7 @@
                                  </ul>
                                  <p class="project-details__text-1">
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 To exercise a right that you believe you may be entitled to under applicable law, please write to us at help@exampur.com We may need to verify your identity before we fulfil your request.
+                                 To exercise a right that you believe you may be entitled to under applicable law, please write to us at krishilimitedindia@gmail.com We may need to verify your identity before we fulfil your request.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  Please note that certain conditions in relation to processing of your rights, will vary as many countries have varying data privacy rights. Our response and further processing of request to exercise these rights will depend upon the law applicable in relation to the rights exercised by you. We may refuse requests that are unreasonably repetitive, require disproportionate technical effort, risk the privacy of others, may compromise and ongoing investigation, or are impractical. It is our policy to never discriminate against you for exercising any of these rights.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -369,11 +368,11 @@
                                  <h3 class="project-details__title-1">18. Data Security</h3>
                                  <p class="project-details__text-1">
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Exampur will ensure that appropriate technical and organizational measures are in place, supported by privacy impact and risk assessments, to ensure a high level of security for Personal Data, and secure environment for information held both manually and electronically.
+                                 SHYAMAVSVSS KRISHI LIMITED will ensure that appropriate technical and organizational measures are in place, supported by privacy impact and risk assessments, to ensure a high level of security for Personal Data, and secure environment for information held both manually and electronically.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Exampur implements appropriate security measures designed to prevent unlawful or unauthorized processing of personal information and accidental loss of or damage to personal information. Exampur maintains written security management policies and procedures designed to prevent, detect, contain, and correct violations of measures taken to protect the confidentiality, integrity, availability, or security of your Personal Information. These policies and procedures assign specific data security responsibilities and accountabilities to specific individuals, include a risk management program that includes periodic risk assessment and provide an adequate framework of controls that safeguard your personal information.
+                                 SHYAMAVSVSS KRISHI LIMITED implements appropriate security measures designed to prevent unlawful or unauthorized processing of personal information and accidental loss of or damage to personal information. SHYAMAVSVSS KRISHI LIMITED maintains written security management policies and procedures designed to prevent, detect, contain, and correct violations of measures taken to protect the confidentiality, integrity, availability, or security of your Personal Information. These policies and procedures assign specific data security responsibilities and accountabilities to specific individuals, include a risk management program that includes periodic risk assessment and provide an adequate framework of controls that safeguard your personal information.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 In addition, as part of its organizational security measures, employees at Exampur must:
+                                 In addition, as part of its organizational security measures, employees at SHYAMAVSVSS KRISHI LIMITED must:
                                  </p>
                                  <ul>
                                     <li>ensure that all files or written information of a confidential nature are stored in a secure manner and are only accessed by people who have a need and a right to access them.</li>
@@ -394,19 +393,19 @@
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  Failure to follow the Company’s rules on data security may be dealt with via the Company’s disciplinary procedure. Appropriate sanctions include dismissal with or without notice dependent on the severity of the failure.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 We also take steps to ensure that our service providers, contractors and other third parties maintain similar level of data protection measures when processing your Personal Data. While we strive to secure your Personal Data, please note that 100% security of Personal Data cannot be guaranteed and that Exampur shall not be liable for any misuse or loss of Personal Data carried out by third party cloud service provider.</p>
+                                 We also take steps to ensure that our service providers, contractors and other third parties maintain similar level of data protection measures when processing your Personal Data. While we strive to secure your Personal Data, please note that 100% security of Personal Data cannot be guaranteed and that SHYAMAVSVSS KRISHI LIMITED shall not be liable for any misuse or loss of Personal Data carried out by third party cloud service provider.</p>
 
                                  <h3 class="project-details__title-1">19.  International data transfers</h3>
                                  <p class="project-details__text-1">
                                  <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Our website is primarily operated and managed on servers located and operated within India. However, owing to the global nature of Exampur, your Personal Data may also be stored in third party data servers located in other countries where Exampur provides its products and services.
+                                 Our website is primarily operated and managed on servers located and operated within India. However, owing to the global nature of SHYAMAVSVSS KRISHI LIMITED, your Personal Data may also be stored in third party data servers located in other countries where SHYAMAVSVSS KRISHI LIMITED provides its products and services.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Exampur engages sub-contractors, service providers and other third parties for facilitating our products, service offerings and to offer support services to you, and your Personal Data may be transferred to servers of such sub-contractors, service providers and other third parties. Depending upon the location of our service providers, your information, including Personal Data, may be transferred to and maintained on computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.<br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Further, your Personal Data may be transferred may be shared, disclosed, and transferred between various Exampur group companies where such transfers are required for legitimate business reasons.
+                                 SHYAMAVSVSS KRISHI LIMITED engages sub-contractors, service providers and other third parties for facilitating our products, service offerings and to offer support services to you, and your Personal Data may be transferred to servers of such sub-contractors, service providers and other third parties. Depending upon the location of our service providers, your information, including Personal Data, may be transferred to and maintained on computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.<br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
+                                 Further, your Personal Data may be transferred may be shared, disclosed, and transferred between various SHYAMAVSVSS KRISHI LIMITED group companies where such transfers are required for legitimate business reasons.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Where required under applicable law we will seek your express consent for such transfers. In all other cases, by consenting to this policy, you also provide consent to Exampur to transfer your Personal Data to Exampur affiliated companies, service providers or any third-party entity in locations around the world. We take steps to ensure that a degree of data protection which is similar to this policy is afforded to such Personal Data transferred.
+                                 Where required under applicable law we will seek your express consent for such transfers. In all other cases, by consenting to this policy, you also provide consent to SHYAMAVSVSS KRISHI LIMITED to transfer your Personal Data to SHYAMAVSVSS KRISHI LIMITED affiliated companies, service providers or any third-party entity in locations around the world. We take steps to ensure that a degree of data protection which is similar to this policy is afforded to such Personal Data transferred.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                 Where Exampur transfers your personal information internationally, we will comply with applicable legal requirements and where required we will enter into a data transfer agreement with the recipient of the personal information, which in the case of European Personal Data may include the Standard Contractual Clauses. In other cases, and where applicable, we shall enter into separate Data Processing Agreements with the third parties / service providers / contractors and such other recipients of Personal Data. Further as the Company takes steps to ensure that transfers of Personal Data to any public authority cannot be massive, disproportionate, and indiscriminate in a manner that would go beyond what is necessary in a democratic society. In the event of conflicts between these and public authority requirements, the company will find a practical solution that fulfils the purpose of this Policy.
+                                 Where SHYAMAVSVSS KRISHI LIMITED transfers your personal information internationally, we will comply with applicable legal requirements and where required we will enter into a data transfer agreement with the recipient of the personal information, which in the case of European Personal Data may include the Standard Contractual Clauses. In other cases, and where applicable, we shall enter into separate Data Processing Agreements with the third parties / service providers / contractors and such other recipients of Personal Data. Further as the Company takes steps to ensure that transfers of Personal Data to any public authority cannot be massive, disproportionate, and indiscriminate in a manner that would go beyond what is necessary in a democratic society. In the event of conflicts between these and public authority requirements, the company will find a practical solution that fulfils the purpose of this Policy.
                                  <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                  We are committed to take all steps reasonably necessary to ensure that your data is treated securely and in accordance with our data privacy and security standards.</p>
 
@@ -419,11 +418,11 @@
                                 <h3 class="project-details__title-1">21. Organization and Responsibilities</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Exampur will maintain records of data processing as required by the laws.
+                                SHYAMAVSVSS KRISHI LIMITED will maintain records of data processing as required by the laws.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 The ‘Data Protection Officer’ (DPO) has the specific responsibility of overseeing data protection and ensuring that we comply with the data protection principles and relevant legislation. The DPO will ensure that the Data Processing Register is kept up to date and demonstrates how the data protection principles are adhered to by our activities. Individual members of staff have a duty to contribute to ensure that the measures outlined in the Register are accurately reflected in our practice.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Our compliance with relevant policies and regulatory requirements in respect of data protection as part of our Data Management Strategy will be periodically monitored internally by a designated governance group. All employees, volunteers, consultants, partners, or other parties who will be handling Personal Data on behalf of Exampur will be appropriately trained and supervised where necessary.
+                                Our compliance with relevant policies and regulatory requirements in respect of data protection as part of our Data Management Strategy will be periodically monitored internally by a designated governance group. All employees, volunteers, consultants, partners, or other parties who will be handling Personal Data on behalf of SHYAMAVSVSS KRISHI LIMITED will be appropriately trained and supervised where necessary.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 The collection, storage, use and sharing of Personal Data will be regularly reviewed by the Data Protection Officer, the Governance Group, and any relevant business area. We will adhere to relevant codes of conduct where they have been identified and discussed as appropriate.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
@@ -477,16 +476,16 @@
                                 <h3 class="project-details__title-1">26. External Links on our website</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                For your convenience we may provide links to sites operated by organizations other than Exampur ("Third Party Sites") that we believe may be of interest to you. We do not disclose your Personal Data to these Third-Party Sites unless we have a lawful basis on which to do so. We do not endorse and are not responsible for the privacy practices of these Third-Party Sites. If you choose to click on a link to one of these Third-Party Sites, you should review the privacy policy posted on the other websites to understand how that Third-Party website collects and uses your Personal Data.
+                                For your convenience we may provide links to sites operated by organizations other than SHYAMAVSVSS KRISHI LIMITED ("Third Party Sites") that we believe may be of interest to you. We do not disclose your Personal Data to these Third-Party Sites unless we have a lawful basis on which to do so. We do not endorse and are not responsible for the privacy practices of these Third-Party Sites. If you choose to click on a link to one of these Third-Party Sites, you should review the privacy policy posted on the other websites to understand how that Third-Party website collects and uses your Personal Data.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Exampur uses YouTube API Services to play YouTube videos. When a YouTube video is played, the app communicates directly with the content provider (YouTube) and not with Exampur. Users of the app should be aware of the Google Privacy Policy available at https://policies.google.com/privacy, which states how YouTube treats user data. Exampur does not have any record of the videos watched or any other user related YouTube API data. We take no responsibility for the content or practices of any third-party services in the Third Party Sites.
+                                SHYAMAVSVSS KRISHI LIMITED uses YouTube API Services to play YouTube videos. When a YouTube video is played, the app communicates directly with the content provider (YouTube) and not with SHYAMAVSVSS KRISHI LIMITED. Users of the app should be aware of the Google Privacy Policy available at https://policies.google.com/privacy, which states how YouTube treats user data. SHYAMAVSVSS KRISHI LIMITED does not have any record of the videos watched or any other user related YouTube API data. We take no responsibility for the content or practices of any third-party services in the Third Party Sites.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>We take no responsibility for the content or practices of any third-party services in the Third Party Sites.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 We encourage you to carefully review the terms of services/use of any third-party services or Third Party Sites you access.</p>
 
                                 <h3 class="project-details__title-1">27. Breach notification</h3>
                                 <p class="project-details__text-1"><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                In particular, depending upon your relationship with Exampur we may have collected the following categories of Personal Data within the last twelve (12) months:</p>
+                                In particular, depending upon your relationship with SHYAMAVSVSS KRISHI LIMITED we may have collected the following categories of Personal Data within the last twelve (12) months:</p>
                                <table class="table table-bordered">
                                 <thead>
                                  <tr>
@@ -558,7 +557,7 @@
                               </table>
                                <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                For more information on types of Personal Data we collect, including the sources we receive information from, review section Types of Personal Data collected. We collect and use these categories of personal information for the business purposes described in section Purpose of Collecting data, including to provide and manage our platforms.Exampur does not engage in selling of Personal Data (as defined under CCPA). In case of advertising technology activities used, such as those disclosed in the Advertising and Marketing & Data Analytics section, we will comply with applicable law as to such activity. If you are a California consumer and wish to opt-out of the sale of your Personal Data, See the “Do Not Sell My Personal Information” page on our Site homepage to exercise your right and know more on how to opt-out of the sale of Personal Information. You may also submit a request to us at help@exampur.comm We use and partner with different types of entities to assist with our daily operations and manage our platforms. Please review the section Disclosure of your Personal Data for more detail about the parties we have shared your Personal Data with.
+                                For more information on types of Personal Data we collect, including the sources we receive information from, review section Types of Personal Data collected. We collect and use these categories of personal information for the business purposes described in section Purpose of Collecting data, including to provide and manage our platforms.SHYAMAVSVSS KRISHI LIMITED does not engage in selling of Personal Data (as defined under CCPA). In case of advertising technology activities used, such as those disclosed in the Advertising and Marketing & Data Analytics section, we will comply with applicable law as to such activity. If you are a California consumer and wish to opt-out of the sale of your Personal Data, See the “Do Not Sell My Personal Information” page on our Site homepage to exercise your right and know more on how to opt-out of the sale of Personal Information. You may also submit a request to us at help@SHYAMAVSVSS KRISHI LIMITED.comm We use and partner with different types of entities to assist with our daily operations and manage our platforms. Please review the section Disclosure of your Personal Data for more detail about the parties we have shared your Personal Data with.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 We will not discriminate against you for exercising any of your CCPA rights. We may choose in the future to offer you certain financial incentives permitted by the CCPA that can result in different prices, rates, or quality levels. Any CCPA-permitted financial incentive we offer will reasonably relate to your Personal Data’s value and contain written terms that describe the Program’s material aspects.</p>
 
@@ -566,26 +565,26 @@
                                 <h3 class="project-details__title-1">28. Use of this website and our Terms of Service</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                This website is the property of the Exampur. Our Terms of Use and this Privacy Policy collectively govern the use of the Platform and the Programs offered by Exampur. This Privacy Policy shall form a part of the Terms by way of reference. By using this website and the information offered herein, you indicate your acceptance of these Terms of Use.</p>
+                                This website is the property of the SHYAMAVSVSS KRISHI LIMITED. Our Terms of Use and this Privacy Policy collectively govern the use of the Platform and the Programs offered by SHYAMAVSVSS KRISHI LIMITED. This Privacy Policy shall form a part of the Terms by way of reference. By using this website and the information offered herein, you indicate your acceptance of these Terms of Use.</p>
 
                                 <h3 class="project-details__title-1">29. Updates to this policy</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                We may update our Privacy Policy from time to time. We will take reasonable steps to inform all Exampur entities, Customers, Business Partners, and other data subjects affected by the revisions by posting the new Privacy Policy on this page and/or via email.</p>
+                                We may update our Privacy Policy from time to time. We will take reasonable steps to inform all SHYAMAVSVSS KRISHI LIMITED entities, Customers, Business Partners, and other data subjects affected by the revisions by posting the new Privacy Policy on this page and/or via email.</p>
 
                                 <h3 class="project-details__title-1">30. Data Controller/ Company Detail</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                The "Data Controller" (i.e., Exampur) means the entity that will make the decisions about how your data is used and that is responsible for deciding how it holds personal information about you.
+                                The "Data Controller" (i.e., SHYAMAVSVSS KRISHI LIMITED) means the entity that will make the decisions about how your data is used and that is responsible for deciding how it holds personal information about you.
                                 <br><i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
-                                Since Exampur is made up of different legal entities, the entity that will be the controller for your data is dependent on the situation where your Personal Data is collected.</p>
+                                Since SHYAMAVSVSS KRISHI LIMITED is made up of different legal entities, the entity that will be the controller for your data is dependent on the situation where your Personal Data is collected.</p>
 
                                 <h3 class="project-details__title-1">31. Data Protection Officer</h3>
                                 <p class="project-details__text-1">
                                 <i class="fa fa-hand-point-right" style="margin-right:5px; color:grey;"></i>
                                 The company, in accordance with the applicable laws, and all applicable rules made thereunder, has appointed a Data Protection Officer; who can be reached at the details below:</p>
                                 <p class="project-details__text-1">Name: Sushil Sharma</p>
-                                <p class="project-details__text-1">Email: help@exampur.com</p>
+                                <p class="project-details__text-1">Email: help@SHYAMAVSVSS KRISHI LIMITED.com</p>
                                 <p class="project-details__text-1"><b>Last updated on 12th October 2022</b></p>
                                 
                                 
