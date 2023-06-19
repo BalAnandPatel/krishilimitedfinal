@@ -10,9 +10,9 @@ $client = curl_init($url);
 curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
 curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
 $response = curl_exec($client);
-//print_r($response);
+// print_r($response);
 $result = json_decode($response);
-//print_r($result);
+// print_r($result);
 ?>  
   <!DOCTYPE html>
 <html>
@@ -20,9 +20,8 @@ $result = json_decode($response);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css2/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <style>
         .photo-gallery {
@@ -78,27 +77,16 @@ $result = json_decode($response);
         <!--------banner-------->
 
         <section class="content">
-
             <div class="banner_slider banner_slider_one">
-
                 <div class="swiper mySwiper">
-
                     <div class="swiper-wrapper">
-
                         <div class="swiper-slide">
-
                             <img alt="banner" src="assets/images/banner/breadcrumb-2.png" style="width:100%">
-
                         </div>
-
                     </div>
-
                     <div class="swiper-pagination"></div>
-
                 </div>
-
             </div>
-
         </section>
 
         <!------banner end-------------->
@@ -118,7 +106,7 @@ $result = json_decode($response);
                         <ol class="breadcrumb font_size">
                             <li class="breadcrumb-item"><a href="index.php"><img alt="Home" src="assets/images/social/home-icon2.png" class="homeIcon">Home</a></li>
                             <li class="breadcrumb-item">Media</li>
-                            <li class="breadcrumb-item active" aria-current="page">Photo Gallery</li>
+                            <li class="breadcrumb-item active" aria-current="page">Media Gallery</li>
                         </ol>
                     </nav>
                 </div>
@@ -128,7 +116,7 @@ $result = json_decode($response);
         <div class="container">
 
             <div class="footer_content">
-                <h4 class="font_size pb-2">Photo Gallery</h4>
+                <h4 class="font_size pb-2">Media Gallery</h4>
             </div>
 
             <p>Shyamavsvss Krishi Limited is a public incorporated company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide following services and work mentioned below.There are some division which are following please click to link and visit and get the complete information about project. Here are some memory of our organisation which are capturde by media and people.</p>
@@ -146,7 +134,11 @@ $result = json_decode($response);
                       {
                       $image = $GALLERY_IMG_PATH."gallery_img".$value1->id.".png";
                     ?>
-                        <div class="col-sm-6 col-md-4 col-lg-3 pt-3 item"><a href="#" data-lightbox="photos" data-alt="YogaDay1"><img class="img-fluid img-thumbnail" src="<?php echo $image; ?>" alt="gallery image"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 pt-3 item">
+                            <a href="<?php echo $image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
+                                <img class="img-fluid img-thumbnail" src="<?php echo $image; ?>" alt="gallery image">
+                            </a>
+                        </div>
                      <?php } } ?>
                     </div>
                 </div>
@@ -162,8 +154,8 @@ $result = json_decode($response);
         </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>    
-    <script src="/public/js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/lightbox.js"></script>
 </body>
 
 </html>
