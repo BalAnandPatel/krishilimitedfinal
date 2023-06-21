@@ -105,7 +105,7 @@ $result = json_decode($response);
                     <nav class="breadcrumb1" aria-label="breadcrumb">
                         <ol class="breadcrumb font_size">
                             <li class="breadcrumb-item"><a href="index.php"><img alt="Home" src="assets/images/social/home-icon2.png" class="homeIcon">Home</a></li>
-                            <li class="breadcrumb-item">Media</li>
+                            <!-- <li class="breadcrumb-item">Media</li> -->
                             <li class="breadcrumb-item active" aria-current="page">Media Gallery</li>
                         </ol>
                     </nav>

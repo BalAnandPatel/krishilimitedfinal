@@ -1,6 +1,29 @@
 <?php 
 include 'include/headerr.php'; 
 ?>
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#dwa').modal('show');
+    });
+</script>
+<style>
+    .modal-backdrop {
+   background-color: rgba(0, 0, 0, 0);
+}
+</style>
+<!-- Modal -->
+<div class="modal fade" id="dwa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-body d-flex justify-content-center">
+        <button type="button" class="btn-close bg-white p-4 position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="assets/images/banner/4.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+
   
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->

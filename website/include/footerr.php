@@ -58,16 +58,16 @@
                     <ul class="footer_link ">
                         <li class="font_size"><a class="font_size" href="index.php">Home</a></li>
                         <li class="font_size"><a class="font_size" href="about.php">About</a></li>
-                        <li class="font_size"><a class="font_size" href="service_agriculture.php">Services</a></li>
-                        <li class="font_size"><a class="font_size" href="blog_details_agriculture.php">Blogs</a></li>
+                        <li class="font_size"><a class="font_size" href="service.php">Services</a></li>
+                        <!-- <li class="font_size"><a class="font_size" href="blog_details_agriculture.php">Blogs</a></li> -->
                         <li class="font_size"><a class="font_size" href="contactmin.php">Contact Us</a></li>
 
                         <li class="font_size"><a class="font_size" href="cancelreturn.php">Cancel Return</a></li>
                         <li class="font_size"><a class="font_size" href="shipping.php">Shipping</a></li>
                         <li class="font_size"><a class="font_size" href="privacy_policy.php">Privacy Policy</a></li>
                         <li class="font_size"><a class="font_size" href="terms.php">Terms & Conditions</a></li>
-                        <li class="font_size"><a class="font_size" href="gallery.php">Photo Gallery</a></li>
-                        <li class="font_size"><a class="font_size" href="news.php">E-News</a></li>
+                        <li class="font_size"><a class="font_size" href="gallery.php">Media</a></li>
+                        <!-- <li class="font_size"><a class="font_size" href="news.php">E-News</a></li> -->
                         <li class="font_size"><a class="font_size" href="contactmin.php">Contact</a></li>
                     </ul>
                 </div>
@@ -129,6 +129,18 @@
 
 
 
+<!-- revolution slider js --> 
+<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script> 
+<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script> 
+<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script> 
 
 <!-- template js -->
 <script src="assets/js/agrion.js"></script>
