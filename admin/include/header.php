@@ -220,7 +220,7 @@
               <li class="nav-item">
                 <a href="upload_gallery_image.php" class="nav-link">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>Add Gallery images</p>
+                  <p>Upload Gallery Images</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -229,12 +229,12 @@
                   <p>Gallery Records</p>
                 </a>
               </li>
-              <!-- <li class="nav-item">
-                <a href="exam_list.php" class="nav-link">
+              <li class="nav-item">
+                <a href="upload_video.php" class="nav-link">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>Rejected Donation</p>
+                  <p>Upload Gallery Videos</p>
                 </a>
-              </li> -->
+              </li>
             </ul>
           </li>
         
