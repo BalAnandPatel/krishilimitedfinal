@@ -146,8 +146,8 @@ $result = json_decode($response);
                     <img class="img-fluid img-thumbnail card-img-top" src="<?php echo $image; ?>" alt="gallery image">
                 </a>
                 <div class="card-body">
-                  <h5 class="card-title">Agriculture</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title"><?php echo $value1->galleryTitle; ?></h5>
+                  <p class="card-text"><?php echo $value1->galleryDescription; ?></p>
                 </div>
               </div>
             </div>
