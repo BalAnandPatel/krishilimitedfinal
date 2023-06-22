@@ -66,6 +66,14 @@ $result = json_decode($response);
             .photo-gallery .item {
                 padding-bottom: 30px;
             }
+            .card-img-top {
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+            }
+            .modal-backdrop {
+               background-color: rgba(0, 0, 0, 0);
+            }
     </style>
 </head>
 
@@ -122,27 +130,53 @@ $result = json_decode($response);
             <p>Shyamavsvss Krishi Limited is a public incorporated company. It is classified as Non-govt company and is registered at Registrar of Companies. The company provide following services and work mentioned below.There are some division which are following please click to link and visit and get the complete information about project. Here are some memory of our organisation which are capturde by media and people.</p>
             <br>
 
-            <div class="photo-gallery">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+
+            <?php 
+               $counter=0;  
+               foreach($result as $key => $value){
+               foreach($value as $key1 => $value1)
+              {
+              $image = $GALLERY_IMG_PATH."gallery_img".$value1->id.".png";
+            ?>
+
+            <div class="col">
+              <div class="card h-100">
+                <a href="<?php echo $image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img class="img-fluid img-thumbnail card-img-top" src="<?php echo $image; ?>" alt="gallery image">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Agriculture</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+            <?php } } ?>
+
+            </div>
+
+            <!-- <div class="photo-gallery">
                 <div class="container">
 
                     <div class="row photos">
                     <?php 
                        
-                       $counter=0;  
-                       foreach($result as $key => $value){
-                       foreach($value as $key1 => $value1)
-                      {
-                      $image = $GALLERY_IMG_PATH."gallery_img".$value1->id.".png";
+                    //    $counter=0;  
+                    //    foreach($result as $key => $value){
+                    //    foreach($value as $key1 => $value1)
+                    //   {
+                    //   $image = $GALLERY_IMG_PATH."gallery_img".$value1->id.".png";
                     ?>
                         <div class="col-sm-6 col-md-4 col-lg-3 pt-3 item">
-                            <a href="<?php echo $image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img class="img-fluid img-thumbnail" src="<?php echo $image; ?>" alt="gallery image">
+                            <a href="<?php //echo $image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
+                                <img class="img-fluid img-thumbnail" src="<?php //echo $image; ?>" alt="gallery image">
                             </a>
                         </div>
-                     <?php } } ?>
+                     <?php //} } ?>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <br />
             <br />
 

@@ -49,6 +49,11 @@ include "../constant.php";
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/agrion.css" />
     <link rel="stylesheet" href="assets/css/agrion-responsive.css" />
+
+    
+    <link href="assets/slider/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="assets/slider/js-image-slider.js" type="text/javascript"></script>
+    <!-- <link href="assets/slider/generic.css" rel="stylesheet" type="text/css" /> -->
     <!-- modal -->
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
