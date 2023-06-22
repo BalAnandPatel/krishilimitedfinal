@@ -17,7 +17,7 @@ include 'include/headerr.php';
     <div class="modal-content">
       <div class="modal-body d-flex justify-content-center">
         <button type="button" class="btn-close bg-white p-4 position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="assets/images/banner/4.jpg" class="img-fluid">
+        <img src="assets/img/notice.jpg" class="img-fluid">
       </div>
     </div>
   </div>
