@@ -23,11 +23,36 @@ include 'include/headerr.php';
   </div>
 </div>
 
-
   
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
+
+        <!-- <div id="indexsliderFrame">
+            <div id="indexSlider">
+                <img src="assets/img/slider/1.jpeg" />
+                <img src="assets/img/slider/2.jpeg" />
+                <img src="assets/img/slider/3.jpeg" />
+                <img src="assets/img/slider/4.jpeg" />
+                <img src="assets/img/slider/5.jpeg" />
+                <img src="assets/img/slider/6.jpeg" />
+                <img src="assets/img/slider/7.jpeg" />
+                <img src="assets/img/slider/8.jpeg" />
+                <img src="assets/img/slider/9.jpeg" />
+                <img src="assets/img/slider/10.jpeg" />
+                <img src="assets/img/slider/11.jpeg" />
+                <img src="assets/img/slider/12.jpeg" />
+                <img src="assets/img/slider/13.jpeg" />
+                <img src="assets/img/slider/14.jpeg" />
+                <img src="assets/img/slider/15.jpeg" />
+                <img src="assets/img/slider/16.jpeg" />
+                <img src="assets/img/slider/17.jpeg" />
+                <img src="assets/img/slider/18.jpeg" />
+                <img src="assets/img/slider/19.jpeg" />
+                <img src="assets/img/slider/20.jpeg" />
+                <img src="assets/img/slider/21.jpeg" />
+            </div>
+        </div> -->
 
         <!--Main Slider Start-->
         <section class="main-slider clearfix">
@@ -52,7 +77,7 @@ include 'include/headerr.php';
                             style="background-image: url(assets/images/backgrounds/main-slider-2-1.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div>
                         </div>
-                            <!-- /.image-layer -->
+    
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -73,7 +98,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-2-9.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -94,7 +119,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-3-5.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -115,7 +140,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-4-1.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -136,7 +161,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-4-2.png);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -157,7 +182,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-4-3.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -178,7 +203,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-4-4.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -199,7 +224,7 @@ include 'include/headerr.php';
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-4-5.jpg);">
                             <div class="main-slider__img"><img src="assets/images/logo/logo.png"></div></div>
-                        <!-- /.image-layer -->
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -220,7 +245,7 @@ include 'include/headerr.php';
 
                 <div class="swiper-pagination" id="main-slider-pagination"></div>
 
-                <!-- If we need navigation buttons -->
+                 <!-- If we need navigation buttons -->
                 <div class="main-slider__nav">
                     <div class="swiper-button-prev" id="main-slider__swiper-button-next">
                         <i class="icon-right-arrow"></i>
@@ -278,19 +303,6 @@ include 'include/headerr.php';
             </div>
         </section>
         <!--Feature One End-->
-
-
-        
-        <div id="indexsliderFrame">
-            <div id="indexSlider">
-                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
-                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
-                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
-                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
-                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
-            </div>
-        </div>
-
 
         <section class="content" style="padding: 20px;">
         <div class="container-fluid">
