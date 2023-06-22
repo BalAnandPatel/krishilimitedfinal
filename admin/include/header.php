@@ -8,6 +8,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="description" content="Shyamavsvss Krishi limited">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Mrityunjay Singh">
   <title>SHYAMAVSVSS KRISHI LIMITED</title>
   <!-- jsGrid -->
   <link rel="stylesheet" href="../common/plugins/jsgrid/jsgrid.min.css">
@@ -52,16 +55,16 @@
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        <a class="nav-link" data-widget="pushmenu" href="adm_dashboard.php" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="adm_dashboard.php" class="nav-link">HOME</a>
       </li>
 	  <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">PROFILE</a>
+        <a href="adm_dashboard.php" class="nav-link">PROFILE</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="adm_dashboard.php" class="nav-link">Contact</a>
       </li>
 	  <li class="nav-item d-none d-sm-inline-block">
         <a href="logout.php" class="nav-link">LOGOUT</a>
@@ -71,23 +74,23 @@
     <ul class="navbar-nav ml-auto">
      <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
-        <a class="nav-link" data-toggle="dropdown" href="#">
+        <a class="nav-link" data-toggle="dropdown" href="adm_dashboard.php">
          <i class="fab fa-facebook-square fa-lg"></i>
         </a>
       </li>
       <!-- Notifications Dropdown Menu -->
       <li class="nav-item dropdown">
-        <a class="nav-link" data-toggle="dropdown" href="#">
+        <a class="nav-link" data-toggle="dropdown" href="adm_dashboard.php">
            <i class="fab fa-twitter-square fa-lg"></i>
         </a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="#" role="button">
+        <a class="nav-link" href="adm_dashboard.php" role="button">
           <i class="fab fa-invision fa-lg"></i>
        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+        <a class="nav-link" data-widget="fullscreen" href="adm_dashboard.php" role="button">
           <i class="fas fa-expand-arrows-alt fa-lg"></i>
         </a>
       </li>
@@ -98,7 +101,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="#" class="brand-link">
+    <a href="adm_dashboard.php" class="brand-link">
       <img src="../website/assets/images/logo/logo.png" alt="AdminLTE Logo" class="brand-image img-circle bg-white elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Admin Control</span>
     </a>
@@ -112,7 +115,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-                 <a href="#" class="nav-link">
+                 <a href="adm_dashboard.php" class="nav-link">
                  <i class="nav-icon fas fa-user"></i>
                  <p>
                    Registration Details
@@ -143,7 +146,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="adm_dashboard.php" class="nav-link">
               <i class="nav-icon fas fa-hand-holding-usd"></i>
               <p>
                 Vacancy Details
@@ -174,7 +177,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="adm_dashboard.php" class="nav-link">
               <i class="nav-icon fa fa-bell"></i>
               <p>
                 Notification
@@ -205,7 +208,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="adm_dashboard.php" class="nav-link">
             <i class="nav-icon fa fa-upload"></i>
               <p> 
                 Media & Gallery
@@ -236,7 +239,7 @@
           </li>
         
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="adm_dashboard.php" class="nav-link">
             <i class="nav-icon fa fa-user"></i>
               <p> 
                 Farmers

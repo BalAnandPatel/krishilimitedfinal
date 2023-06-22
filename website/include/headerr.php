@@ -8,6 +8,9 @@ include "../constant.php";
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shyamavsvss Krishi limited">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Mrityunjay Singh"> 
     <title> Shyamavsvss Krishi Limited </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/favicon_io/apple-touch-icon.png" />

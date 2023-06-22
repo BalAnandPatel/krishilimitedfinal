@@ -20,29 +20,32 @@ curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
 $response = curl_exec($client);
 // curl_close($client);
 //print_r($response);
-
-$decode = (json_decode($response));
-
-//print_r($decode);
-
-if(!isset($decode->data->message)=="Request Failed"){
-// echo "hello";
+$decode = json_decode($response);
+  // print_r($decode->data->message);    
+//  exit();
+if(isset($decode->access_token)){
+  //echo "hello";
   $result = JWT::decode($decode->access_token, $SECRET_KEY, array('HS256'));
-  //print_r($result);
+  // print_r($result);
+  $u_name=$result->data->userName;
+  $password=$result->data->password;
   $uid=$result->data->id;
   $name=$result->data->fullName;
+  
+  if($userName==$_POST["userName"] && $password==$_POST["password"]){
+    $_SESSION["ID"]=$uid;
+    $_SESSION["USERNAME"]=$userName;
+    $_SESSION["NAME"]=$name;
+    $_SESSION["JWT"]=$result;
+    $_SESSION['MEMBBER_FROM']=$result->data->createdOn;
+   //print_r($_SESSION['SPONSOR_ID']);
+  
+    header('Location:../adm_dashboard.php');
+  }
 
-  $_SESSION["ID"]=$uid;
-  $_SESSION["USERNAME"]=$userName;
-  $_SESSION["NAME"]=$name;
-  $_SESSION["JWT"]=$result;
-  $_SESSION['MEMBBER_FROM']=$result->data->createdOn;
- //print_r($_SESSION['SPONSOR_ID']);
-
-  header('Location:../adm_dashboard.php');
  }else{
-
- header('Location:../index.php?msg='.$result->message);
+ $_SESSION["login_faild_msg"]="Request Failed! Please try again";
+ header('Location:../index.php');
  }
 
 // function giplCurl($api,$postdata){

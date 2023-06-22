@@ -2,6 +2,8 @@
 include '../../constant.php';
 $url = $URL."gallery/insert_gallery_image.php";
 $url_read_maxId = $URL."gallery/read_maxId.php";
+$galleryTitle = ucfirst($_POST["galleryTitle"]);
+$galleryDescription = ucfirst($_POST["galleryDescription"]);
 $created_on=date("Y-m-d H:i:s");
 $created_by="Admin";
 
@@ -47,7 +49,9 @@ if(isset($_POST["submit"])){
     } else {
 
       $data = array(
-
+        
+        "galleryTitle"=>$galleryTitle,
+        "galleryDescription"=>$galleryDescription,
         "created_on" => $created_on, 
         "created_by" => $created_by
       
@@ -76,8 +80,8 @@ if(isset($_POST["submit"])){
          }
           else {
         //   echo "Sorry, there was an error uploading your file.";
-           $_SESSION["galleryErrors"] = "Sorry, there was an error uploading your file.";
-           header('Location:../upload_gallery_image.php');
+          $_SESSION["galleryErrors"] = "Sorry, there was an error uploading your file.";
+          header('Location:../upload_gallery_image.php');
       }
 
      }

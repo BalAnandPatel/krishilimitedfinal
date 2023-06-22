@@ -51,6 +51,20 @@ include "include/header.php";
           <div class="card-body">
           <form action="action/upload_galleryimg_post.php" method="post" enctype="multipart/form-data">
             <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="post">Image Title*</label>
+                    <input type="text" class="form-control" name="galleryTitle" placeholder="Image Title" autocomplete="off" required>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="post">Discription*</label>
+                    <textarea class="form-control" name="galleryDescription" placeholder="Discription" required></textarea>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
               <div class="col-md-12">
                   <div class="form-group">
                     <label for="post">Select gallery Images*</label>

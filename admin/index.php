@@ -1,3 +1,4 @@
+<?php include "../constant.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,13 +17,16 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Welcome Back!!</b></a>
+    <a href="index.php"><b><small>SHYAMAVSVSS KRISHI LIMITED</b></small></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
-
+      <p class="login-box-msg">Please enter your Email and Password</p>
+      <?php if(isset($_SESSION["login_faild_msg"])){
+        echo '<div class="alert alert-danger">'.$_SESSION["login_faild_msg"].'</div>';
+        unset($_SESSION["login_faild_msg"]);
+      } ?>
       <form action="action/adm_login_post.php" method="post">
         <div class="input-group mb-3">
           <input type="text" name="userName" class="form-control" placeholder="Email" autocomplete="off" required>
@@ -42,7 +46,7 @@
         </div>
         <div class="row">
           <div class="col-8">
-            <div class="icheck-primary">
+            <div class="icheck-primary" style="display:none">
               <input type="checkbox" id="remember">
               <label for="remember">
                 Remember Me
@@ -56,11 +60,11 @@
           <!-- /.col -->
         </div>
       </form>
-
+<!-- 
       <p class="mb-1">
       <i class="fa fa-lock"></i>
-        <a href="adm_forgot-password.php">I forgot my password</a>
-      </p>
+        <a href="index.php">I forgot my password</a>
+      </p> -->
       <!-- <p class="mb-0">
       <i class="fa fa-user"></i>
         <a href="register.php" class="text-center">Register a new membership</a>

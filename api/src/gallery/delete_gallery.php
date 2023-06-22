@@ -8,24 +8,24 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
   
 // include database and object file
 include_once '../../config/database.php';
-include_once '../../objects/notification.php';
+include_once '../../objects/gallery.php';
   
 // get database connection
 $database = new Database();
 $db = $database->getConnection();
   
 // prepare admin object
-$notification = new Notice($db);
+$gallery_read = new Galley($db);
   
 // get admin id
 $data = json_decode(file_get_contents("php://input"));
 //print_r($data);  
 
 // set admin id to be deleted
-$notification->id = $data->id;
+$gallery_read->id = $data->id;
   
 // delete the admin
-if($notification->delete_notification()){
+if($gallery_read->deleteGallery()){
   
     // set response code - 200 ok
     http_response_code(200);

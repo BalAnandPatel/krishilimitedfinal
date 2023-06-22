@@ -37,8 +37,10 @@ if($num>0){
         extract($row);
   
         $read_gallery_item=array(
-
+            
             "id" => $id,
+            "galleryTitle" => $galleryTitle,
+            "galleryDescription" => $galleryDescription,
             "created_by"=>$created_by,
             "created_on"=>$created_on
              );

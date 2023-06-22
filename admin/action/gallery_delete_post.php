@@ -6,9 +6,9 @@
 
   $id = $_POST['id'];
 
-  $file = "../image/".$id."/pdf/".$id.".pdf";
+  $file = "../image/gallery/gallery_img".$id.".png";  
 
-  $url = $URL."notification/delete_notification.php";
+  $url = $URL."gallery/delete_gallery.php";
 
   $data = array('id'=>$id);
   //print_r($data);
@@ -25,14 +25,13 @@
   if($result->message=="Record has been deleted."){
 
    unlink($file);
-   rmdir("../image/".$id."/pdf");
-   rmdir("../image/".$id);
+   $_SESSION["gallery_delete_success"] = "Successfully Deleted";
 
   }else{
-  header('location:../notification_list.php');
+  header('location:../gallery_record.php');
   }
 
-  header('location:../notification_list.php');
+  header('location:../gallery_record.php');
 
   }
 

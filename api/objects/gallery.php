@@ -4,7 +4,7 @@ class Galley{
     private $conn;
     private $table_name = "imagegallery";
 
-    public $id, $image_name, $created_on, $created_by;
+    public $id, $image_name, $galleryTitle, $galleryDescription, $created_on, $created_by;
 
     public function __construct($db){
         $this->conn = $db;
@@ -16,16 +16,22 @@ class Galley{
     $query = "INSERT INTO
                     " . $this->table_name . "
                 SET
+                         galleryTitle=:galleryTitle, 
+                         galleryDescription=:galleryDescription, 
                          created_by=:created_by, 
                          created_on=:created_on
                     "; 
                           
         // prepare query
         $stmt = $this->conn->prepare($query);
+        $this->galleryTitle=htmlspecialchars(strip_tags($this->galleryTitle));
+        $this->galleryDescription=htmlspecialchars(strip_tags($this->galleryDescription));
         $this->created_by=htmlspecialchars(strip_tags($this->created_by));
         $this->created_on=htmlspecialchars(strip_tags($this->created_on));
         
         //bind values
+        $stmt->bindParam(":galleryTitle", $this->galleryTitle);
+        $stmt->bindParam(":galleryDescription", $this->galleryDescription);
         $stmt->bindParam(":created_by", $this->created_by);
         $stmt->bindParam(":created_on", $this->created_on);
     
@@ -38,7 +44,7 @@ class Galley{
           
     }
     function read_gallery_maxId(){
-        $query="Select max(id) as id from " . $this->table_name ."";
+        $query="Select max(id) as id from " . $this->table_name;
         $stmt = $this->conn->prepare($query); 
         $stmt->execute();
         return $stmt;
@@ -46,7 +52,7 @@ class Galley{
 
     function read_gallery(){
         $query="Select 
-        id, created_on, created_by
+        id, galleryTitle, galleryDescription, created_on, created_by
         
         from " .$this->table_name;
         $stmt = $this->conn->prepare($query); 
@@ -55,7 +61,7 @@ class Galley{
         return $stmt;
     }
 
-  function delete_notification(){
+  function deleteGallery(){
   
     // delete query
     $query = " DELETE FROM " . $this->table_name . " 

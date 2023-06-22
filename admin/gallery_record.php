@@ -46,6 +46,9 @@ $result = json_decode($response);
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
+      <?php if(isset($_SESSION["gallery_delete_success"])){ ?>
+      <div class="alert alert-success"><?php echo $_SESSION["gallery_delete_success"]; unset($_SESSION["gallery_delete_success"]); ?></div>
+      <?php } ?>
         <div class="row">
           <div class="col-12">
             
@@ -59,6 +62,8 @@ $result = json_decode($response);
                   <thead>
                   <tr class="table-warning">
                     <th>S.N</th>
+                    <th>Title</th>
+                    <th>Description</th>
                     <th>Image</th>
                     <th>Created On</th>
                     <th>Actions</th>
@@ -78,12 +83,14 @@ $result = json_decode($response);
 
                   <tr>
                     <td class="col-md-1"><?php echo ++$counter; ?> </td>
+                    <td><?php echo $value1->galleryTitle; ?> </td>
+                    <td><?php echo $value1->galleryDescription; ?> </td>
                     <td class="col-md-1"><img class="img-fluid img-thumnel" src="<?php echo $image; ?>" height="100px" width="200px"></td>
-                    <td class="w-25"><?php echo date("d-m-Y",strtotime($value1->created_on)); ?></td>
-                    <td class="col-md-1">
-                      <form action="action/notification_delete_post.php" method="post">
+                    <td class="col-md-2"><?php echo date("d-m-Y",strtotime($value1->created_on)); ?></td>
+                    <td class="col-md-2">
+                      <form action="action/gallery_delete_post.php" method="post">
                       <input type="hidden" name="id" value="<?php echo $value1->id; ?>">
-                      <button type="submit" name="delete" class="btn btn-danger"><i class="far fa-trash-alt"></i>Delete</button>
+                      <button type="submit" name="delete" class="btn btn-danger"><i class="far fa-trash-alt"></i> Delete</button>
                      </form>
                     </td>
                   </tr>
