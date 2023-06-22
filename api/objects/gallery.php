@@ -63,7 +63,7 @@ class Galley{
 
   function deleteGallery(){
   
-    // delete query
+    //delete query
     $query = " DELETE FROM " . $this->table_name . " 
     WHERE id= ? ";
   
