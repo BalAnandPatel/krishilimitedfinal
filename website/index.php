@@ -280,6 +280,17 @@ include 'include/headerr.php';
         <!--Feature One End-->
 
 
+        
+        <div id="indexsliderFrame">
+            <div id="indexSlider">
+                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
+                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
+                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
+                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
+                <img src="assets/images/backgrounds/main-slider-2-9.jpg" />
+            </div>
+        </div>
+
 
         <section class="content" style="padding: 20px;">
         <div class="container-fluid">
