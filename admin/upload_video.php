@@ -29,14 +29,14 @@ include "include/header.php";
       <div class="container-fluid">
 
           <?php
-          if(isset($_SESSION["gallerySuccessMsg"])){
-          $success_msg = $_SESSION["gallerySuccessMsg"];
+          if(isset($_SESSION["videoSuccessMsg"])){
+          $success_msg = $_SESSION["videoSuccessMsg"];
           echo '<div class="alert alert-success rounded-0" role="alert">'.$success_msg.'</div>';
-          unset($_SESSION["gallerySuccessMsg"]);
-          } else if(isset($_SESSION["galleryErrors"])){
-          $error_msg = $_SESSION["galleryErrors"];
+          unset($_SESSION["videoSuccessMsg"]);
+          } else if(isset($_SESSION["videoErrors"])){
+          $error_msg = $_SESSION["videoErrors"];
           echo '<div class="alert alert-danger rounded-0" role="alert">'.$error_msg.'</div>';
-          unset($_SESSION["galleryErrors"]);
+          unset($_SESSION["videoErrors"]);
           }
         
 
@@ -49,7 +49,21 @@ include "include/header.php";
           </div>
           <!-- /.card-header -->
           <div class="card-body">
-          <form action="action/upload_video_post.php" method="post" enctype="multipart/form-data">
+          <form action="action/upload_video_post.php" method="POST" enctype="multipart/form-data">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="post">Video Title*</label>
+                    <input type="text" class="form-control" name="videoTitle" placeholder="Video Title" autocomplete="off" required>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="post">Discription*</label>
+                    <textarea class="form-control" name="videoDescription" placeholder="Discription" required></textarea>
+                  </div>
+              </div>
+            </div>
             <div class="row">
               <div class="col-md-12">
                   <div class="form-group">
@@ -58,13 +72,13 @@ include "include/header.php";
                     <strong id="emailHelp" class="form-text text-danger">Image file shoud be Jpg/png formet.</strong>
                   </div>
               </div>
-            </div>
-            <!-- /.row -->
-                <div class="btn-group w-auto">
+              <div class="btn-group w-auto">
                   <button type="submit" name="submit" class="btn btn-success col start">
                     <i class="fas fa-upload"></i><span> Upload</span>
                   </button>
                 </div>
+            </div>
+            <!-- /.row -->
            
           </div>
         </form>
