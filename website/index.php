@@ -34,10 +34,27 @@ include 'include/headerr.php';
 <section class="rev_slider_wrapper">
     <div id="slider1" class="rev_slider">
         <ul>
+            <li> <img src="assets/img/slider/1.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/2.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/3.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/4.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/5.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/6.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/7.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/8.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/9.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/10.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/11.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/12.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/13.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/14.jpeg" alt=""> </li>
             <li> <img src="assets/img/slider/15.jpeg" alt=""> </li>
-            <li> <img src="assets/img/slider/15.jpeg" alt=""> </li>
-            <li> <img src="assets/img/slider/15.jpeg" alt=""> </li>
-            <li> <img src="assets/img/slider/15.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/16.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/17.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/18.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/19.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/20.jpeg" alt=""> </li>
+            <li> <img src="assets/img/slider/21.jpeg" alt=""> </li>
         </ul>
     </div>
 
