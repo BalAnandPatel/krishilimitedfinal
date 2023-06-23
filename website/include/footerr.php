@@ -103,7 +103,7 @@
 
 </footer>
 <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 <script src="assets/vendors/jarallax/jarallax.min.js"></script>
 <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
 <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
@@ -130,17 +130,19 @@
 
 
 <!-- revolution slider js --> 
-<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script> 
-<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script> 
-<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script> 
+<script src="assets/slider/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="assets/slider/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/slider/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="assets/slider/js/custom.js"></script>
+
 
 <!-- template js -->
 <script src="assets/js/agrion.js"></script>

@@ -3,6 +3,7 @@ include "../constant.php";
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="lang" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -10,14 +11,14 @@ include "../constant.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Shyamavsvss Krishi limited">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Mrityunjay Singh"> 
+    <meta name="author" content="Mrityunjay Singh">
     <title> Shyamavsvss Krishi Limited </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/favicon_io/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon_io/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon_io/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/favicon_io/site.webmanifest" />
-    <meta name="description" content="Agrion HTML 5 Template " />
+    <meta name="description" content="" />
     <!-- fonts -->
     <script src="https://kit.fontawesome.com/5220a54d1d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -49,24 +50,17 @@ include "../constant.php";
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/agrion.css" />
     <link rel="stylesheet" href="assets/css/agrion-responsive.css" />
-
-    
-    <link href="assets/slider/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="assets/slider/js-image-slider.js" type="text/javascript"></script>
-    <!-- <link href="assets/slider/generic.css" rel="stylesheet" type="text/css" /> -->
+    <!-- Slider -->
+    <link rel="stylesheet" href="assets/slider/css/style.css">
     <!-- modal -->
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-
-
-<!-- Header special css -->
-
-
-<link rel="stylesheet" type="text/css" href="assets/css2/all.css">
+    <!-- Header special css -->
+    <link rel="stylesheet" type="text/css" href="assets/css2/all.css">
     <link href="assets/css2/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css2/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css2/print.css">
@@ -78,22 +72,23 @@ include "../constant.php";
     <script async src="https://cse.google.com/cse.js?cx=933ba56c3b61b48a9">
     </script>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9S1Q8G9CHE"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S1Q8G9CHE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-9S1Q8G9CHE');
-</script>
+        gtag('config', 'G-9S1Q8G9CHE');
+    </script>
     <div class="printheadr">
         <div class="container-fluid agriculture-section">
             <div class="row">
                 <div class="col-md-12 logo-content">
                     <a href="index.php">
                         <div class="logo-division">
-                            <img src="assets/images/minister/agriculture-logo-dark.png" alt="agriculture government of india" class="agriculture-logo">
+                            <img src="assets/images/minister/agriculture-logo-dark.png"
+                                alt="agriculture government of india" class="agriculture-logo">
 
                             <div>
                                 <ul>
@@ -119,23 +114,31 @@ include "../constant.php";
                     <div class="row header-icon">
                         <div class="col-2">
                             <a class="sw-logo" href="#" title="Swachh Bharat, External link">
-                                <img src="assets/images/minister/150-years-of-celebrating-the-mahatma.png" alt="150 years of celebrating the mahatma">
+                                <img src="assets/images/minister/150-years-of-celebrating-the-mahatma.png"
+                                    alt="150 years of celebrating the mahatma">
                             </a>
                         </div>
                         <div class="col-2">
-                            <a class="sw-logo redirectconfirmation" target="_blank" href="https://swachhbharat.mygov.in/" title="Swachh Bharat, External link">
-                                <img src="assets/images/minister/swachh-bharat-swachh-vidyalaya.png" alt="swachh bharat swachh vidyalaya">
+                            <a class="sw-logo redirectconfirmation" target="_blank"
+                                href="https://swachhbharat.mygov.in/" title="Swachh Bharat, External link">
+                                <img src="assets/images/minister/swachh-bharat-swachh-vidyalaya.png"
+                                    alt="swachh bharat swachh vidyalaya">
                             </a>
 
                         </div>
                         <div class="col-2">
-                            <a class="sw-logo redirectconfirmation" target="_blank" href="https://ejalshakti.gov.in/JSA/JSA/Home.aspx" title="Jal Shakti Abhiyan, External link">
-                                <img src="assets/images/minister/jal-shakti-abhiyan-sanchay-jal-behtar-kal.png" alt="jal shakti abhiyan sanchay jal behtar kal">
+                            <a class="sw-logo redirectconfirmation" target="_blank"
+                                href="https://ejalshakti.gov.in/JSA/JSA/Home.aspx"
+                                title="Jal Shakti Abhiyan, External link">
+                                <img src="assets/images/minister/jal-shakti-abhiyan-sanchay-jal-behtar-kal.png"
+                                    alt="jal shakti abhiyan sanchay jal behtar kal">
                             </a>
                         </div>
                         <div class="col-2">
-                            <a class="sw-logo redirectconfirmation" target="_blank" href="https://amritmahotsav.nic.in/" title="Azadi Ka Amrit Mahotsav, External link">
-                                <img src="assets/images/minister/azadi-ka-amrit-mahotsav.png" alt="Azadi Ka Amrit Mahotsav">
+                            <a class="sw-logo redirectconfirmation" target="_blank" href="https://amritmahotsav.nic.in/"
+                                title="Azadi Ka Amrit Mahotsav, External link">
+                                <img src="assets/images/minister/azadi-ka-amrit-mahotsav.png"
+                                    alt="Azadi Ka Amrit Mahotsav">
                             </a>
                         </div>
                         <div class="col-2">
@@ -144,7 +147,8 @@ include "../constant.php";
                             </a>
                         </div>
                         <div class="col-2">
-                            <a class="sw-logo redirectconfirmation" href="https://agricoop.gov.in/awg-g20/" target="_blank">
+                            <a class="sw-logo redirectconfirmation" href="https://agricoop.gov.in/awg-g20/"
+                                target="_blank">
                                 <img src="assets/images/minister/AWG-g20.jpg" alt="G-20">
                             </a>
                         </div>
@@ -161,24 +165,35 @@ include "../constant.php";
                 <ul class="social-icon">
                     <li class="nav-item">
                         <ul class="navbar-nav_">
-                            <li class="nav-item font_size" redirectconfirmation><a href="#https://www.facebook.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/facebook.png" alt="facebook"></a></li>
+                            <li class="nav-item font_size" redirectconfirmation><a href="#https://www.facebook.com/"
+                                    class="nav-link font_size nav-link_0" target="_blank"><img
+                                        src="assets/images/social/facebook.png" alt="facebook"></a></li>
 
-                            <li class="nav-item font_size redirectconfirmation"><a href="#https://www.youtube.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/youtube.png" alt="youtube"></a></li>
-                            <li class="nav-item font_size redirectconfirmation"><a href="#https://twitter.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/twitter.png" alt="twitter"></a></li>
-                            <li class="nav-item font_size redirectconfirmation"><a href="#https://www.instagram.com/" class="nav-link font_size nav-link_0" target="_blank"><img src="assets/images/social/insta.png" alt="insta"></a></li>
+                            <li class="nav-item font_size redirectconfirmation"><a href="#https://www.youtube.com/"
+                                    class="nav-link font_size nav-link_0" target="_blank"><img
+                                        src="assets/images/social/youtube.png" alt="youtube"></a></li>
+                            <li class="nav-item font_size redirectconfirmation"><a href="#https://twitter.com/"
+                                    class="nav-link font_size nav-link_0" target="_blank"><img
+                                        src="assets/images/social/twitter.png" alt="twitter"></a></li>
+                            <li class="nav-item font_size redirectconfirmation"><a href="#https://www.instagram.com/"
+                                    class="nav-link font_size nav-link_0" target="_blank"><img
+                                        src="assets/images/social/insta.png" alt="insta"></a></li>
                             <li>
                                 <div class="gcse-search"></div>
                             </li>
                         </ul>
                     </li>
                 </ul>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link font_size active " aria-current="page" href="index.php"><img src="assets/images/social/home-icon.png" alt="home" class="homeIcon">Home</a>
+                            <a class="nav-link font_size active " aria-current="page" href="index.php"><img
+                                    src="assets/images/social/home-icon.png" alt="home" class="homeIcon">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font_size " href="#skiptomain">Skip to Main Content</a>
@@ -190,9 +205,12 @@ include "../constant.php";
 
                         <li class="nav-item">
                             <ul class="navbar-nav_">
-                                <li class="nav-item "><a href="javascript:void(0);" onclick="changeFontSize('decrease')" class=" nav-link_">A-</a></li>
-                                <li class="nav-item"><a href="javascript:void(0);" onclick="changeFontSize('default')" class="nav-link_">A</a></li>
-                                <li class="nav-item"><a href="javascript:void(0);" onclick="changeFontSize('increase')" class=" nav-link_">A+</a></li>
+                                <li class="nav-item "><a href="javascript:void(0);" onclick="changeFontSize('decrease')"
+                                        class=" nav-link_">A-</a></li>
+                                <li class="nav-item"><a href="javascript:void(0);" onclick="changeFontSize('default')"
+                                        class="nav-link_">A</a></li>
+                                <li class="nav-item"><a href="javascript:void(0);" onclick="changeFontSize('increase')"
+                                        class=" nav-link_">A+</a></li>
                             </ul>
                         </li>
 
@@ -204,9 +222,12 @@ include "../constant.php";
                         <li class="languageTxt nav-item">
                             Choose Language-
 
-<form action="" method="post"><select class="language_top" id="ddlCulture" name="ddlCulture" onchange="this.form.submit();"><option value="en">English</option>
-<option value="hi">Hindi</option>
-</select></form>                        </li>
+                            <form action="" method="post"><select class="language_top" id="ddlCulture" name="ddlCulture"
+                                    onchange="this.form.submit();">
+                                    <option value="en">English</option>
+                                    <option value="hi">Hindi</option>
+                                </select></form>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -217,37 +238,38 @@ include "../constant.php";
 
 
 
-        
+
         <!-- desktop view header -->
         <!----------logo------------->
         <div class="container-fluid agriculture-section">
             <div class="row">
                 <div class="col-md-5 col-lg-4 mb-2 logo-content">
-    <a href="index.php">
-        <div class="logo-division">
-            <img src="assets/images/logo/logo.png" alt="agriculture government of india" class="agriculture-logo" />
+                    <a href="index.php">
+                        <div class="logo-division">
+                            <img src="assets/images/logo/logo.png" alt="agriculture government of india"
+                                class="agriculture-logo" />
 
-            <div>
-                <ul>
-                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
-                    <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
-                    <li class="department_heading-tow" lang="en">
-                            <h6 class="logo-text logo-text-one">
-                                <span>भारत सरकार द्वारा <br> पंजीकृत</span>
-                                <span>REGISTERED BY GOVERNMENT OF INDIA</span>
-                            </h6>
-                            <h6 class="logo-text logo-text-two">
-                                <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
-                                <span>ALWAYS READY TO HELP FARMERS</span>
-                            </h6>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="col-md-6 col-lg-7 mt-2">
-    <!-- <div class="row header-icon">
+                            <div>
+                                <ul>
+                                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
+                                    <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
+                                    <li class="department_heading-tow" lang="en">
+                                        <h6 class="logo-text logo-text-one">
+                                            <span>भारत सरकार द्वारा <br> पंजीकृत</span>
+                                            <span>REGISTERED BY GOVERNMENT OF INDIA</span>
+                                        </h6>
+                                        <h6 class="logo-text logo-text-two">
+                                            <span>कृषि एवं किसान के कल्याण सहायता के लिए हमेशा तैयार</span>
+                                            <span>ALWAYS READY TO HELP FARMERS</span>
+                                        </h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-7 mt-2">
+                    <!-- <div class="row header-icon">
         <div class="col-2">
             <a class="sw-logo" href="#" title="Swachh Bharat, External link">
                 <img src="#assets/images/minister/150-years-of-celebrating-the-mahatma.png" alt="LOGO IMG1" />
@@ -280,8 +302,8 @@ include "../constant.php";
             </a>
         </div>        
     </div> -->
-</div>
-<!-- <div class="col-md-2 col-lg-1 mt-2">
+                </div>
+                <!-- <div class="col-md-2 col-lg-1 mt-2">
     <div class="row">
         <div class="col-2">
             <div class="old-webiste-link">
@@ -304,7 +326,8 @@ include "../constant.php";
                    <span class="navbar-toggler-icon"></span>
                 </button>--->
                 <!--responsive toggle button start-->
-                <button type="button" class="navbar-toggler btn" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                <button type="button" class="navbar-toggler btn" aria-expanded="false" aria-controls="navBar"
+                    data-toggle="collapse" data-target="#navBar">
                     <span id="hamburgerTrigger">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </span>
@@ -314,15 +337,13 @@ include "../constant.php";
                 <div id="navBar" class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto main-navbar-nav">
 
-                    <!---Home start --->
-                    <li class="nav-item custom-nav-item">
+                        <!---Home start --->
+                        <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="index.php">Home</a>
                         </li>
-                        
                         <!---Home end --->
 
                         <!--About Us Start-->
-
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="about.php">About Us</a>
                         </li>
@@ -344,12 +365,12 @@ include "../constant.php";
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="Document.php">Documents</a>
                         </li>
-                       <!-- Documents End --->
+                        <!-- Documents End --->
 
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="service.php">Services</a>
                         </li>
-                        
+
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="training.php">Training</a>
                         </li>
@@ -365,10 +386,16 @@ include "../constant.php";
                         </li> -->
 
                         <!--Media start-->
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link main-link-toggle" href="gallery.php">
+                        <li class="nav-item custom-nav-item dropdown">
+                            <a class="nav-link font_size custom-nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Media
                             </a>
+                            <ul class="dropdown-menu mt-2">
+                                <li><a class="dropdown-item" href="gallery.php">Photo Gallery</a></li>
+                                <li><a class="dropdown-item" href="videogallery.php">Video Gallery</a></li>
+                                <li><a class="dropdown-item" href="news.php">News</a></li>
+                            </ul>
                         </li>
                         <!--Media end-->
 
@@ -389,7 +416,7 @@ include "../constant.php";
                             <a class="nav-link font_size custom-nav-link" href="contactmin.php">Contact Us</a>
                         </li>
                         <!---Contact End --->
-                        
+
                     </ul>
 
                 </div>
@@ -397,7 +424,3 @@ include "../constant.php";
             </nav>
         </div>
     </header>
-    
-    
-
-    
