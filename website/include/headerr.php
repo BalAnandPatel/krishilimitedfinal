@@ -387,15 +387,7 @@ include "../constant.php";
 
                         <!--Media start-->
                         <li class="nav-item custom-nav-item dropdown">
-                            <a class="nav-link font_size custom-nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Media
-                            </a>
-                            <ul class="dropdown-menu mt-2">
-                                <li><a class="dropdown-item" href="gallery.php">Photo Gallery</a></li>
-                                <li><a class="dropdown-item" href="videogallery.php">Video Gallery</a></li>
-                                <li><a class="dropdown-item" href="news.php">News</a></li>
-                            </ul>
+                            <a class="nav-link font_size custom-nav-link" href="media.php">Media</a>
                         </li>
                         <!--Media end-->
 
