@@ -67,9 +67,9 @@ include "include/header.php";
             <div class="row">
               <div class="col-md-12">
                   <div class="form-group">
-                    <label for="post">Select Video File*</label>
+                    <label for="post">Select Video File (mp4)*</label>
                     <input type="file" class="form-control" name="uploaded_video" required>
-                    <strong id="emailHelp" class="form-text text-danger">Image file shoud be Jpg/png formet.</strong>
+                    <strong id="emailHelp" class="form-text text-danger">Video file shoud be mp4 formet, and size limit will be 20MB.</strong>
                   </div>
               </div>
               <div class="btn-group w-auto">

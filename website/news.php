@@ -2,7 +2,7 @@
 include 'include/headerr.php';
 ?>
 <?php
-$url = $URL . "gallery/read_galley.php";
+$url = $URL . "gallery/read_gallery_news.php";
 $data = array();
 //print_r($data);
 $postdata = json_encode($data);
@@ -77,21 +77,21 @@ $result = json_decode($response);
             $counter = 0;
             foreach ($result as $key => $value) {
                 foreach ($value as $key1 => $value1) {
-                    $image = $GALLERY_IMG_PATH . "gallery_img" . $value1->id . ".png";
+                    $news_image = $GALLERY_NEWS_PATH . "news_" . $value1->id . ".png";
                     ?>
 
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card h-100">
-                    <a href="<?php echo $image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
-                        <img class="img-fluid img-thumbnail card-img-top" src="<?php echo $image; ?>"
-                            alt="gallery image">
+                    <a href="<?php echo $news_image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img class="img-fluid img-thumbnail card-img-top" src="<?php echo $news_image; ?>"  
+                            alt="news">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">
-                            <?php echo $value1->galleryTitle; ?>
+                            <?php echo $value1->newsTitle; ?>
                         </h5>
                         <p class="card-text">
-                            <?php echo $value1->galleryDescription; ?>
+                            <?php echo $value1->newsDescription; ?>
                         </p>
                     </div>
                 </div>

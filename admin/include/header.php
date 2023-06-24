@@ -235,6 +235,24 @@
                   <p>Upload Gallery Videos</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="gallery_video_records.php" class="nav-link">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  <p>Video Records</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="upload_gallery_news.php" class="nav-link">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  <p>Upload Gallery News</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="gallery_news_record.php" class="nav-link">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                  <p>News Gallery Records</p>
+                </a>
+              </li>
             </ul>
           </li>
         

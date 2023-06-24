@@ -2,8 +2,8 @@
 include '../../constant.php';
 $url = $URL."gallery/insert_video_gallery.php";
 $url_read_maxId = $URL."gallery/read_video_maxid.php";
-$videoTitle = $_POST["videoTitle"];
-$videoDescription = $_POST["videoDescription"];
+$videoTitle = ucfirst($_POST["videoTitle"]);
+$videoDescription = ucfirst($_POST["videoDescription"]);
 $created_on=date("Y-m-d H:i:s");
 $created_by="Admin";
 if(isset($_POST["submit"])){
@@ -29,7 +29,7 @@ if(isset($_POST["submit"])){
 
     // Check file size
     if ($_FILES["uploaded_video"]["size"] > 20000000) {
-    $msg = "Sorry, your file is too large.";
+    $msg = "Sorry, your Video file is too large.";
     $_SESSION["videoErrors"] = $msg;
     header('Location:../upload_video.php');
     $uploadOk = 0;
@@ -37,7 +37,7 @@ if(isset($_POST["submit"])){
 
     // Allow certain file formats
     if($imageFileType != "mp4") {
-    $msg = "Sorry, mp4 videos are allowed.";
+    $msg = "Sorry, only mp4 videos files are allowed.";
     $_SESSION["videoErrors"] = $msg;
     header('Location:../upload_video.php');
     $uploadOk = 0;
@@ -87,7 +87,11 @@ if(isset($_POST["submit"])){
 
      }
 
+}else{
+$_SESSION["videoErrors"] = "Sorry, your Video file is too large.";
+header('Location:../upload_video.php');
 }
+
 
 function url_encode_Decode($url,$postdata){
   $client = curl_init($url);

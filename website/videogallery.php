@@ -2,7 +2,7 @@
 include 'include/headerr.php';
 ?>
 <?php
-$url = $URL . "gallery/read_galley.php";
+$url = $URL . "gallery/read_video_gallery.php";
 $data = array();
 //print_r($data);
 $postdata = json_encode($data);
@@ -10,9 +10,9 @@ $client = curl_init($url);
 curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
 $response = curl_exec($client);
-// print_r($response);
+//print_r($response);
 $result = json_decode($response);
-// print_r($result);
+//print_r($result);
 ?>
 <style>
     .card-img-top {
@@ -77,21 +77,20 @@ $result = json_decode($response);
             $counter = 0;
             foreach ($result as $key => $value) {
                 foreach ($value as $key1 => $value1) {
-                    $image = $GALLERY_IMG_PATH . "gallery_img" . $value1->id . ".png";
+                    $video = $GALLERY_VIDEO_PATH . "gallery_video_" . $value1->id . ".mp4";
                     ?>
 
             <div class="col">
                 <div class="card h-100">
-                    <a href="<?php echo $image; ?>" data-toggle="lightbox" data-gallery="example-gallery">
-                        <img class="img-fluid img-thumbnail card-img-top" src="<?php echo $image; ?>"
-                            alt="gallery image">
+                    <a href="videogallery.php" data-toggle="lightbox" data-gallery="example-gallery">
+                     <iframe src="<?php echo $video; ?>" title="YouTube video" allowfullscreen></iframe>
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">
-                            <?php echo $value1->galleryTitle; ?>
+                            <?php echo $value1->videoTitle; ?>
                         </h5>
                         <p class="card-text">
-                            <?php echo $value1->galleryDescription; ?>
+                            <?php echo $value1->videoDescription; ?>
                         </p>
                     </div>
                 </div>
