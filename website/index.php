@@ -434,7 +434,7 @@ include 'include/headerr.php';
             //print_r($result);
             ?>
             <div class="col-xl-4">
-                <img src="assets/images/resources/bell.png" style="width:350px; height:332px;" alt="">
+                <img src="assets/images/notifi.png" class="img-fluid" alt="">
             </div>
             <div class="col-xl-8">
                 <span class="section-title__tagline">
@@ -476,8 +476,8 @@ include 'include/headerr.php';
                         </div>
                     </div>
                     <p class="font_size">
-                        Shyamavsvss Krishi Limited Company is a multi sector Comapny wchi deal in The Follwing Sector
-                        which can imporve the quality o0.</p>
+                        Shyamavsvss Krishi Limited Company is a multi sector Comapny which deal in The Follwing Sector
+                        which can imporve the quality.</p>
                     <p>
 
                     <p class="font_size">
@@ -530,10 +530,10 @@ include 'include/headerr.php';
                 <div class="about-one__right">
                     <div class="about-one__img-box wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-one__img-one">
-                            <img src="assets/images/resources/about-one-img-1.jpg" alt="">
+                            <img src="assets/img/about/ssi1.jpeg" alt="">
                         </div>
                         <div class="about-one__img-two">
-                            <img src="assets/images/resources/about-4.jpg" style="width:350px; height:332px;" alt="">
+                            <img src="assets/img/about/baag.jpeg" style="width:350px; height:332px;" alt="">
                             <div class="about-one__logo"><img src="assets/images/logo/logo.png"></div>
                         </div>
                         <div class="about-one__video-link">
@@ -576,7 +576,7 @@ include 'include/headerr.php';
                                 <div class="services-one__single">
                                     <div class="services-one__img-box">
                                         <div class="services-one__img">
-                                            <img src="assets/images/services/services.jpg" height="196px" alt="">
+                                            <img src="assets/img/about/silai.jfif" height="196px" alt="">
                                         </div>
                                         <div class="services-one__icon">
                                             <span class="icon-vegetables"></span>
@@ -599,7 +599,7 @@ include 'include/headerr.php';
                                 <div class="services-one__single">
                                     <div class="services-one__img-box">
                                         <div class="services-one__img">
-                                            <img src="assets/images/services/services-one-1.jpg" alt="">
+                                            <img src="assets/img/about/baag3.jpeg" alt="">
                                         </div>
                                         <div class="services-one__icon">
                                             <span class="icon-organic-food"></span>
@@ -622,7 +622,7 @@ include 'include/headerr.php';
                                 <div class="services-one__single">
                                     <div class="services-one__img-box">
                                         <div class="services-one__img">
-                                            <img src="assets/images/services/service-2.jpg" height="196px" alt="">
+                                            <img src="assets/img/about/sital.jfif" height="196px" alt="">
                                         </div>
                                         <div class="services-one__icon">
                                             <span class="icon-vegetables"></span>
