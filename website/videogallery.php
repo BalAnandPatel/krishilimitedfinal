@@ -80,10 +80,14 @@ $result = json_decode($response);
                     $video = $GALLERY_VIDEO_PATH . "gallery_video_" . $value1->id . ".mp4";
                     ?>
 
-            <div class="col">
+            <div class="col-md-4 col-sm-12">
                 <div class="card h-100">
                     <a href="videogallery.php" data-toggle="lightbox" data-gallery="example-gallery">
-                     <iframe src="<?php echo $video; ?>" title="YouTube video" allowfullscreen></iframe>
+                     <!--<iframe src="" title="YouTube video" allowfullscreen></iframe>-->
+                     <video width="100%" height="240" controls>
+                      <source src="<?php echo $video; ?>" type="video/mp4">
+                      Your browser does not support the video tag.
+                     </video>
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">
