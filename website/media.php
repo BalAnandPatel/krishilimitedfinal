@@ -58,78 +58,52 @@ include 'include/headerr.php';
 
     <div class="container">
         <div class="row">
-            <div class="col">
+
+            <div class="col position-relative justify-content-center d-flex mb-5">
                 <a href="gallery.php">
-                    <div class="media-card photo-gallery">
-                        Photo Gallery
+                    <img src="assets/img/img-gallery.png"
+                        class="h-50 w-25 z-3 rounded-circle position-absolute top-0 start-50 translate-middle"
+                        alt="...">
+                    <div class="card w-100 text-center">
+                        <div class="card-body pt-5">
+                            <h5 class="card-title">Photo Gallery</h5>
+                            <p class="card-text">Some photos of our organisation</p>
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col">
+
+            <div class="col position-relative justify-content-center d-flex mb-5">
                 <a href="videogallery.php">
-                    <div class="media-card video-gallery">
-                        Video Gallery
+                    <img src="assets/img/video-gallery.png"
+                        class="h-50 w-25 z-3 rounded-circle position-absolute top-0 start-50 translate-middle"
+                        alt="...">
+                    <div class="card w-100 text-center">
+                        <div class="card-body pt-5">
+                            <h5 class="card-title">Video Gallery</h5>
+                            <p class="card-text">Some photos of our organisation</p>
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col">
+
+            <div class="col position-relative justify-content-center d-flex mb-5">
                 <a href="news.php">
-                    <div class="media-card news-gallery">
-                        News Gallery
+                    <img src="assets/img/news-gallery.png"
+                        class="h-50 w-25 z-3 rounded-circle position-absolute top-0 start-50 translate-middle"
+                        alt="...">
+                    <div class="card w-100 text-center">
+                        <div class="card-body pt-5">
+                            <h5 class="card-title">News Gallery</h5>
+                            <p class="card-text">Some news about our organisation</p>
+                        </div>
                     </div>
                 </a>
             </div>
+
         </div>
     </div>
-
 </section>
-
-<style>
-    :root {
-        --card-height: 80vh;
-        --card-width: calc(var(--card-height)/ 1.5);
-    }
-
-    .media-card {
-        width: var(--card-width);
-        height: var(--card-height);
-        padding: 3px;
-        position: relative;
-        border-radius: 6px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        font-size: 2.5em;
-        color: rgb(88, 199, 250 / 0%);
-        font-family: cursive;
-        font-weight: bolder;
-        opacity: 0.7;
-    }
-
-    .media-card:hover {
-        color: rgb(88, 199, 250);
-        transition: color 1s;
-        opacity: 1;
-        transition: opacity 1s;
-        transform: scale(1.05);
-        transition: transform 1s;
-    }
-
-    .photo-gallery {
-        background: url(assets/img/about/silai.jfif);
-        background-size: cover;
-    }
-
-    .video-gallery {
-        background: url(assets/img/about/duckfarm.jpeg);
-        background-size: cover;
-    }
-
-    .news-gallery {
-        background: url(assets/img/notice.jpg);
-        background-size: cover;
-    }
-</style>
 
 <?php
 include 'include/footerr.php';

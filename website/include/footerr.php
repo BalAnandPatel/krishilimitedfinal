@@ -66,7 +66,7 @@
                         <li class="font_size"><a class="font_size" href="shipping.php">Shipping</a></li>
                         <li class="font_size"><a class="font_size" href="privacy_policy.php">Privacy Policy</a></li>
                         <li class="font_size"><a class="font_size" href="terms.php">Terms & Conditions</a></li>
-                        <li class="font_size"><a class="font_size" href="gallery.php">Media</a></li>
+                        <li class="font_size"><a class="font_size" href="media.php">Media</a></li>
                         <!-- <li class="font_size"><a class="font_size" href="news.php">E-News</a></li> -->
                         <li class="font_size"><a class="font_size" href="contactmin.php">Contact</a></li>
                     </ul>
