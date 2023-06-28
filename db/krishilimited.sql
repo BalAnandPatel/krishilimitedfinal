@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 10, 2023 at 06:50 AM
+-- Generation Time: Jun 24, 2023 at 10:50 AM
 -- Server version: 5.6.20-log
 -- PHP Version: 5.4.31
 
@@ -80,25 +80,77 @@ INSERT INTO `exam` (`id`, `exam_name`, `type`, `amount`, `total_post`, `eligibil
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `farmerregistration`
+--
+
+CREATE TABLE IF NOT EXISTS `farmerregistration` (
+`id` int(255) NOT NULL,
+  `farmerName` varchar(100) NOT NULL,
+  `farmerMobile` varchar(12) NOT NULL,
+  `farmerDistrict` varchar(200) NOT NULL,
+  `farmerMsg` varchar(2000) NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `createdOn` timestamp NOT NULL,
+  `createdBy` varchar(255) NOT NULL
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `farmerregistration`
+--
+
+INSERT INTO `farmerregistration` (`id`, `farmerName`, `farmerMobile`, `farmerDistrict`, `farmerMsg`, `status`, `createdOn`, `createdBy`) VALUES
+(1, 'MESHA YADAV', '09648488477', 'District', 'Fjoej', 0, '2023-06-09 00:48:18', 'MESHA YADAV'),
+(2, 'Mrityunjay Singh', '154546459', 'District', 'New', 0, '2023-06-09 00:51:18', 'Mrityunjay Singh'),
+(3, 'Mrityunjay Singh', '154546459', 'District', 'New', 0, '2023-06-09 00:55:14', 'Mrityunjay Singh'),
+(4, 'Mrityunjay Singh', '154546459', 'Kkfk', 'Fk', 0, '2023-06-10 05:54:02', 'Mrityunjay Singh'),
+(5, 'MESHA YADAV', '09648488477', 'Jaunpur', 'Message', 0, '2023-06-10 06:02:12', 'MESHA YADAV');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `imagegallery`
 --
 
 CREATE TABLE IF NOT EXISTS `imagegallery` (
 `id` int(255) NOT NULL,
+  `galleryTitle` varchar(255) NOT NULL,
+  `galleryDescription` varchar(1000) NOT NULL,
   `created_on` timestamp NOT NULL,
   `created_by` varchar(255) NOT NULL
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
 
 --
 -- Dumping data for table `imagegallery`
 --
 
-INSERT INTO `imagegallery` (`id`, `created_on`, `created_by`) VALUES
-(10, '2023-04-26 08:41:07', 'Admin'),
-(9, '2023-04-26 08:40:41', 'Admin'),
-(8, '2023-04-26 08:33:00', 'Admin'),
-(7, '2023-04-26 08:31:23', 'Admin'),
-(6, '2023-04-26 07:11:40', 'Admin');
+INSERT INTO `imagegallery` (`id`, `galleryTitle`, `galleryDescription`, `created_on`, `created_by`) VALUES
+(23, '', '', '2023-06-23 11:45:19', 'Admin'),
+(18, 'Second title', 'Sec des', '2023-06-22 08:57:11', 'Admin'),
+(17, 'New title', 'Des', '2023-06-22 08:56:42', 'Admin'),
+(22, '', '', '2023-06-23 11:44:11', 'Admin');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `news_gallery`
+--
+
+CREATE TABLE IF NOT EXISTS `news_gallery` (
+`id` int(255) NOT NULL,
+  `newsTitle` varchar(255) NOT NULL,
+  `newsDescription` varchar(2000) NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `created_on` timestamp NOT NULL,
+  `created_by` varchar(255) NOT NULL
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `news_gallery`
+--
+
+INSERT INTO `news_gallery` (`id`, `newsTitle`, `newsDescription`, `status`, `created_on`, `created_by`) VALUES
+(3, 'New title', 'News description here', 0, '2023-06-24 09:46:20', 'Admin'),
+(4, 'Putin calls armed rebellion by mercenary chief a betrayal and promises to defend Russia', 'This battle, when the fate of our people is being decided, requires the unification of all forces, unity, consolidation and responsibility. An armed rebellion at a time like this is a blow to Russia, to its people, the president said.\r\nRussian President Vladimir Putin addressed the nation Saturday and vowed to defend the country and its people from an armed rebellion declared by mercenary chief Yevgeny Prigozhin.', 0, '2023-06-24 09:48:47', 'Admin');
 
 -- --------------------------------------------------------
 
@@ -221,6 +273,28 @@ INSERT INTO `registration` (`id`, `full_name`, `dob`, `gender`, `marital_status`
 (72, 'KAVITA PATEL', '01/01/2000', 'MALE', 'Unmarried', 'F NAME', 'M NAME', '0', '01012000', '0', '0', 'NA', 'C ADD', 'ADD 1', 'ADD 2', 'ADD 3', 'DIS', 'STATE', '16111', '987654321', 'kavita@gmail.com', 'UNDER GRADUATION', 'ENGLISH', '2023-04-18 18:30:00', 70.00, 'First', 'ENGLISH', 'Yes', 'Yes', 'Yes', '46516151', NULL, NULL, NULL, 'dc', 'dt', 'No', 'UPPCS', 'No', '1', 'REL', 'IND', 'CTE', NULL, NULL, NULL, NULL, '45526555522', '2023-04-27 10:12:51', 'USER', NULL, NULL),
 (70, 'MRITYUNJAY SINGH PATEL', '2000-01-01', 'MALE', 'Unmarried', 'F NAME', 'M NAME', '1', '01012000', '0', '0', 'NA', 'C ADD', 'ADD 1', 'ADD 2', 'ADD 3', 'DISTRICT', 'STATE', '3222', '1234567891', 'ms@gmail.com', '0', 'SUBJECT ', '2023-04-26 18:30:00', 80.00, 'First', 'HINDI', 'Yes', 'Yes', 'Yes', '5698569856', NULL, NULL, NULL, 'dc', 'dc', 'No', 'UPPCS', 'No', '2', 'REL', 'IND', 'CATEGORY', NULL, NULL, NULL, NULL, '1354965371', '2023-04-27 09:02:21', 'USER', NULL, NULL);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `videogallery`
+--
+
+CREATE TABLE IF NOT EXISTS `videogallery` (
+`id` int(255) NOT NULL,
+  `videoTitle` varchar(255) NOT NULL,
+  `videoDescription` varchar(1000) NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `created_on` timestamp NOT NULL,
+  `created_by` varchar(255) NOT NULL
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Dumping data for table `videogallery`
+--
+
+INSERT INTO `videogallery` (`id`, `videoTitle`, `videoDescription`, `status`, `created_on`, `created_by`) VALUES
+(2, 'xcn ', 'nkn', 0, '2023-06-23 11:54:17', 'Admin');
+
 --
 -- Indexes for dumped tables
 --
@@ -238,9 +312,21 @@ ALTER TABLE `exam`
  ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `exam_name` (`exam_name`), ADD UNIQUE KEY `exam_name_2` (`exam_name`);
 
 --
+-- Indexes for table `farmerregistration`
+--
+ALTER TABLE `farmerregistration`
+ ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `imagegallery`
 --
 ALTER TABLE `imagegallery`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `news_gallery`
+--
+ALTER TABLE `news_gallery`
  ADD PRIMARY KEY (`id`);
 
 --
@@ -262,6 +348,12 @@ ALTER TABLE `registration`
  ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `videogallery`
+--
+ALTER TABLE `videogallery`
+ ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -276,10 +368,20 @@ MODIFY `id` int(100) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 ALTER TABLE `exam`
 MODIFY `id` int(155) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=41;
 --
+-- AUTO_INCREMENT for table `farmerregistration`
+--
+ALTER TABLE `farmerregistration`
+MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+--
 -- AUTO_INCREMENT for table `imagegallery`
 --
 ALTER TABLE `imagegallery`
-MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
+MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+--
+-- AUTO_INCREMENT for table `news_gallery`
+--
+ALTER TABLE `news_gallery`
+MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `notification`
 --
@@ -295,6 +397,11 @@ MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
 --
 ALTER TABLE `registration`
 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=73;
+--
+-- AUTO_INCREMENT for table `videogallery`
+--
+ALTER TABLE `videogallery`
+MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

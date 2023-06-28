@@ -1,7 +1,7 @@
- <?php 
- include "../constant.php";
- date_default_timezone_set('Asia/Kolkata');
-  ?>
+<?php 
+include "../constant.php";
+date_default_timezone_set('Asia/Kolkata');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
