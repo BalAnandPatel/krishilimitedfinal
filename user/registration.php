@@ -30,7 +30,7 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SHAILJA SAMEER EDUCATION AND GREEN REVOLUTION PRIVATE LIMITED</title>
+  <title>SHYAMAVSVSS KRISHI LIMITED</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -54,6 +54,11 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
   body{
     background-color: #E9ECEF;
   }
+  @media (max-width: 600px){
+    .d-xs-block {
+      display: block!important;
+    }
+  }
 </style>
 <body class="hold-transition">
 <!-- <div class="register-box">
@@ -65,6 +70,22 @@ document.getElementById('selectedFileThumb').innerHTML=name;//set name using cor
 
     <br>
     <div class="container">
+  <center>
+    <div class="container d-flex d-xs-block justify-content-center my-2">
+      <img src="../website/assets/images/logo/logoSmall.png" class="img-fluid mx-3" alt="">
+      <div>
+        <h4>SHYAMAVSVSS KRISHI LIMITED</h4>
+        <p>
+          <b>CIN - U01100UP2022PLC170775</b> 
+          <br>
+          <b>WEBSITE - https://krishilimited.com/</b>
+          <br>
+          <b>Mobile No - 7307145971</b>
+        </p>
+      </div>
+    </div>
+  </center>
+  <hr class="color:red;">
 
     <h1 align="center" class="register-logo">
     <a href="#"><b>REGISTRATION</b></a>

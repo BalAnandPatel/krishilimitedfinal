@@ -123,7 +123,7 @@ function giplCurl($api, $postdata)
               <li>
                 In case of payment confirmation not received, transaction amount will be refunded back within 3 - 4 working days.</li>
               <li>
-                Our helpline number is 13454543543 ( timing 9:30 am to 5:30 pm ). You may also send an email to abc@gmail.com</li>
+                Our helpline number is 7307145971 ( timing 9:30 am to 5:30 pm ). You may also send an email to krishilimitedindia@gmail.com</li>
               <li>
                 After successful payment, the student can download the registration receipt.
               </li>

@@ -29,6 +29,9 @@ $result = json_decode($response);
     table#tblRecruitment td:last-child a {
         color: blue;
     }
+    .modal-content {
+    background-color: rgba(255, 255, 255);
+    }
 </style>
 
 <section class="content">
@@ -99,7 +102,7 @@ $result = json_decode($response);
                             <!-- <h3 class="error-page__tagline mt-5">If your paymet is faild</h3> -->
                             <span class="section-title__tagline pb-3">If Your Paymet Is Failed</span>
                             <div class="error-page__btn-box">
-                                <a href="#" class="thm-btn error-page__btn" data-toggle="modal" data-target="#exampleModal" data-whatever="">Payment Now<i class="icon-right-arrow"></i> </a>
+                                <a href="#" class="thm-btn error-page__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Payment Now<i class="icon-right-arrow"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +111,7 @@ $result = json_decode($response);
                             <!-- <h3 class="error-page__tagline mt-5">Get final print after payment</h3> -->
                             <span class="section-title__tagline pb-3">Know Your Registration No.</span>
                             <div class="error-page__btn-box">
-                                <a href="#" class="thm-btn error-page__btn" data-toggle="modal" data-target="#findRegModal" data-whatever="">Get Registration No.<i class="icon-right-arrow"></i> </a>
+                                <a href="#" class="thm-btn error-page__btn" data-bs-toggle="modal" data-bs-target="#findRegModal">Get Registration No.<i class="icon-right-arrow"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +120,7 @@ $result = json_decode($response);
                             <!-- <h3 class="error-page__tagline mt-5">Get final print after payment</h3> -->
                             <span class="section-title__tagline pb-3">Get Final Print After Payment</span>
                             <div class="error-page__btn-box">
-                                <a href="#" class="thm-btn error-page__btn" data-toggle="modal" data-target="#printModal" data-whatever="">Get Final Print<i class="icon-right-arrow"></i> </a>
+                                <a href="#" class="thm-btn error-page__btn" data-bs-toggle="modal" data-bs-target="#printModal">Get Final Print<i class="icon-right-arrow"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -148,7 +151,7 @@ $result = json_decode($response);
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                             <button type="submit" name="submit" class="btn btn-success">Verify</button>
                         </div>
                     </form>
@@ -180,7 +183,7 @@ $result = json_decode($response);
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                             <button type="submit" name="submit" class="btn btn-success">Search</button>
                         </div>
                     </form>
@@ -213,7 +216,7 @@ $result = json_decode($response);
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                             <button type="submit" name="submit" class="btn btn-success">Submit</button>
                         </div>
                     </form>
