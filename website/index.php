@@ -3,7 +3,9 @@ include 'include/headerr.php';
 ?>
 <script type="text/javascript">
     $(window).on('load', function () {
-        $('#dwa').modal('show');
+        $('#modal-1').modal('show');
+        $('#modal-2').modal('show');
+        $('#modal-3').modal('show');
     });
 </script>
 <style>
@@ -12,7 +14,7 @@ include 'include/headerr.php';
     }
 </style>
 <!-- Modal -->
-<div class="modal fade" id="dwa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-body d-flex justify-content-center">
@@ -23,6 +25,28 @@ include 'include/headerr.php';
         </div>
     </div>
 </div>
+<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-center">
+                <button type="button" class="btn-close bg-white p-4 position-absolute top-0 end-0"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <img src="assets/img/modal-1.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-center">
+                <button type="button" class="btn-close bg-white p-4 position-absolute top-0 end-0"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <img src="assets/img/modal-2.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <div class="stricky-header stricked-menu main-menu">
