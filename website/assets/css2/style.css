@@ -3119,6 +3119,14 @@ p, h1, h2, h3, h4, h5, h6, ul, li, a {
     color: #fff;
 }
 
+.navbar-expand-lg .main-navbar-nav .custom-nav-link {
+    padding-top: 15px !important;
+    padding-bottom: 16px !important;
+    padding-right: 6px !important;
+    padding-right: 6px !important;
+    color: #fff;
+}
+
 .hs-menu-initialized {
     position: relative;
     z-index: 10;
@@ -3505,7 +3513,11 @@ button.navbar-toggler {
     margin-bottom: 15px;
 }
 
-
+@media (min-width: 320px) and (max-width: 992px) {
+    #hamburgerTrigger i {
+        color: #fff !important;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
     .header-nav {
@@ -3521,10 +3533,6 @@ button.navbar-toggler {
     }
 
     .bg-transparent button.navbar-toggler span {
-        color: #fff;
-    }
-
-    #hamburgerTrigger i {
         color: #fff;
     }
 

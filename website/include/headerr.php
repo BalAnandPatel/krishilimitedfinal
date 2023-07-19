@@ -320,19 +320,17 @@ include "../constant.php";
         <div class="wrapper main-header-menu-wrap" id="logoAndNav">
 
 
-            <nav class="js-mega-menu navbar navbar-expand-md header-nav hs-menu-initialized hs-menu-horizontal">
+            <nav class="js-mega-menu navbar navbar-expand-lg header-nav hs-menu-initialized hs-menu-horizontal">
 
-                <!---<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-                </button>--->
                 <!--responsive toggle button start-->
-                <button type="button" class="navbar-toggler btn" aria-expanded="false" aria-controls="navBar"
-                    data-toggle="collapse" data-target="#navBar">
+                <button type="button" class="navbar-toggler btn" aria-expanded="false" aria-label="navBar"
+                    data-bs-toggle="collapse" data-bs-target="#navBar">
                     <span id="hamburgerTrigger">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </span>
                 </button>
                 <!--responsive toggle button end-->
+
                 <!--main menu start-->
                 <div id="navBar" class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto main-navbar-nav">
@@ -374,6 +372,10 @@ include "../constant.php";
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="training.php">Training</a>
                         </li>
+
+                        <!-- <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="training-agreement.php">Training Agreement</a>
+                        </li> -->
 
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="product.php">Our Products</a>
