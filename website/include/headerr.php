@@ -165,7 +165,7 @@ include "../constant.php";
                 <ul class="social-icon">
                     <li class="nav-item">
                         <ul class="navbar-nav_">
-                            <li class="nav-item font_size" redirectconfirmation><a href="#https://www.facebook.com/"
+                            <!-- <li class="nav-item font_size" redirectconfirmation><a href="#https://www.facebook.com/"
                                     class="nav-link font_size nav-link_0" target="_blank"><img
                                         src="assets/images/social/facebook.png" alt="facebook"></a></li>
 
@@ -177,7 +177,7 @@ include "../constant.php";
                                         src="assets/images/social/twitter.png" alt="twitter"></a></li>
                             <li class="nav-item font_size redirectconfirmation"><a href="#https://www.instagram.com/"
                                     class="nav-link font_size nav-link_0" target="_blank"><img
-                                        src="assets/images/social/insta.png" alt="insta"></a></li>
+                                        src="assets/images/social/insta.png" alt="insta"></a></li> -->
                             <li>
                                 <div class="gcse-search"></div>
                             </li>
@@ -373,9 +373,9 @@ include "../constant.php";
                             <a class="nav-link font_size custom-nav-link" href="training.php">Training</a>
                         </li>
 
-                        <!-- <li class="nav-item custom-nav-item">
-                            <a class="nav-link font_size custom-nav-link" href="training-agreement.php">Training Agreement</a>
-                        </li> -->
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link font_size custom-nav-link" href="agreement.php">Agreements</a>
+                        </li>
 
                         <li class="nav-item custom-nav-item">
                             <a class="nav-link font_size custom-nav-link" href="product.php">Our Products</a>

@@ -275,9 +275,9 @@
     .minster {
         flex-wrap: wrap;
     }
-    .footer_content {
+    /* .footer_content {
         height: 100%;
-    }
+    } */
     .img_box_t {
         transform: skewX(0deg);
     }

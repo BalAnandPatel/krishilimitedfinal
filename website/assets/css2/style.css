@@ -507,7 +507,7 @@ border-bottom: 0;
 border-left: none !important;
 }*/
 .navbar-light .navbar-toggler-icon {
-    background-image: url(../images/bar.svg) !important;
+    /* background-image: url(../images/bar.svg) !important; */
 }
 /*============= End Top nagigation==============*/
 /*==============logo==========*/
@@ -3513,7 +3513,7 @@ button.navbar-toggler {
     margin-bottom: 15px;
 }
 
-@media (min-width: 320px) and (max-width: 992px) {
+@media (min-width: 0px) and (max-width: 992px) {
     #hamburgerTrigger i {
         color: #fff !important;
     }
@@ -3529,7 +3529,7 @@ button.navbar-toggler {
         position: fixed;
         top: 38px;
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
     .bg-transparent button.navbar-toggler span {
@@ -4154,7 +4154,7 @@ button.navbar-toggler {
     }
 
     table, thead, tbody, th, td, tr {
-        display: block;
+        /* display: block; */
     }
 
     th {
@@ -4187,7 +4187,7 @@ button.navbar-toggler {
     }
 
     table tbody tr td, table thead tr th {
-        height: 50px;
+        /* height: 50px; */
         width: 100%;
     }
 
@@ -4225,7 +4225,7 @@ button.navbar-toggler {
 
 
     .navbar_1 {
-        display: none;
+        /* display: none; */
     }
 
     .agriculture-section {
@@ -4301,7 +4301,7 @@ button.navbar-toggler {
     }
 
     table, thead, tbody, th, td, tr {
-        display: block;
+        /* display: block; */
     }
 
     th {
@@ -4334,7 +4334,7 @@ button.navbar-toggler {
     }
 
     table tbody tr td, table thead tr th {
-        height: 50px;
+        /* height: 50px; */
     }
 
     .wh_cat {
@@ -4445,7 +4445,7 @@ button.navbar-toggler {
     }
 
     nav.navbar-light {
-        display: none;
+        /* display: none; */
     }
 
     .section_content_two {
@@ -4572,7 +4572,7 @@ button.navbar-toggler {
     }
 
     table tbody tr td, table thead tr th {
-        height: 50px;
+        /* height: 50px; */
     }
 
     .wh_cat {
