@@ -92,7 +92,7 @@ include "../constant.php";
 
                             <div>
                                 <ul>
-                                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
+                                    <li class="krishi_heading" lang="hi">श्यामा वी. एस. वी. एस. एस. कृषि लिमिटेड</li>
                                     <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
                                     <li class="department_heading-tow" lang="en">
                                         <h6 class="logo-text logo-text-one">
@@ -251,7 +251,7 @@ include "../constant.php";
 
                             <div>
                                 <ul>
-                                    <li class="krishi_heading" lang="hi">श्यामव्सव्स कृषि लिमिटेड</li>
+                                    <li class="krishi_heading" lang="hi">श्यामा वी. एस. वी. एस. एस. कृषि लिमिटेड</li>
                                     <li class="department_heading" lang="en">SHYAMAVSVSS KRISHI LIMITED</li>
                                     <li class="department_heading-tow" lang="en">
                                         <h6 class="logo-text logo-text-one">
